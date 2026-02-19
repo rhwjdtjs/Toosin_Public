@@ -1,0 +1,40 @@
+name: 🐛 버그 리포트
+description: 게임에서 발견한 버그를 알려주세요
+title: "[버그] "
+labels: ["🐛 버그"]
+body:
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 재현 방법
+      description: 어떤 상황에서 어떤 행동을 했을 때 문제가 발생하는지 알려주세요
+      placeholder: |
+        1. 어떤 상황에서
+        2. 어떤 행동을 했을 때
+        3. 어떤 문제가 발생
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 예상 동작
+      description: 정상적으로는 어떻게 되어야 하나요?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 실제 동작
+      description: 실제로 어떤 일이 발생했나요?
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "Windows 10 / Windows 11"
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      placeholder: "예: RTX 4060"
