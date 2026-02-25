@@ -1,9 +1,9 @@
-# TOOSIN 패치노트
+# TOOSIN 📝 패치노트
 
 ---
 
 <details>
-<summary><b>[Patch_Ver_0002] 상세 패치 내역 보기 (클릭)</b></summary>
+<summary><b>[📝Patch_Ver_0002] 상세 패치 내역 보기 (클릭)</b></summary>
 
 전투 시스템의 체감 품질을 높이고, 메타 성장 시스템 도입 및 유저 피드백을 바탕으로 UI 및 편의성을 대폭 개선한 0002 업데이트 내역입니다.
 
@@ -101,7 +101,7 @@
 </details>
 
 <details>
-<summary><b>[Patch_Ver_0003] 상세 패치 내역 보기 (클릭)</b></summary>
+<summary><b>[📝Patch_Ver_0003] 상세 패치 내역 보기 (클릭)</b></summary>
 
 *업데이트 예정...*
 
@@ -109,12 +109,12 @@
 
 ---
 
-# TOOSIN 개발자노트
+# TOOSIN 📝 개발자노트
 
 ---
 
 <details>
-<summary><b>[Dev_Ver_0003] 패치 예정 내역 보기 (클릭)</b></summary>
+<summary><b>[📝Dev_Ver_0003] 패치 예정 내역 보기 (클릭)</b></summary>
 
 ## 📋 상세 작업 내용 (Task List)
 ### 💰 1. 경제 및 상점 시스템 (Economy & Shop)
