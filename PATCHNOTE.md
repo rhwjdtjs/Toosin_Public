@@ -63,7 +63,44 @@
 
 ---
 
-앞으로도 여러분의 소중한 피드백을 바탕으로 발전하는 투신이 되겠습니다. 감사합니다!
+
+
+
+## 결과 이미지
+
+- Main
+
+<img width="1904" height="861" alt="image" src="https://github.com/user-attachments/assets/10dcf699-27f7-43ed-8b81-279d7e3f9492" />
+
+- Hub
+
+<img width="1901" height="866" alt="image" src="https://github.com/user-attachments/assets/97e0e98c-1aec-46d8-b25e-579f3db0d0b5" />
+
+- weapon select
+
+<img width="1835" height="812" alt="image" src="https://github.com/user-attachments/assets/cfc7659c-c080-40f6-b2d9-9547c7f48db0" />
+
+- Trait
+
+<img width="1791" height="840" alt="image" src="https://github.com/user-attachments/assets/25368513-6d29-4d91-87a4-5b5eeae2f8b3" />
+
+- Perk
+
+<img width="1892" height="870" alt="image" src="https://github.com/user-attachments/assets/3035604e-9ade-4c5c-9438-aa7b826c7e09" />
+
+- Stat
+
+<img width="1893" height="866" alt="image" src="https://github.com/user-attachments/assets/9fca4b7c-f78c-428d-a1c9-fcdddf0b84bd" />
+
+- Perk Select
+
+<img width="1316" height="607" alt="image" src="https://github.com/user-attachments/assets/1dac5024-fe85-4fda-a6f6-8179910ca7ff" />
+
+- Round Summary
+
+<img width="1849" height="867" alt="image" src="https://github.com/user-attachments/assets/6efd1fad-f0af-451a-af09-7937242a8962" />
+
 
 ---
+앞으로도 여러분의 소중한 피드백을 바탕으로 발전하는 투신이 되겠습니다. 감사합니다!  
 *투신 개발팀*
