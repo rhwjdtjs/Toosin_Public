@@ -166,7 +166,7 @@
 
 ---
 <details>
-<summary><b>[📝Dev_Ver_0003] 패치 예정 내역 보기 (클릭)</b></summary>
+<summary><b>[📝Dev_Ver_0003] 패치 예정 내역 보기(완료) (클릭)</b></summary>
 
 ## 📋 상세 작업 내용 (Task List)
 ### 💰 1. 경제 및 상점 시스템 (Economy & Shop)
