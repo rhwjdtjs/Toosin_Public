@@ -154,7 +154,6 @@
 
 
 </details>
----
 <details>
 <summary><b>[📝Dev_Ver_0004] 패치 예정 내역 보기 (클릭)</b></summary>
 
