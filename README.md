@@ -1,8 +1,18 @@
+# 📝 앞으로 개발할 기능, 패치 내역이 패치노트를 통해 업로드 됩니다.!
+
+
+- [📝 패치노트 바로가기 ](https://github.com/rhwjdtjs/Toosin_Public/blob/main/PATCHNOTE.md)
+
+--- 
+
 # 투신 (Toosin) - 1v1 검투사 로그라이크 액션 게임
 
 <p align="center">
   <strong>🗡️ 적은 당신의 패턴을 학습합니다. 끊임없이 적응하고 강해지십시오.</strong>
 </p>
+
+![cjtqjsWogif](https://github.com/user-attachments/assets/7f926ae9-42b0-4a36-8305-14b3d433754b)
+
 
 ---
 
@@ -11,6 +21,9 @@
 **투신(Toosin)**은 언리얼 엔진 5.5.4로 개발 중인 **1대1 아레나 로그라이크 액션 게임**입니다.
 
 플레이어는 검투사가 되어 강력한 AI와 목숨을 건 결투를 벌이며, 매 승리마다 무작위 특성 및 특전을 획득하여 자신만의 전투 스타일을 구축합니다.
+
+![로그라이크 두번째 gif](https://github.com/user-attachments/assets/7bcd24cb-a6f0-402a-a1b5-1afa6399f234)
+
 
 > 이 레포지토리는 **개발 현황 공유** 및 **후원자 피드백**을 위한 공개 채널입니다.
 > 실제 소스 코드는 비공개(Private) 레포지토리에서 관리됩니다.  
