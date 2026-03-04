@@ -9,6 +9,8 @@
 <p align="center">
   <strong>🗡️ 적은 당신의 패턴을 학습합니다. 끊임없이 적응하고 강해지십시오.</strong>
 </p>
+<img width="2508" height="1229" alt="HighresScreenshot00011" src="https://github.com/user-attachments/assets/5b124e9b-0e7a-4458-8b8a-79a86be07a4f" />
+<img width="2508" height="1229" alt="HighresScreenshot00010" src="https://github.com/user-attachments/assets/b3fe267a-8b67-42e7-a723-8c8c1375b6e3" />
 
 ![cjtqjsWogif](https://github.com/user-attachments/assets/7f926ae9-42b0-4a36-8305-14b3d433754b)
 
