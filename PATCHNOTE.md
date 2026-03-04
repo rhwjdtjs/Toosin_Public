@@ -1,7 +1,7 @@
 # TOOSIN 📝 패치노트
 
 ---
-<details open>
+<details>
 <summary><b>[📝Patch_Ver_0005] 상세 패치 내역 보기 (클릭)</b></summary>
 
 이번 업데이트에서는 **[MVP-7] 아레나 관중 시스템 도입, 지능형 AI 버그 픽스 및 사운드 매니저(TSSoundManager) 시스템** 대규모 구축이 이뤄졌습니다. 전투의 템포를 끊어먹던 고질적인 AI 버그들을 모두 수정하였고, 게임의 현장감을 크게 살려줄 관중과 BGM/SFX 시스템이 최초 도입되었습니다.
@@ -213,7 +213,9 @@
 ![Round Summary](https://github.com/user-attachments/assets/6efd1fad-f0af-451a-af09-7937242a8962)
 
 </details>
+
 # TOOSIN 📝 개발자노트
+
 ---
 
 <details>
