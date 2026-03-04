@@ -4,8 +4,6 @@
 
 ---
 
-
-
 <div align="center">
 
 # 투신 (Toosin)
@@ -18,41 +16,42 @@
 
 <br/>
 
-> **투신**은 언리얼 엔진 5.5.4로 개발 중인 **1대1 아레나 로그라이크 액션 게임**입니다.
->
-> 플레이어는 검투사가 되어 강력한 AI와 목숨을 건 결투를 벌이며, 매 승리마다 무작위 특성 및 특전을 획득하여 자신만의 전투 스타일을 구축합니다.
-
-- **엔진:** Unreal Engine 5.5.4
-- **플랫폼:** PC (Steam 예정)
-- **출시 목표:** 2026년 4월 30일 이내
-
----
-
-## 🎬 미디어 & 갤러리
-
-<div align="center">
-  <!-- 추후 유튜브에 트레일러를 올리시면, 아래 a태그 href에 유튜브 링크를 넣고, img src에 썸네일 이미지를 넣으시면 됩니다! -->
-  <a href="#">
-    <img src="https://via.placeholder.com/800x450.png?text=Gameplay+Trailer+Thumbnail+(Click+to+Play)" width="100%" alt="게임플레이 트레일러 영상 준비중"/>
-  </a>
-</div>
-
-<br/>
-
-<!-- 스크린샷 & 움짤 갤러리 -->
-<div align="center">
-   <img src="https://github.com/user-attachments/assets/e08816f3-a1a2-4863-b231-db60d2b15cc0" width="100%" alt="인게임 스크린샷 2"/>
-  <img src="https://github.com/user-attachments/assets/5b124e9b-0e7a-4458-8b8a-79a86be07a4f" width="100%" alt="인게임 스크린샷 1"/>
-  <img width="2187" height="1229" alt="HighresScreenshot00018" src="https://github.com/user-attachments/assets/ed69aa3f-301c-43cc-a2f1-d50f7828b64a" />
-  <img width="2187" height="1229" alt="HighresScreenshot00020" src="https://github.com/user-attachments/assets/dbb4f763-4b45-4adb-a2b4-a6d6bd9fac45" />
-
-
-
-</div>
-<br/>
-<div align="center">
-
-</div>
+<!-- 스팀 상점 상단 레이아웃 분할 -->
+<table width="100%">
+  <tr>
+    <td width="65%" valign="top">
+      <!-- 메인 미디어 존 (트레일러 영상이 나오기 전까지는 가장 멋진 인게임 사진을 크게 배치) -->
+      <a href="#">
+        <img src="https://github.com/user-attachments/assets/dbb4f763-4b45-4adb-a2b4-a6d6bd9fac45" width="100%" alt="메인 게임플레이 화면"/>
+      </a>
+      <p align="center" style="margin-top: 5px;">
+        <!-- 갤러리 썸네일 (가로로 4장 분배) -->
+        <img src="https://github.com/user-attachments/assets/ed69aa3f-301c-43cc-a2f1-d50f7828b64a" width="23%" />
+        <img src="https://github.com/user-attachments/assets/dbb4f763-4b45-4adb-a2b4-a6d6bd9fac45" width="23%" />
+        <img src="https://github.com/user-attachments/assets/e08816f3-a1a2-4863-b231-db60d2b15cc0" width="23%" />
+        <img src="https://github.com/user-attachments/assets/5b124e9b-0e7a-4458-8b8a-79a86be07a4f" width="23%" />
+      </p>
+    </td>
+    <td width="35%" valign="top">
+      <!-- 우측 상단 정보 패널 공간 -->
+      <img src="https://github.com/user-attachments/assets/ed69aa3f-301c-43cc-a2f1-d50f7828b64a" width="100%" />
+      <br/><br/>
+      <p>
+        <b>투신</b>은 언리얼 엔진 5.5.4로 개발 중인 <b>1대1 아레나 로그라이크 액션 게임</b>입니다.<br/><br/>
+        플레이어는 검투사가 되어 강력한 AI와 목숨을 건 결투를 벌이며, 매 승리마다 무작위 특성 및 특전을 획득하여 자신만의 전투 스타일을 구축합니다.
+      </p>
+      <hr/>
+      <p><b>엔진:</b> Unreal Engine 5.5.4</p>
+      <p><b>플랫폼:</b> PC (Steam 예정)</p>
+      <p><b>출시 목표:</b> 2026년 4월 30일 이내</p>
+      <p><b>개발자:</b> Toosin Team</p>
+      <hr/>
+      <p>이 제품의 인기 태그:<br/>
+        <code>액션 로그라이크</code> <code>소울라이크</code> <code>3D 격투</code> <code>PVE</code>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -69,8 +68,7 @@
 **패링**으로 적의 공격을 정확한 타이밍에 튕겨내고, 틈을 노려 공격하여 전세를 뒤집으세요! 공격, 가드, 회피 모두 **스태미나 관리**가 필수적입니다. 무지성 공격은 가드 브레이크를 유발하여 치명적인 반격을 맞게 됩니다.
 
 <div align="center">
-  <img width="2187" height="1229" alt="HighresScreenshot00010" src="https://github.com/user-attachments/assets/1fc3c05d-8c9a-4cb2-9df3-a0b5d199068a" />
-
+  <img src="https://github.com/user-attachments/assets/1fc3c05d-8c9a-4cb2-9df3-a0b5d199068a" width="100%" alt="전투 시스템 스크린샷" />
 </div>
 
 <br/>
@@ -80,8 +78,7 @@
 이곳의 전사는 단순한 AI가 아닙니다. 당신의 **공격 빈도, 방어 스타일, 콤보 궤적**을 실시간으로 분석합니다. 판수가 거듭될수록 똑같은 패턴은 간파당하고, AI는 점점 더 영악하게 진화합니다. 살아남으려면 끊임없이 변칙적으로 행동하세요.
 
 <div align="center">
-  <img width="2187" height="1229" alt="HighresScreenshot00002" src="https://github.com/user-attachments/assets/23b70da8-8920-42d0-8879-b97c8f94717a" />
-
+  <img src="https://github.com/user-attachments/assets/23b70da8-8920-42d0-8879-b97c8f94717a" width="100%" alt="자가 학습 AI 스크린샷" />
 </div>
 
 <br/>
@@ -102,7 +99,7 @@
 | MVP-4 | ✅ 완료 | 02.14 ~ 02.20 | HUD, 스태미나, 난이도 스케일링, AI 밸런스 |
 | MVP-5 | ✅ 완료 | 02.15 ~ 02.18 | 게임 흐름 & 허브 구조 (메뉴/저장/로드) |
 | MVP-6 | ✅ 완료 | 02.20 ~ 02.23 | 로그라이크 시스템 & 허브 기능 & 모든 UI |
-| MVP-7 | 🟠 진행 | 02.24 ~ 03.10 | 상점, 에픽 전투 시스템, 시네마틱 폴리싱 |
+| MVP-7 | 🟠 진행 | 02.24 ~ 03.20 | 상점, 에픽 전투 시스템, 시네마틱 폴리싱 |
 | MVP-8 | 🔴 예정 | 03.15 ~ 04.30 | 출시 준비 (최적화, 스팀 빌드) |
 
 > 자세한 로드맵은 [ROADMAP.md](ROADMAP.md)를 참고해 주세요.
@@ -111,14 +108,21 @@
 
 ## 🖥️ 시스템 요구 사항
 
-| 항목 | 시스템 최소 / 권장 사양 |
-| :--- | :--- |
-| **운영체제** | Windows 10 / 11 (64-bit) |
-| **프로세서** | Intel Core i5 / AMD Ryzen 5 급 이상 |
-| **메모리** | 8 GB RAM 이상 |
-| **그래픽** | NVIDIA GeForce GTX 2060 / AMD Radeon 비슷한 급 이상 |
-| **DirectX** | 버전 11 이상 |
-| **저장공간** | 약 10 GB 사용 가능 공간 |
+<table width="100%">
+  <tr>
+    <td width="100%">
+      <b>시스템 최소 / 권장 사양</b><br/><br/>
+      <ul>
+        <li><b>운영체제:</b> Windows 10 / 11 (64-bit)</li>
+        <li><b>프로세서:</b> Intel Core i5 / AMD Ryzen 5 급 이상</li>
+        <li><b>메모리:</b> 8 GB RAM 이상</li>
+        <li><b>그래픽:</b> NVIDIA GeForce GTX 2060 / AMD Radeon 비슷한 급 이상</li>
+        <li><b>DirectX:</b> 버전 11 이상</li>
+        <li><b>저장공간:</b> 약 10 GB 사용 가능 공간</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -128,7 +132,6 @@
 |------|------|
 | [ROADMAP.md](ROADMAP.md) | 상세 개발 로드맵 (마일스톤별 완료 항목) |
 | [CHANGELOG.md](CHANGELOG.md) | 버전별 변경 내역 (릴리즈 노트) |
-| [DEVLOG.md](DEVLOG.md) | 개발일지 (주간 업데이트) |
 | [SUPPORT.md](SUPPORT.md) | 후원 안내 & 데모 피드백 가이드 |
 
 ---
