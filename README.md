@@ -17,36 +17,37 @@
 <br/>
 
 <!-- 스팀 상점 상단 레이아웃 분할 -->
+<!-- 이전보다 td width 비율을 75:25 로 파격적으로 변경하여 왼쪽 메인 이미지를 훨씬 크게 만듭니다 -->
 <table width="100%">
   <tr>
-    <td width="65%" valign="top">
-      <!-- 메인 미디어 존 (트레일러 영상이 나오기 전까지는 가장 멋진 인게임 사진을 크게 배치) -->
+    <td width="75%" valign="top">
+      <!-- 메인 미디어 존 (지정해주신 공중 회피 베기 샷) -->
       <a href="#">
-        <img src="https://github.com/user-attachments/assets/dbb4f763-4b45-4adb-a2b4-a6d6bd9fac45" width="100%" alt="메인 게임플레이 화면"/>
+        <img src="https://github.com/user-attachments/assets/e08816f3-a1a2-4863-b231-db60d2b15cc0" width="100%" alt="메인 게임플레이 화면"/>
       </a>
-      <p align="center" style="margin-top: 5px;">
-        <!-- 갤러리 썸네일 (가로로 4장 분배) -->
-        <img src="https://github.com/user-attachments/assets/ed69aa3f-301c-43cc-a2f1-d50f7828b64a" width="23%" />
-        <img src="https://github.com/user-attachments/assets/dbb4f763-4b45-4adb-a2b4-a6d6bd9fac45" width="23%" />
-        <img src="https://github.com/user-attachments/assets/e08816f3-a1a2-4863-b231-db60d2b15cc0" width="23%" />
-        <img src="https://github.com/user-attachments/assets/5b124e9b-0e7a-4458-8b8a-79a86be07a4f" width="23%" />
+      <p align="center" style="margin-top: 8px;">
+        <!-- 갤러리 썸네일 (가로 여백을 줄이고 사진 비율을 24%로 키움) -->
+        <img src="https://github.com/user-attachments/assets/ed69aa3f-301c-43cc-a2f1-d50f7828b64a" width="24%" />
+        <img src="https://github.com/user-attachments/assets/dbb4f763-4b45-4adb-a2b4-a6d6bd9fac45" width="24%" />
+        <img src="https://github.com/user-attachments/assets/5b124e9b-0e7a-4458-8b8a-79a86be07a4f" width="24%" />
+        <img src="https://github.com/user-attachments/assets/e08816f3-a1a2-4863-b231-db60d2b15cc0" width="24%" />
       </p>
     </td>
-    <td width="35%" valign="top">
+    <td width="25%" valign="top">
       <!-- 우측 상단 정보 패널 공간 -->
-      <img src="https://github.com/user-attachments/assets/ed69aa3f-301c-43cc-a2f1-d50f7828b64a" width="100%" />
+      <img src="https://github.com/user-attachments/assets/1fc3c05d-8c9a-4cb2-9df3-a0b5d199068a" width="100%" />
       <br/><br/>
-      <p>
+      <p style="font-size: 14px;">
         <b>투신</b>은 언리얼 엔진 5.5.4로 개발 중인 <b>1대1 아레나 로그라이크 액션 게임</b>입니다.<br/><br/>
         플레이어는 검투사가 되어 강력한 AI와 목숨을 건 결투를 벌이며, 매 승리마다 무작위 특성 및 특전을 획득하여 자신만의 전투 스타일을 구축합니다.
       </p>
       <hr/>
-      <p><b>엔진:</b> Unreal Engine 5.5.4</p>
-      <p><b>플랫폼:</b> PC (Steam 예정)</p>
-      <p><b>출시 목표:</b> 2026년 4월 30일 이내</p>
-      <p><b>개발자:</b> Toosin Team</p>
+      <p style="font-size: 13px;"><b>엔진:</b> Unreal Engine 5.5.4</p>
+      <p style="font-size: 13px;"><b>플랫폼:</b> PC (Steam 예정)</p>
+      <p style="font-size: 13px;"><b>출시 목표:</b> 2026년 4월 30일 이내</p>
+      <p style="font-size: 13px;"><b>개발자:</b> Toosin Team</p>
       <hr/>
-      <p>이 제품의 인기 태그:<br/>
+      <p style="font-size: 13px;">이 제품의 인기 태그:<br/>
         <code>액션 로그라이크</code> <code>소울라이크</code> <code>3D 격투</code> <code>PVE</code>
       </p>
     </td>
