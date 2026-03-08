@@ -1,7 +1,7 @@
 # TOOSIN 📝 패치노트
 
 ---
-<details open>
+<details>
 <summary><b>[📝Patch_Ver_0010] 상세 패치 내역 보기 (클릭)</b></summary>
 
 이번 업데이트에서는 **[MVP-7] Elemental Effects (속성 체계화) 및 Cinematic & Sound Manager 구축**이 완료되었습니다. 화염, 냉기, 번개로 이어지는 깊이 있는 속성 시스템과 전투의 완성도를 높여줄 시네마틱 컷신, 처형 시스템, 그리고 사운드 매니저가 전면 구축되어 MVP-7의 대장정을 마무리합니다
