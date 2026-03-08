@@ -338,7 +338,7 @@
   - 가중치가 낮게 떨어진 판결 시 원거리 견제를 반복하거나 인간형(Human-like) AI 멍때리기 루틴 등을 확보하여 자연스러운 난이도 곡선 지향.
 
 </details>
-<details open>
+<details>
 <summary><b>[📝Dev_Ver_0010] 패치 예정 내역 보기(완료) (클릭)</b></summary>
 
 ## 📋 상세 작업 내용 (Task List)
