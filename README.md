@@ -16,13 +16,17 @@
 
 <br/>
 
+<!-- 스팀 상점 상단 레이아웃 분할 -->
+<!-- 이전보다 td width 비율을 75:25 로 파격적으로 변경하여 왼쪽 메인 이미지를 훨씬 크게 만듭니다 -->
 <table width="100%">
   <tr>
     <td width="75%" valign="top">
+      <!-- 메인 미디어 존 (지정해주신 공중 회피 베기 샷) -->
       <a href="#">
         <img src="https://github.com/user-attachments/assets/e08816f3-a1a2-4863-b231-db60d2b15cc0" width="100%" alt="메인 게임플레이 화면"/>
       </a>
       <p align="center" style="margin-top: 8px;">
+        <!-- 갤러리 썸네일 (가로 여백을 줄이고 사진 비율을 24%로 키움) -->
         <img src="https://github.com/user-attachments/assets/ed69aa3f-301c-43cc-a2f1-d50f7828b64a" width="24%" />
         <img src="https://github.com/user-attachments/assets/dbb4f763-4b45-4adb-a2b4-a6d6bd9fac45" width="24%" />
         <img src="https://github.com/user-attachments/assets/5b124e9b-0e7a-4458-8b8a-79a86be07a4f" width="24%" />
@@ -30,6 +34,7 @@
       </p>
     </td>
     <td width="25%" valign="top">
+      <!-- 우측 상단 정보 패널 공간 -->
       <img src="https://github.com/user-attachments/assets/1fc3c05d-8c9a-4cb2-9df3-a0b5d199068a" width="100%" />
       <br/><br/>
       <p style="font-size: 14px;">
@@ -95,8 +100,8 @@
 | MVP-4 | ✅ 완료 | 02.14 ~ 02.20 | HUD, 스태미나, 난이도 스케일링, AI 밸런스 |
 | MVP-5 | ✅ 완료 | 02.15 ~ 02.18 | 게임 흐름 & 허브 구조 (메뉴/저장/로드) |
 | MVP-6 | ✅ 완료 | 02.20 ~ 02.23 | 로그라이크 시스템 & 허브 기능 & 모든 UI |
-| MVP-7 | 🟠 진행 | 02.24 ~ 03.20 | 상점, 에픽 전투 시스템, 시네마틱 폴리싱 |
-| MVP-8 | 🔴 예정 | 03.15 ~ 04.30 | 출시 준비 (최적화, 스팀 빌드) |
+| MVP-7 | ✅ 완료 | 02.24 ~ 03.08 | 상점, 에픽 전투 시스템, 시네마틱 폴리싱 |
+| MVP-8 | 🔴 예정 | 04.01 ~ 04.30 | 출시 준비 (최종 폴리싱, 스팀 빌드) |
 
 > 자세한 로드맵은 [ROADMAP.md](ROADMAP.md)를 참고해 주세요.
 
