@@ -15,7 +15,13 @@
 </div>
 
 <br/>
+<div align="center">
+  <a href="https://youtu.be/hxRHCSewN8A?si=8ZwLhGKpA7nD_lWA">
+    <img src="https://github.com/user-attachments/assets/673b1967-9b7f-4644-9e54-010ad42dc884" width="100%" alt="게임 플레이 영상 보러가기" />
 
+    유튜브 바로가기 이미지 클릭
+  </a>
+</div>
 <!-- 스팀 상점 상단 레이아웃 분할 -->
 <!-- 이전보다 td width 비율을 75:25 로 파격적으로 변경하여 왼쪽 메인 이미지를 훨씬 크게 만듭니다 -->
 <table width="100%">
