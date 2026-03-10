@@ -1,6 +1,6 @@
 # 📝 앞으로 개발할 기능, 패치 내역이 패치노트를 통해 업로드 됩니다
 
-- [📝 패치노트 바로가기](https://github.com/rhwjdtjs/Toosin_Public/blob/main/PATCHNOTE.md)
+- [ 📝 패치노트 바로가기](https://github.com/rhwjdtjs/Toosin_Public/blob/main/PATCHNOTE.md)
 
 ---
 
