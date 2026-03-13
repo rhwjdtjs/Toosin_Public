@@ -1,6 +1,6 @@
 # 📝 앞으로 개발할 기능, 패치 내역이 패치노트를 통해 업로드 됩니다
 
-- [ 📝 패치노트 바로가기](https://github.com/rhwjdtjs/Toosin_Public/blob/main/PATCHNOTE.md)
+- [📝 패치노트 바로가기](https://github.com/rhwjdtjs/Toosin_Public/blob/main/PATCHNOTE.md)
 
 ---
 
@@ -50,11 +50,11 @@
       <hr/>
       <p style="font-size: 13px;"><b>엔진:</b> Unreal Engine 5.5.4</p>
       <p style="font-size: 13px;"><b>플랫폼:</b> PC (Steam 예정)</p>
-      <p style="font-size: 13px;"><b>출시 목표:</b> 2026년 4월 30일 이내</p>
+      <p style="font-size: 13px;"><b>출시 목표:</b> 2026년 5월 22일 ~ 6월 10일 (Steam 정식)</p>
       <p style="font-size: 13px;"><b>개발자:</b> Toosin Team</p>
       <hr/>
       <p style="font-size: 13px;">이 제품의 인기 태그:<br/>
-        <code>액션 로그라이크</code> <code>소울라이크</code> <code>3D 격투</code> <code>PVE</code>
+        <code>액션 로그라이크</code> <code>소울라이크</code> <code>3D 투기장</code> <code>PVE</code>
       </p>
     </td>
   </tr>
@@ -107,8 +107,7 @@
 | MVP-5 | ✅ 완료 | 02.15 ~ 02.18 | 게임 흐름 & 허브 구조 (메뉴/저장/로드) |
 | MVP-6 | ✅ 완료 | 02.20 ~ 02.23 | 로그라이크 시스템 & 허브 기능 & 모든 UI |
 
-- **🟢 MVP-7 (완료)**: 상점 추가, 에픽 전투 시스템, 시네마틱 폴리싱 (2/24 ~ 3/11)
-- **🔵 MVP-8 (진행중, 4/22 스팀 심사 목표)**: 마케팅 최적화 및 출시 준비
+- **🔵 MVP-8 (진행중, 4/22 텀블벅 및 스팀 심사 목표)**: UI/UX 전면 개편, 콤보 비디오 미리보기, 무한 로딩 수정 완료 (Beta Ver.0020 출시)
 
 > 자세한 로드맵은 [ROADMAP.md](ROADMAP.md)를 참고해 주세요.
 
