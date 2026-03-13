@@ -54,7 +54,7 @@
       <p style="font-size: 13px;"><b>개발자:</b> Toosin Team</p>
       <hr/>
       <p style="font-size: 13px;">이 제품의 인기 태그:<br/>
-        <code>액션 로그라이크</code> <code>소울라이크</code> <code>3D 격투</code> <code>PVE</code>
+        <code>액션 로그라이크</code> <code>소울라이크</code> <code>3D 투기장</code> <code>PVE</code>
       </p>
     </td>
   </tr>
