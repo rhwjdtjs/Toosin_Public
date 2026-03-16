@@ -13,7 +13,7 @@
 모든분들께 데모 빌드를 제공합니다.
 
 > 🔒 데모 빌드 배포는 텀블벅 후원사이트에서 배포합니다. 
-    하단 링크 참조
+    https://airbridge.tumblbug.com/qz82s8
 
 ### 피드백 보내는 방법
 
@@ -97,7 +97,7 @@
 
 - **GitHub Issues**: 가장 빠르게 확인하는 채널입니다
 - **이메일**: aaasoft3@gmail.com
-- **후원 사이트**: "https://tumblbug.com/teamtoosin_"
+- **후원 사이트**: "https://airbridge.tumblbug.com/qz82s8"
 
 > 💡 모든 피드백은 소중하게 검토되며, 가능한 빠르게 반영합니다.
 > 여러분의 관심과 응원이 개발의 원동력입니다. 감사합니다! 🙏
