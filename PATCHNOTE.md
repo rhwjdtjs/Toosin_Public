@@ -2,6 +2,10 @@
 
 ---
 <details>
+<summary><b>[📝Patch_Ver_0052] 다국어(한국어/영어) 준비중입니다. (2026.04.02) (클릭)</b></summary>
+  패치 준비중.
+  </details>
+<details>
 <summary><b>[📝Patch_Ver_0051] 베타 업데이트 안내 - 신규 클래스 및 편의성 개선 (2026.03.30) (클릭)</b></summary>
 
 ### 🚀 업데이트 하이라이트
