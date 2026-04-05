@@ -2,7 +2,7 @@
 
 ---
 <details>
-<summary><b>[📝Patch_Ver_0052] 다국어(한국어/영어) 준비중입니다. (2026.04.02) (클릭)</b></summary>
+<summary><b>[📝Patch_Ver_0060 (출시전 빌드) ] 스토브 SDK 연동 준비중(클릭)</b></summary>
   패치 준비중.
   현재 스토브 SDK연결중이면 완료가 되는대로 코드 업로드와 문서 수정하도록 하겠습니다.
   </details>
