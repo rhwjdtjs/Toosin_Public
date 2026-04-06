@@ -476,7 +476,7 @@
 
 
 <details>
-<summary><b>[📝Dev_Ver_0050] 패치 예정 내역 (진행 중) (클릭)</b></summary>
+<summary><b>[📝Dev_Ver_0050] 패치 예정 내역 보기(완료) (클릭)</b></summary>
   
 ## 📋 상세 작업 내용 (Task List)
 
