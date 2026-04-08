@@ -1,9 +1,3 @@
-# 📝 앞으로 개발할 기능, 패치 내역이 패치노트를 통해 업로드 됩니다
-
-- [📝 패치노트 바로가기](https://github.com/rhwjdtjs/Toosin_Public/blob/main/PATCHNOTE.md)
-
----
-
 <div align="center">
 
 # 투신 (Toosin)
@@ -17,9 +11,8 @@
 <br/>
 <div align="center">
   <a href="https://youtu.be/hxRHCSewN8A?si=8ZwLhGKpA7nD_lWA">
-    <img src="https://github.com/user-attachments/assets/673b1967-9b7f-4644-9e54-010ad42dc884" width="100%" alt="게임 플레이 영상 보러가기" />
-
-    유튜브 바로가기 이미지 클릭
+    <img src="https://github.com/user-attachments/assets/a64041f1-75fa-4496-8f03-d41b7e126852" width="100%" alt="게임 플레이 영상 보러가기" />
+시네마틱 보러가기
   </a>
 </div>
 <!-- 스팀 상점 상단 레이아웃 분할 -->
@@ -29,19 +22,19 @@
     <td width="75%" valign="top">
       <!-- 메인 미디어 존 (지정해주신 공중 회피 베기 샷) -->
       <a href="#">
-        <img src="https://github.com/user-attachments/assets/e08816f3-a1a2-4863-b231-db60d2b15cc0" width="100%" alt="메인 게임플레이 화면"/>
+        <img src="https://github.com/user-attachments/assets/744630e5-d724-472f-bb90-46d69318f64f" width="100%" alt="메인 게임플레이 화면"/>
       </a>
       <p align="center" style="margin-top: 8px;">
         <!-- 갤러리 썸네일 (가로 여백을 줄이고 사진 비율을 24%로 키움) -->
-        <img src="https://github.com/user-attachments/assets/ed69aa3f-301c-43cc-a2f1-d50f7828b64a" width="24%" />
-        <img src="https://github.com/user-attachments/assets/dbb4f763-4b45-4adb-a2b4-a6d6bd9fac45" width="24%" />
-        <img src="https://github.com/user-attachments/assets/5b124e9b-0e7a-4458-8b8a-79a86be07a4f" width="24%" />
-        <img src="https://github.com/user-attachments/assets/e08816f3-a1a2-4863-b231-db60d2b15cc0" width="24%" />
+        <img src="https://github.com/user-attachments/assets/0c6d7edd-4f51-43ad-ad7a-c6641ea9c90d" width="24%" />
+        <img src="https://github.com/user-attachments/assets/15aa2b25-f430-4b43-a305-5bf511a1dc8c" width="24%" />
+        <img src="https://github.com/user-attachments/assets/e0e42716-5e60-4d82-979c-8f323956187e" width="24%" />
+        <img src="https://github.com/user-attachments/assets/dd2697eb-566d-430c-b736-3f10211c8385" width="24%" />
       </p>
     </td>
     <td width="25%" valign="top">
       <!-- 우측 상단 정보 패널 공간 -->
-      <img src="https://github.com/user-attachments/assets/1fc3c05d-8c9a-4cb2-9df3-a0b5d199068a" width="100%" />
+      <img src="https://github.com/user-attachments/assets/d6ef36e1-c34a-4608-b73a-3dacde37fc6e" width="100%" />
       <br/><br/>
       <p style="font-size: 14px;">
         <b>투신</b>은 언리얼 엔진 5.5.4로 개발 중인 <b>1대1 아레나 로그라이크 액션 게임</b>입니다.<br/><br/>
@@ -49,9 +42,9 @@
       </p>
       <hr/>
       <p style="font-size: 13px;"><b>엔진:</b> Unreal Engine 5.5.4</p>
-      <p style="font-size: 13px;"><b>플랫폼:</b> PC (Stove Indie / 2026년 8월 이내 Steam 출시 목표)</p>
+      <p style="font-size: 13px;"><b>플랫폼:</b> PC (Stove Indie / 2026년 4월 14일 상점페이지 오픈)</p>
       <p style="font-size: 13px;"><b>출시 목표:</b> 2026년 4월 17일 ~ 5월 10일 이내 (Stove Indie 정식 출시)</p>
-      <p style="font-size: 13px;"><b>개발자:</b> Toosin Team</p>
+      <p style="font-size: 13px;"><b>개발자:</b> TEAM NIRIZ</p>
       <hr/>
       <p style="font-size: 13px;">이 제품의 인기 태그:<br/>
         <code>액션 로그라이크</code> <code>소울라이크</code> <code>3D 투기장</code> <code>PVE</code>
@@ -74,10 +67,6 @@
 
 **패링**으로 적의 공격을 정확한 타이밍에 튕겨내고, 틈을 노려 공격하여 전세를 뒤집으세요! 공격, 가드, 회피 모두 **스태미나 관리**가 필수적입니다. 무지성 공격은 가드 브레이크를 유발하여 치명적인 반격을 맞게 됩니다.
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/1fc3c05d-8c9a-4cb2-9df3-a0b5d199068a" width="100%" alt="전투 시스템 스크린샷" />
-</div>
-
 <br/>
 
 ### 🧠 나를 뛰어넘는 적, 자가 학습 AI
@@ -85,7 +74,8 @@
 이곳의 전사는 단순한 AI가 아닙니다. 당신의 **공격 빈도, 방어 스타일, 콤보 궤적**을 실시간으로 분석합니다. 판수가 거듭될수록 똑같은 패턴은 간파당하고, AI는 점점 더 영악하게 진화합니다. 살아남으려면 끊임없이 변칙적으로 행동하세요.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/23b70da8-8920-42d0-8879-b97c8f94717a" width="100%" alt="자가 학습 AI 스크린샷" />
+  <img src="https://github.com/user-attachments/assets/9af262a5-a2a0-4e96-a344-17fc141b9c3e" width="100%" alt="GIF" />
+  <img src="https://github.com/user-attachments/assets/f394d6c1-ab86-4279-8070-1387629a3cc4" width="100%" alt="GIF" />
 </div>
 
 <br/>
@@ -108,13 +98,10 @@
 | MVP-6 | ✅ 완료 | 02.20 ~ 02.23 | 로그라이크 시스템 & 허브 기능 & 모든 UI |
 | MVP-7 | ✅ 완료 | 02.23 ~ 03.11 | 상점 추가, 에픽 전투 시스템, 시네마틱 폴리싱 |
 | MVP-8 | ✅ 완료 | 03.11 ~ 03.24 | 랜덤 이벤트 시스템, UI 전면 개편, 시스템 안정화 |
-- **🚧 MVP-9 (진행 중)**: 정식 출시 및 최종 폴리싱 (2026.03.25 ~ ) (v0.1.0)
-    - *주요 내용:* 신규 적 캐릭터 추가, 사운드/이펙트 수정, 카메라 옵션, 스토브 SDK 연동 등
-
+| MVP-9 | ✅ 완료 | 03.25 ~ 04.07 | 스토브 업적,리더보드 SDK,시네마틱 제작, UI앵커, 콤보 영상, 최종 빌드 및 심사 제출 완료. |
 
 > [!IMPORTANT]
-> **공지:** 이번 데모테스트는 영구 스탯 획득이 불가능하므로, 밸런스 조절과 테스트를 위해 난이도를 대폭 하향시켰습니다.
-
+> **공지:** 텀블벅에서 후원이 성공하는대로 스팀에 심사 요청을 할 예정입니다.
 > 자세한 로드맵은 [ROADMAP.md](ROADMAP.md)를 참고해 주세요.
 
 ---
@@ -151,7 +138,7 @@
 
 ## 📬 연락처 & 링크
 
-- **개발자**: Toosin Team (1인 개발)
+- **개발자**: TEAM NIRIZ (1인 개발)
 - **이슈/피드백**: [Issues 탭](../../issues)에서 버그 리포트 및 피드백을 남겨주세요
 - **후원 안내**: [SUPPORT.md](SUPPORT.md) 참고
 
