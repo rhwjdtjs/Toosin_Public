@@ -2,7 +2,7 @@
 
 ---
 <details>
-<summary><b>[📝Patch_Ver_0.0.80] TOOSIN : 투신 업데이트 상세 안내 (클릭)</b></summary>
+<summary><b>[📝Patch_Ver_0.0.80] TOOSIN : 투신 업데이트 상세 안내(05.05일 공개 예정) (클릭)</b></summary>
 
 ### 🚀 업데이트 하이라이트
 
