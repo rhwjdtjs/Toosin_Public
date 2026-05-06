@@ -11,7 +11,7 @@
 <br/>
 <div align="center">
   <a href="https://youtu.be/hxRHCSewN8A?si=8ZwLhGKpA7nD_lWA">
-    <img src="https://github.com/user-attachments/assets/a64041f1-75fa-4496-8f03-d41b7e126852" width="100%" alt="게임 플레이 영상 보러가기" />
+    <img src="https://github.com/user-attachments/assets/5daae79b-000a-498c-ac1a-13dc4fe13d52" width="100%" alt="게임 플레이 영상 보러가기" />
 시네마틱 보러가기
   </a>
 </div>
@@ -22,7 +22,7 @@
     <td width="75%" valign="top">
       <!-- 메인 미디어 존 (지정해주신 공중 회피 베기 샷) -->
       <a href="#">
-        <img src="https://github.com/user-attachments/assets/744630e5-d724-472f-bb90-46d69318f64f" width="100%" alt="메인 게임플레이 화면"/>
+        <img src="https://github.com/user-attachments/assets/95fa3fbc-d286-4f2b-b29c-e8554e04354c" width="100%" alt="메인 게임플레이 화면"/>
       </a>
       <p align="center" style="margin-top: 8px;">
         <!-- 갤러리 썸네일 (가로 여백을 줄이고 사진 비율을 24%로 키움) -->
@@ -105,31 +105,52 @@
 
 [🎮 스토브 인디 상점 바로가기](https://store.onstove.com/ko/games/104376) | [🎮 스팀 상점 바로가기](https://store.steampowered.com/app/4635530/TOOSIN/) | [💬 공식 디스코드 바로가기](https://discord.gg/3R9kHMtEg6)
 
-https://store.onstove.com/ko/games/104376
-스토브 발매  
 > [!IMPORTANT]
 > **공지:** 스토브 인디 및 스팀 글로벌 정식 출시를 성공적으로 완료하였습니다! 텀블벅 후원(3/13 ~ 4/13)이 목표치를 초과 달성하며 성공적으로 종료되었으며, 후원자 전원에게 스팀 및 스토브 CD-Key 발송이 완료되었습니다. 7월 초 대규모 업데이트(Ver.0.0.90)와 지속적인 안정화 및 최적화를 향해 달려가고 있습니다.
 > 자세한 로드맵은 [ROADMAP.md](ROADMAP.md)를 참고해 주세요.
 
 ---
 
-## 🖥️ 시스템 요구 사항
+## 🖥️ 시스템 요구 사항 (System Requirements)
 
 <table width="100%">
   <tr>
-    <td width="100%">
-      <b>시스템 최소 / 권장 사양</b><br/><br/>
+    <td width="50%" valign="top">
+      <b>최소 사양 (Minimum)</b><br/><br/>
       <ul>
-        <li><b>운영체제:</b> Windows 10 / 11 (64-bit)</li>
-        <li><b>프로세서:</b> Intel Core i5 / AMD Ryzen 5 급 이상</li>
-        <li><b>메모리:</b> 8 GB RAM 이상</li>
-        <li><b>그래픽:</b> NVIDIA GeForce GTX 2060 / AMD Radeon 비슷한 급 이상</li>
-        <li><b>DirectX:</b> 버전 11 이상</li>
-        <li><b>저장공간:</b> 약 10 GB 사용 가능 공간</li>
+        <li>64비트 프로세서와 운영 체제가 필요합니다.</li>
+        <li><b>운영 체제:</b> Windows 10/11 (64-bit)</li>
+        <li><b>프로세서:</b> Intel Core i5-8400 / AMD Ryzen 5 2600</li>
+        <li><b>메모리:</b> 8 GB RAM</li>
+        <li><b>그래픽:</b> NVIDIA GeForce RTX 2060</li>
+        <li><b>DirectX:</b> 버전 12</li>
+        <li><b>저장 공간:</b> 7 GB 사용 가능 공간</li>
+        <li><b>사운드카드:</b> Windows Compatible Audio Device</li>
+        <li><b>추가 사항:</b> Low Settings, 1080p, 30-60 FPS</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <b>권장 사양 (Recommended)</b><br/><br/>
+      <ul>
+        <li>64비트 프로세서와 운영 체제가 필요합니다.</li>
+        <li><b>운영 체제:</b> Windows 10/11 (64-bit)</li>
+        <li><b>프로세서:</b> Intel Core i7-9700K / AMD Ryzen 7 3700X</li>
+        <li><b>메모리:</b> 16 GB RAM</li>
+        <li><b>그래픽:</b> NVIDIA GeForce RTX 3060</li>
+        <li><b>DirectX:</b> 버전 12</li>
+        <li><b>저장 공간:</b> 12 GB 사용 가능 공간</li>
+        <li><b>사운드카드:</b> Windows Compatible Audio Device</li>
+        <li><b>추가 사항:</b> High Settings, 1080p, 60+ FPS</li>
       </ul>
     </td>
   </tr>
 </table>
+
+<br/>
+
+<div align="center">
+  <sub>© 2026 [TEAM NIRIZ]. All rights reserved.</sub>
+</div>
 
 ---
 
