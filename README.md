@@ -105,6 +105,8 @@
 
 [🎮 스토브 인디 상점 바로가기](https://store.onstove.com/ko/games/104376) | [🎮 스팀 상점 바로가기](https://store.steampowered.com/app/4635530/TOOSIN/) | [💬 공식 디스코드 바로가기](https://discord.gg/3R9kHMtEg6)
 
+https://store.onstove.com/ko/games/104376
+스토브 발매  
 > [!IMPORTANT]
 > **공지:** 스토브 인디 및 스팀 글로벌 정식 출시를 성공적으로 완료하였습니다! 텀블벅 후원(3/13 ~ 4/13)이 목표치를 초과 달성하며 성공적으로 종료되었으며, 후원자 전원에게 스팀 및 스토브 CD-Key 발송이 완료되었습니다. 7월 초 대규모 업데이트(Ver.0.0.90)와 지속적인 안정화 및 최적화를 향해 달려가고 있습니다.
 > 자세한 로드맵은 [ROADMAP.md](ROADMAP.md)를 참고해 주세요.
