@@ -1,6 +1,7 @@
 <div align="center">
 
 # 투신 (Toosin)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e9dc5e41-50d0-49b0-a6fb-a75923fdb6b3" />
 
 ### 1v1 검투사 로그라이크 액션 게임
 
