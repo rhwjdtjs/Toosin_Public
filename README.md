@@ -22,7 +22,7 @@
     <td width="75%" valign="top">
       <!-- 메인 미디어 존 -->
       <a href="#">
-        <img src="https://github.com/user-attachments/assets/744630e5-d724-472f-bb90-46d69318f64f" width="100%" alt="메인 게임플레이 화면"/>
+        <img src="https://github.com/user-attachments/assets/95fa3fbc-d286-4f2b-b29c-e8554e04354c" width="100%" alt="메인 게임플레이 화면"/>
       </a>
       <p align="center" style="margin-top: 8px;">
         <!-- 갤러리 썸네일 -->
@@ -96,23 +96,46 @@
 
 ---
 
-## 🖥️ 시스템 요구 사항
+## 🖥️ 시스템 요구 사항 (System Requirements)
 
 <table width="100%">
   <tr>
-    <td width="100%">
-      <b>시스템 최소 / 권장 사양</b><br/><br/>
+    <td width="50%" valign="top">
+      <b>최소 사양 (Minimum)</b><br/><br/>
       <ul>
-        <li><b>운영체제:</b> Windows 10 / 11 (64-bit)</li>
-        <li><b>프로세서:</b> Intel Core i5 / AMD Ryzen 5 급 이상</li>
-        <li><b>메모리:</b> 8 GB RAM 이상</li>
-        <li><b>그래픽:</b> NVIDIA GeForce GTX 2060 / AMD Radeon 비슷한 급 이상</li>
-        <li><b>DirectX:</b> 버전 11 이상</li>
-        <li><b>저장공간:</b> 약 10 GB 사용 가능 공간</li>
+        <li>64비트 프로세서와 운영 체제가 필요합니다.</li>
+        <li><b>운영 체제:</b> Windows 10/11 (64-bit)</li>
+        <li><b>프로세서:</b> Intel Core i5-8400 / AMD Ryzen 5 2600</li>
+        <li><b>메모리:</b> 8 GB RAM</li>
+        <li><b>그래픽:</b> NVIDIA GeForce RTX 2060</li>
+        <li><b>DirectX:</b> 버전 12</li>
+        <li><b>저장 공간:</b> 7 GB 사용 가능 공간</li>
+        <li><b>사운드카드:</b> Windows Compatible Audio Device</li>
+        <li><b>추가 사항:</b> Low Settings, 1080p, 30-60 FPS</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <b>권장 사양 (Recommended)</b><br/><br/>
+      <ul>
+        <li>64비트 프로세서와 운영 체제가 필요합니다.</li>
+        <li><b>운영 체제:</b> Windows 10/11 (64-bit)</li>
+        <li><b>프로세서:</b> Intel Core i7-9700K / AMD Ryzen 7 3700X</li>
+        <li><b>메모리:</b> 16 GB RAM</li>
+        <li><b>그래픽:</b> NVIDIA GeForce RTX 3060</li>
+        <li><b>DirectX:</b> 버전 12</li>
+        <li><b>저장 공간:</b> 12 GB 사용 가능 공간</li>
+        <li><b>사운드카드:</b> Windows Compatible Audio Device</li>
+        <li><b>추가 사항:</b> High Settings, 1080p, 60+ FPS</li>
       </ul>
     </td>
   </tr>
 </table>
+
+<br/>
+
+<div align="center">
+  <sub>© 2026 [TEAM NIRIZ]. All rights reserved.</sub>
+</div>
 
 ---
 
