@@ -1,21 +1,24 @@
 name: "🐞 Bug Report (English/한국어)"
 description: "Report a bug you found in the game. / 게임에서 발견한 버그를 제보해주세요."
 title: "[Bug]: "
-labels: ["bug", "public-report"]
+labels: ["🐛 bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for reporting a bug! Please provide as much detail as possible.
+        ### 🐞 Bug Report / 버그 리포트
+        Thank you for reporting a bug! Please provide as much detail as possible to help us fix it.
         버그 제보 감사합니다! 최대한 상세히 적어주시면 수정에 큰 도움이 됩니다.
+
   - type: textarea
     id: description
     attributes:
       label: "📌 Bug Description / 버그 현상"
       description: "What happened? / 어떤 현상이 발생했나요?"
-      placeholder: "e.g., The game crashes when I use the heavy attack. / 예: 강공격 시 팅깁니다."
+      placeholder: "e.g., The game crashes when I use the heavy attack. / 예: 강공격 시 게임이 종료됩니다."
     validations:
       required: true
+
   - type: dropdown
     id: platform
     attributes:
@@ -26,23 +29,28 @@ body:
         - "Other"
     validations:
       required: true
+
   - type: textarea
     id: steps
     attributes:
       label: "🔄 Steps to Reproduce / 재현 경로"
-      description: "How can we find this bug? / 어떻게 하면 버그를 볼 수 있나요?"
+      description: "How can we find this bug? / 어떻게 하면 이 버그를 재현할 수 있나요?"
       placeholder: |
         1. Open the game.
         2. Enter the Arena.
-        3. Press 'X' button.
+        3. Perform a specific action.
+    validations:
+      required: true
+
   - type: textarea
     id: specs
     attributes:
       label: "💻 System Specs / 시스템 사양"
-      description: "CPU, GPU, RAM, etc."
+      description: "CPU, GPU, RAM, etc. / 사용 중인 PC의 사양을 적어주세요."
       placeholder: "e.g., RTX 3060, 16GB RAM"
+
   - type: textarea
     id: attachments
     attributes:
       label: "🖼 Screenshots or Logs / 스크린샷 및 로그"
-      description: "Drag and drop images or paste log text here. / 스크린샷이나 로그를 여기에 첨부해주세요."
+      description: "Drag and drop images or paste log text here. / 이미지를 드래그 앤 드롭 하거나 로그를 붙여넣어 주세요."

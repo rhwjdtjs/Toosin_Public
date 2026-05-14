@@ -1,75 +1,121 @@
-# 💖 Support & Feedback Guide
-
-## 🙏 About Supporting the Project
-
-**TOOSIN** started as a solo development project. Your support directly helps sustain the development and improve the game's quality!
-
-We successfully reached 120% of our goal on Tumblbug. Thank you to all our supporters:
-
-"Troller.RS", "Taco", "Junho Son", "Cockroach Vitality", "Dango", "Hyunjung Lee", "Gilhyeon Go", "Coffee Fondue", "Hyunjung Lee",
-"Samshinki:bandori96", "Sir.ForTea:Metternich", "Flil", "Mindow", "Molla", "Minjae Lee", "Sungjin Park", "Wazza", "Jaesung Kim",
-"Jaeyoung Kwon", "Youngmun Go", "Babba", "Seolhwa", "Nuilliriya", "Gyumin Kim", "HedgeDog", "FREEDOMDIVE", "Rainbow Symphony", "Corn",
-"Cobuk1", "Han Jeong-beom", "ADyu", "Lerkino", "Green Otter", "Blue Moon Red Sun", "Lemon Tuna", "Yunhoo Ji: The Sword Master", "Mungi Nam",
-"H.S.M", "Hyunwoong Ryu", "Refreedom", "Nancheon", "APFM", "Antarctic Cat", "setda1494", "Nadaimma", "Chijijik V-Cha",
-"Meut Eut", "Julius", "J-Mat", "Song Yu-jam"
-
-Thank you all for your support!
+# 📝 Issue (Feedback) Writing Guide
+> Thank you for your interest in the development of Toosin!
+> This document is an Issue (Feedback) writing guide for **those who are new to GitHub**.
 
 ---
 
-## 🎮 Demo & Live Version Feedback
+## 1️⃣ Creating a GitHub Account
 
-### How to Get the Game
+### 1. Visit the GitHub Website
 
-The demo build is available to everyone. 
+- Address: Visit [https://github.com](https://github.com).
+- Click the **Sign up** button in the top right corner.
 
-> 🔒 The latest full version and patch notes are available on our **Stove Indie** and **Steam** store pages. We successfully launched on both platforms and are continuously providing live updates!
-> [Stove Indie Store](https://store.onstove.com/ko/games/104376) | [Steam Store](https://store.steampowered.com/app/4635530/TOOSIN/)
+### 2. Proceed with Sign-up
 
-### How to Send Feedback
+1. **Enter Email Address**: Enter the email address you wish to use.
+2. **Set Password**: 15 characters or more, or 8 characters or more + including numbers/lowercase letters.
+3. **Enter Username**: This is your nickname visible to others. Feel free to set it with English letters + numbers.
+4. **Email Verification**: A verification code will be sent to the email you entered. Please check and enter it.
+5. **Done!** 🎉
 
-#### 1. GitHub Issues (Recommended)
-
-Please create a new issue in the [Issues](../../issues) tab of this repository. We have templates for **Bug Reports** and **Feedback & Suggestions**.
-
-#### 2. Labels
-
-Please use the following labels when creating an issue:
-
-| Label | Purpose |
-|------|------|
-| `🐛 bug` | Bugs or errors in the game |
-| `💡 feedback` | Suggestions for new features or improvements |
-| `⚖️ balance` | Difficulty, damage, stamina, and balancing |
+> GitHub is free, and no payment information is required to write an issue.
 
 ---
 
-## 📋 Feedback Priorities
+## 2️⃣ Writing an Issue (Feedback)
 
-We prioritize feedback in the following order to help development:
+### 1. Move to the Issues Tab
 
-1. **🐛 Crash/Critical Bug**: Issues that close the game or prevent progression.
-2. **⚖️ Balance**: "This is too easy/hard", "This skill is too strong/weak".
-3. **🎮 Control/Feel**: "Movement feels unnatural", "Attack timing is awkward".
-4. **💡 Ideas**: "It would be great to have this feature".
+- Click the **Issues** tab at the top of this repository.
+- Or click the link below directly:
+  - 👉 [Go to Issues](https://github.com/rhwjdtjs/Toosin_Public/issues)
+
+### 2. Create a New Issue
+
+1. Click the green **New issue** button in the top right corner.
+2. **Select Issue Template**: Please choose one of the three templates.
+
+| Template | When to use it? |
+|------|----------------|
+| 🐛 **Bug Report** | When you discover an error, crash, or strange behavior in the game |
+| 💡 **Feature Request** | When you want to say, "I wish there was a feature like this!" |
+| ⚖️ **Balance Feedback** | When you want to say, "This is too hard/easy" or "This skill is too strong/weak" |
+
+### 3. Write Content
+
+- Please fill in the content according to the template.
+- **It's okay if it's not written perfectly!** Just writing the core points briefly is enough.
+- If you have a screenshot, you can attach the image by dragging & dropping it.
+- If submitting a GIF, it must be 10MB or less. For video submissions, please contact us via email.
+
+### 4. Submit
+
+- Click the **Submit new issue** button at the bottom and you're done!
 
 ---
 
-## 🔔 Stay Updated
+## 3️⃣ Writing Examples
 
-You can get notifications for new updates by **Watching** this repository:
+### 🐛 Bug Report Example
 
-1. Click the **Watch** button at the top right.
-2. Select **Custom** → Check **Releases**.
-3. Receive notifications for every new release!
+```
+Title: [Bug] Enemy stuck in a wall in Round 3
 
-⭐ Giving a **Star** also gives us a lot of strength in development.
+How to reproduce:
+1. Push an enemy into the corner of the arena in Round 3
+2. Knock them back with a Heavy Attack
+3. The enemy gets stuck in the wall and doesn't move
+
+Expected behavior: The enemy should come out of the wall.
+Actual behavior: The enemy only attacks while being stuck in the wall.
+```
+
+### ⚖️ Balance Feedback Example
+
+```
+Title: [Balance] Heavy Attack is too slow to use
+
+What part is imbalanced?
+The Heavy Attack wind-up is too slow, making it almost impossible to use in actual combat.
+Enemies always hit first.
+
+Suggested improvement:
+Please reduce the pre-delay of the Heavy Attack slightly.
+
+Reached Stage: Stage 4
+```
 
 ---
 
-## 📬 Contact Us
+## ❓ Frequently Asked Questions
 
-- **GitHub Issues**: The fastest channel for communication.
-- **Email**: teamniriz@gmail.com
+### Q. Do I absolutely need a GitHub account?
 
-> 💡 All feedback is carefully reviewed and implemented as quickly as possible. Your interest and support are the driving force behind our development. Thank you! 🙏
+**Yes, a GitHub account is required to write an issue.** But signing up is free and only takes 1 minute!
+
+### Q. I wrote an issue incorrectly. Can I edit it?
+
+**Yes!** You can edit it at any time via the **⋯** → **Edit** button in the top right corner of the issue you wrote.
+
+### Q. Can I add opinions to someone else's issue?
+
+**Of course!** You can leave a comment (reply) at the bottom of someone else's issue. If you are experiencing the same problem, an empathetic comment is a huge help.
+
+### Q. Can I attach images or videos?
+
+**Yes!** You can **drag & drop** images into the issue writing box or paste them from the clipboard with **Ctrl+V**.
+
+---
+
+## 🔔 Get Notifications (Optional)
+
+If you **Watch** this repository, you can receive notifications for new news:
+
+1. Click the **👁 Watch** button in the top right corner of the page
+2. Check **All Activity** or **Custom** → desired items
+3. Receive email notifications for every new update!
+
+---
+
+> 💬 Feedback is always welcome! Each and every one of your opinions is a great force in making the game better 🙏

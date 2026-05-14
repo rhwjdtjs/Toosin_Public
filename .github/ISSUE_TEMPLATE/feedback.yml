@@ -1,22 +1,36 @@
 name: "💡 Feedback & Suggestions (English/한국어)"
 description: "Share your ideas or feedback to improve the game. / 게임 개선을 위한 제안이나 피드백을 들려주세요."
 title: "[Feedback]: "
-labels: ["feedback", "improvement"]
+labels: ["💡 feedback"]
 body:
   - type: markdown
     attributes:
       value: |
-        We love to hear from our players! / 유저분들의 소중한 의견을 기다립니다.
+        ### 💡 Feature Request / 기능 제안
+        We love to hear from our players! Your feedback helps us shape the future of Toosin.
+        유저분들의 소중한 의견을 기다립니다! 여러분의 피드백이 투신의 미래를 만듭니다.
+
   - type: textarea
     id: feedback
     attributes:
-      label: "✨ Your Feedback / 제안 및 피드백"
-      description: "What would you like to see or improve? / 어떤 점을 개선하거나 추가하면 좋을까요?"
-      placeholder: "e.g., I think the parrying window is too tight. / 예: 패링 판정이 너무 빡빡한 것 같아요."
+      label: "✨ Your Suggestion / 제안 및 피드백"
+      description: "What would you like to see or improve? / 어떤 점을 개선하거나 새로운 기능을 추가하면 좋을까요?"
+      placeholder: "e.g., I think adding a weapon swap system would be great. / 예: 무기 스왑 시스템이 추가되면 좋겠습니다."
     validations:
       required: true
+
   - type: textarea
     id: impact
     attributes:
       label: "📈 Expected Impact / 기대 효과"
-      description: "How will this change help the game? / 이 변경이 게임에 어떤 도움이 될까요?"
+      description: "How will this change help the game? / 이 변경이 게임에 어떤 긍정적인 영향을 줄까요?"
+      placeholder: "e.g., It will make combat more tactical and diverse. / 예: 전투가 더 전략적이고 다채로워질 것 같습니다."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "🖼 Additional Context / 추가 정보"
+      description: "Any references or images? / 참고할 만한 이미지나 다른 게임의 사례가 있나요?"
+      placeholder: "Drag and drop images here. / 이미지를 여기에 드래그 앤 드롭 하세요."
