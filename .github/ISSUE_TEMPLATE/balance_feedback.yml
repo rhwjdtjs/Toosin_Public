@@ -1,0 +1,43 @@
+name: "⚖️ Balance Feedback (English/한국어)"
+description: "Share your thoughts on game difficulty, damage, or stamina. / 게임 난이도, 데미지, 스태미나 등 밸런스에 대한 의견을 들려주세요."
+title: "[Balance]: "
+labels: ["⚖️ balance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚖️ Balance Feedback / 밸런스 피드백
+        Thank you for helping us fine-tune the game balance!
+        게임 밸런스를 정교하게 다듬는 데 도움을 주셔서 감사합니다!
+
+  - type: textarea
+    id: imbalance-detail
+    attributes:
+      label: "⚖️ Imbalance Details / 밸런스 현황"
+      description: "Which skill, enemy, or system feels too strong or weak? / 어떤 기술, 적, 또는 시스템이 너무 강하거나 약하다고 느껴지나요?"
+      placeholder: "e.g., The Swordsman's damage is too high compared to the Warrior. / 예: 검사의 데미지가 전사에 비해 너무 높습니다."
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement-direction
+    attributes:
+      label: "💡 Suggested Direction / 개선 제안"
+      description: "How would you like to see it balanced? / 어떻게 밸런스가 조정되기를 원하시나요?"
+      placeholder: "e.g., Please reduce the base damage of the Swordsman slightly. / 예: 검사의 기본 데미지를 약간만 낮춰주세요."
+    validations:
+      required: true
+
+  - type: input
+    id: stage-reached
+    attributes:
+      label: "🏁 Reached Stage / 도달 스테이지"
+      description: "What was the highest stage you reached during this session? / 이 피드백과 관련된 최고 도달 스테이지는 어디인가요?"
+      placeholder: "e.g., Stage 25"
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "🖼 Additional Context / 추가 정보"
+      description: "Any screenshots or videos to support your feedback? / 의견을 뒷받침할 스크린샷이나 영상이 있나요?"
+      placeholder: "Drag and drop images here. / 이미지를 여기에 드래그 앤 드롭 하세요."
