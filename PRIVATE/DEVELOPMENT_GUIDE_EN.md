@@ -1,49 +1,46 @@
 # 📘 Development Guide
 
 This document defines the collaboration workflow for the **TEAM NIRIZ Development Team** and the **GitHub Desktop** usage rules for the **TOOSIN** project.
+A game client developer joined on May 11th, and we follow a structured collaboration process.
 
 ---
 
 ## 🖥️ GitHub Desktop Workflow
 
-We actively use the **GitHub Desktop** GUI for development to maintain a clear and simple workflow.
+We use **GitHub Desktop**'s GUI to maintain a clear and simple workflow.
 
 ### 1. Branch Strategy
-
-We maintain stability while keeping the structure simple.
-
-* **`main`**: **"Production Ready"**. Only merge here when an MVP stage is fully completed.
-* **`dev`**: **"Development Stage"**. Features are integrated here after completion.
-* **`feature/*`**: **"Feature Work"**. Branch out from `dev`, develop the feature, and merge back into `dev`.
-  * e.g., `feature/parry-system`, `feature/ai-learning`
+* **`main`**: **"Stable Production"**. Merge only when an MVP stage is fully completed.
+* **`dev`**: **"Working Bench"**. All features are merged here first.
+* **`Patch_VerXXXX`**: **"Actual Working Branch"**. Branch out from `dev` and merge back after completion.
+  * **MUST use the version format.** (e.g., `Patch_Ver0082`, `Patch_Ver0090`)
+  * For special tasks like documentation, use the `Document` branch.
 
 ### 2. Step-by-Step Workflow
 
-#### Step 1: Sync (Before Starting Work)
+#### Step 1: Sync (Before Starting)
 1. Open **GitHub Desktop**.
-2. Ensure **Current Branch** is `dev`.
-3. Click **Fetch origin** and **Pull origin** to sync with the latest remote changes.
+2. Set **Current Branch** to `dev` and click **Pull origin** to sync.
 
-#### Step 2: New Branch
+#### Step 2: Issue Creation (Project Planning)
+1. Before starting work, create an issue using the templates in **`C:\Toosin\.github\ISSUE_TEMPLATE`**.
+2. Clearly define the goal, sub-tasks, and acceptance criteria.
+
+#### Step 3: New Branch
 1. Go to **Branch** -> **New Branch**.
-2. Name: `feature/task-name` (e.g., `feature/guard-logic`).
-3. Click **Create Branch**.
+2. Name: **`Patch_VerXXXX`** (e.g., `Patch_Ver0082`).
 
-#### Step 3: Code & Commit
-1. Write code in Unreal Engine/IDE and save.
-2. View changed files in the left panel of GitHub Desktop.
-3. **Summary (Required)**: Briefly describe the work (e.g., `feat: implement right-click block logic`).
-4. Click **Commit to feature/...**.
+#### Step 4: Code & Commit
+1. **Summary**: Briefly describe the work and click **Commit to Patch_VerXXXX**.
 
-#### Step 4: Push & PR
-1. Click **Publish branch** (or **Push origin**).
-2. Click **Create Pull Request** to open the PR on GitHub.
+#### Step 5: PR Creation (Code Review)
+1. Use the `Pull Request document form.md` template when creating a PR.
+2. Title format: `[MVP-X] Task Name`. Include `Closes #IssueNumber`.
 
-#### Step 5: PR & Review
-1. Use the Pull Request template.
-2. Include `Closes #IssueNumber` to link relevant issues.
-3. Once approved, merge into `dev`.
-4. Delete the local `feature` branch after merging.
+#### Step 6: Peer Review & Merge
+1. Receive an **Approve** from a team member before merging into `dev`.
+2. After merge, switch back to `dev` in Desktop and **Pull origin** to sync.
+3. Delete the used `Patch_VerXXXX` branch via **Delete**.
 
 ---
 
@@ -57,22 +54,3 @@ We maintain stability while keeping the structure simple.
 | **style** | Formatting/Cleanup | `style: fix indentation` |
 | **refactor**| Code restructuring | `refactor: optimize stat management` |
 | **chore** | Configuration/Meta | `chore: update UE project settings` |
-
----
-
-## 📁 Naming Convention (UE5 Standard)
-
-* **Classes**: Use `TS` (Toosin) prefix.
-  * `ATSCharacter` (Actor)
-  * `UTSGameInstance` (UObject)
-* **Variables**: PascalCase
-  * `CurrentHealth`, `MaxStamina`, `bIsAttacking` (Boolean uses 'b')
-* **Functions**: Start with a verb
-  * `CalculateDamage()`, `PlayAttackMontage()`
-
----
-
-### ⚠️ Caution
-
-* **DO NOT commit directly to `main`.**
-* **Always Push** before finishing work for the day to ensure backups.

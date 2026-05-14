@@ -75,8 +75,8 @@
 | Ver.0.0.70-71 | ✅ Done | 04.08 ~ 04.20 | STOVE EA Launch, Mock Combat, Stamina Scaling |
 | Ver.0.0.80 | ✅ Done | 04.21 ~ 05.06 | Steam Global EA Launch, New Classes, System Renewal |
 | Ver.0.0.81 | ✅ Done | 05.07 ~ 05.10 | Bug Patches, Shop Balancing, TEAM NIRIZ Transition |
-| Ver.0.0.90 | 📅 Plan | July ~ Aug | Weapon Swap System, New Classes, Gamepad/UI Remake |
-| Ver.1.0 | 📅 Plan | Oct ~ Nov | Full Release, Limbo Mode, Multi-language Support, AI Rework |
+| Ver.0.0.90 | 📅 Plan | July | Weapon Swap, New Classes, Combat System & Skill Overhaul |
+| Ver.1.0 | 📅 Plan | Oct ~ Nov | Full Release, Purgatory Mode, Multi-language Support, AI Rework |
 
 [🎮 Stove Indie Store](https://store.onstove.com/ko/games/104376) | [🎮 Steam Store](https://store.steampowered.com/app/4635530/TOOSIN/) | [💬 Official Discord](https://discord.gg/3R9kHMtEg6)
 
@@ -135,7 +135,7 @@
 - **Dev Team**: TEAM NIRIZ
 - **Official Discord**: [Discord Server](https://discord.gg/3R9kHMtEg6)
 - **Issues/Feedback**: Please leave bug reports in the [GitHub Issues Tab](../../issues)
-- **Documentation**: [ROADMAP.md](ROADMAP.md) | [PATCHNOTE.md](PATCHNOTE.md) | [DEVELOPMENT_GUIDE.md](PRIVATE/DEVELOPMENT_GUIDE_EN.md)
+- **Documentation**: [ROADMAP.md](ROADMAP_EN.md) | [PATCHNOTE.md](PATCHNOTE_EN.md) | [CHANGELOG.md](CHANGELOG_EN.md) | [SUPPORT.md](SUPPORT_EN.md) | [DEVELOPMENT_GUIDE.md](PRIVATE/DEVELOPMENT_GUIDE_EN.md)
 
 ---
 
