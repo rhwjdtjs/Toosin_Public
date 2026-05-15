@@ -24,7 +24,7 @@
 As a gladiator, you engage in life-or-death duels with powerful AI, gaining random traits after each victory to build your own combat style.
 
 ## 🎮 게임 개요 (한국어)
-**TOOSIN(투신)**은 언리얼 엔진 5.5.4로 개발되는 **1대1 아레나 로그라이크 액션 게임**입니다.
+**TOOSIN(투신)** 은 언리얼 엔진 5.5.4로 개발되는 **1대1 아레나 로그라이크 액션 게임**입니다.
 플레이어는 검투사가 되어 강력한 AI와 목숨을 건 결투를 벌이며, 매 승리마다 무작위 특성을 획득하여 자신만의 전투 스타일을 구축합니다.
 
 ---
