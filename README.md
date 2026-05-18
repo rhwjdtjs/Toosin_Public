@@ -30,3 +30,21 @@ As a gladiator, you engage in life-or-death duels with powerful AI, gaining rand
 ---
 
 [🎮 Steam Store](https://store.steampowered.com/app/4635530/TOOSIN/) | [🎮 Stove Indie](https://store.onstove.com/ko/games/104376) | [💬 Discord](https://discord.gg/3R9kHMtEg6)
+
+---
+# Private 문서 Issue / PR 내역
+
+<img width="1250" height="768" alt="Image" src="https://github.com/user-attachments/assets/d07d0ac7-a9b3-46f3-8040-9ce1f74ece39" />
+
+<img width="822" height="1172" alt="Image" src="https://github.com/user-attachments/assets/443598ec-42b5-4371-a790-3d9f1de0b721" />
+
+<img width="1268" height="324" alt="Image" src="https://github.com/user-attachments/assets/8c218cac-e263-4888-93c3-d99d8d160541" />
+
+---
+
+# PR
+
+<img width="822" height="1188" alt="Image" src="https://github.com/user-attachments/assets/7dfae3eb-e12e-4925-ae55-49ad304efe66" />
+
+<img width="812" height="1138" alt="Image" src="https://github.com/user-attachments/assets/9ea736ba-e878-4654-8393-4a1a2ec72f6a" />
+
