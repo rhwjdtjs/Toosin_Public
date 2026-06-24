@@ -20,18 +20,24 @@
 - **April 20**: STOVE v0.0.71 Update Completed
 - **May 6**: Steam Global Launch (Ver. 0.0.80) & STOVE Sync Update
 - **May 10**: Transition to TEAM NIRIZ & v0.0.81 Hotfix
+- **June 10**: Steam Demo Registered & v0.0.82 Update Completed
+- **June 14**: Ver. 0.0.90 Build#1 Ranked Match (Beta) & Stage Graphics Renewal Completed
 - **Key Updates**:
   - ✅ **Class System**: Added Swordsman & Fighter classes with shop unlock structure.
   - ✅ **Mock Combat & AI Bot**: Expanded enemy tiers in Mock Combat for efficient training.
   - ✅ **Options & Localization**: Refined On/Off features and official Japanese support.
+  - ✅ **Guard & Stamina System**: Implemented GuardMult formulas, significantly buffing damage block rates and reducing stamina costs.
+  - ✅ **Ranked Match Beta Season 0**: Introduced 1v1 matching, ranked points/tiers, lobby flow, and local leaderboards.
+  - ✅ **Arena Graphics Renewal**: Upgraded background materials/textures and added an option to toggle crowd visibility.
 
-#### **[Q3 2026] PHASE 2: July (Ver.0.0.90 Major Update)**
-- **Weapon Swap**: Implementation of a real-time weapon swap system, allowing players to equip 2 weapons per class.
-- **Combat System Rework**: Additional slots for Light/Heavy attacks to enable deeper tactical gameplay.
-- **New Class**: Either 'Samurai' or 'Spearman' will join the battlefield.
-- **Enemy Class Diversification**: New types of enemies such as Fighter and Swordsman will be added along with the new classes.
-- **Unique Abilities & Skills**: Specialized active/passive traits and skill systems assigned to all characters.
-- **Misc**: Stabilization of gamepad support and UI renewal.
+#### **[Q3 2026] PHASE 2: July (Ver.0.0.90 Build#2 Major Update)**
+- **Xbox Controller Support**: Full integration of Xbox gamepad with tailored vibration and control optimization.
+- **UI/UX Overhaul**: Redesigning the entire user interface for menus and in-game HUD to improve visibility.
+- **Visual Effects Improvement**: Complete revamp of all combat particles and camera presentation for enhanced immersion.
+- **Unique Character Abilities**: Introducing character-specific active and passive special traits.
+- **New Classes & Weapons**: Adding multiple new characters with unique gameplay mechanics and new weapons with custom action sets.
+- **Enemy & AI System Overhaul**: Implementing a dedicated class system for enemies, refining behavior patterns, and fixing core bugs.
+- **Out-of-Game Revamp**: Production of a new cinematic gameplay trailer and renewal of the Steam Store page.
 
 #### **[Q4 2026] Official Release (Ver. 1.0 - Oct ~ Nov)**
 - **Oct ~ Nov**: Official Release & Final Content Update
@@ -46,6 +52,27 @@
 ---
 
 ## ✅ Completed Milestones
+
+### Ver.0.0.90 Build#1: 1v1 Ranked Match (Beta) & Arena Graphics Rework
+- **Period**: 2026.06.11 ~ 2026.06.14
+- **Achievements**:
+  - ✅ **1:1 Ranked Match (Beta) Season 0**: Placement matches (5 rounds), rating point system, ranked tier progression, and permanent account stat buffs based on rank tier.
+  - ✅ **Ranked Match AI Matchmaking**: Rated AI matching, matchup confirmation popup showing opponent builds (traits/perks/contracts) with countdown, displaying "None" for empty slots.
+  - ✅ **Stage Visual Overhaul**: Upgraded floor/pillar material reflectivity and texture tones for a classic Colosseum aesthetic.
+  - ✅ **Crowd Performance Toggle**: Added a graphics settings option to disable spectators for improved FPS in performance-critical situations.
+  - ✅ **League & Leaderboard Simulation**: Added permanent local leaderboards registering encountered AIs, background simulation of other AI matches, and separate rank tracking per difficulty.
+  - ✅ **AI Decision Rework**: Refined guard/parry/dodge timings and cognitive learning for more engaging 1v1 engagements.
+
+### Ver.0.0.82: Demo Launch & Comprehensive Guard/Stamina System Rework
+- **Period**: 2026.05.11 ~ 2026.06.10
+- **Achievements**:
+  - ✅ **Steam Demo Registration**: Successfully registered the official Steam Demo build, set for release on June 16.
+  - ✅ **Guard & Stamina Rework**: Implemented the `GuardMult` attribute logic. Raised Shield Guard block rate to 80% (max 90%) and Sword Guard to 40% (max 50-60%), while lowering stamina costs.
+  - ✅ **Class Weapon & Combo Slot Rework**: Reworked classes (Warrior: 2 weapons swap, 1 slot each, HUD feedback; Swordsman: 1 weapon, instant 2 combo transitions; Fighter: barehanded, 3 combo slots).
+  - ✅ **7 New Perks Added**: Added Adrenaline, Shield Bash, Berserker, Lucky Strike, Giant Slayer, Combo Master, and Armor Breaker. Rebalanced Inferno and Bloodsucker.
+  - ✅ **Guard Break & Knockback**: Added a 10% fixed chance to trigger Guard Break on hit, rendering the target stunned for 2.5s. Implemented physics-based knockback and parry time-dilation.
+  - ✅ **Difficulty & DDA Adjustments**: Delayed initial spawn stages for Elite (St. 20), Epic (St. 30), Boss (St. 40), and Special (St. 50). Disabled ambush events during boss rounds. Structured DDA trait scaling guidelines.
+  - ✅ **UI/UX Refinement**: Consolidated character info and combos into the Weapon/Combo Editor, added a real-time stat checker popup, improved hover tooltips, and optimized Training Room navigation.
 
 ### Ver.0.0.81: Hotfix & System Stability (TEAM NIRIZ Transition)
 - **Period**: 2026.05.07 ~ 2026.05.10

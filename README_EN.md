@@ -75,8 +75,10 @@
 | Ver.0.0.70-71 | ✅ Done | 04.08 ~ 04.20 | STOVE EA Launch, Mock Combat, Stamina Scaling |
 | Ver.0.0.80 | ✅ Done | 04.21 ~ 05.06 | Steam Global EA Launch, New Classes, System Renewal |
 | Ver.0.0.81 | ✅ Done | 05.07 ~ 05.10 | Bug Patches, Shop Balancing, TEAM NIRIZ Transition |
-| Ver.0.0.90 | 📅 Plan | July | Weapon Swap, New Classes, Combat System & Skill Overhaul |
-| Ver.1.0 | 📅 Plan | Oct ~ Nov | Full Release, Purgatory Mode, Multi-language Support, AI Rework |
+| Ver.0.0.82 | ✅ Done | 05.11 ~ 06.10 | Demo Release, Comprehensive Guard & Stamina System Rework, 7 New Perks Added |
+| Ver.0.0.90 Build#1 | ✅ Done | 06.11 ~ 06.14 | 1v1 Ranked Match Beta Season 0, Stage Graphics Renewal, Enhanced AI Cognition |
+| Ver.0.0.90 Build#2 | 📅 Plan | July | Xbox Controller Support, UI/UX Overhaul, Character-Specific Special Traits & Classes |
+| Ver.1.0 | 📅 Plan | Oct ~ Nov | Full Release, Purgatory Mode, Multi-language Support, AI Behavior Rework |
 
 [🎮 Stove Indie Store](https://store.onstove.com/ko/games/104376) | [🎮 Steam Store](https://store.steampowered.com/app/4635530/TOOSIN/) | [💬 Official Discord](https://discord.gg/3R9kHMtEg6)
 

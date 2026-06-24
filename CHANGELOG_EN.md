@@ -3,22 +3,60 @@
 All notable changes to this project will be documented in this file.
 
 ---
-## [Ver.0.0.90 (Planned)] PHASE 2: Major Update & Combat Overhaul - Early July 2026
+## [Ver.0.0.90 Build#2 (Planned)] Large-scale Content Additions & System/UX Overhaul - July 2026
 
 ### ✨ New Features
-- **Weapon Swap**: Implementation of a real-time weapon swap system, allowing players to equip 2 weapons per class.
-- **Combat System Rework**: Additional slots for Light/Heavy attacks to enable deeper tactical gameplay.
-- **New Class**: Either 'Samurai' or 'Spearman' will join the battlefield.
-- **Enemy Class Diversification**: New types of enemies such as Fighter and Swordsman will be added along with the new classes.
-- **Unique Abilities & Skills**: Specialized active/passive traits and skill systems assigned to all characters.
-- **Leaderboard Overhaul**: Added Steam profile viewing from the leaderboard and expanded competitive categories like 'Fastest Clear Time'.
-- **UX Improvements**: New popup to check currently owned contracts and perks in real-time.
-- **Official Gamepad Support**: Official support for Xbox Controllers for a better control experience.
+- **Xbox Controller (Gamepad) Support**: Perfect integration of Xbox gamepad with custom vibration and layout optimization.
+- **Full UI/UX Overhaul**: Redesigning all user interfaces, including menus and in-game HUDs, to maximize readability.
+- **Visual Effects Revamp**: Complete remaster of all in-game particles and visual assets to amplify combat immersion.
+- **Special Abilities for Players & Enemies**: Addition of character-specific active and passive abilities (e.g., sword slashes, magic spells) to enrich tactical variance.
+- **New Characters (Classes) & Weapons**: Massive drop of new classes with distinct playstyles and new weapons with custom action sets.
+- **New Enemy Units & Dedicated Classes**: Introduction of new enemy types utilizing dedicated class systems.
+- **Out-of-Game Rework & Promotion**: Production of a new cinematic gameplay trailer and renewal of the Steam Store page.
 
 ### ⚖️ Balance & Bug Fixes
-- **Combat AI**: Optimized intelligent AI to react better to player actions; refined unnatural enemy animations.
-- **UI Convenience**: Fixed a bug where the ESC key intermittently failed to close the in-game sub-UI.
-- **Physics**: Resolved issues where corpses would abnormally stiffen after death; overall system stability improvements.
+- **AI Rework**: Enhancing enemy behavior trees to deliver smart, unpredictable fights.
+- **Core Bug Fixes**: Thorough resolution of core bugs alongside system-wide stability improvements.
+
+---
+
+## [Ver.0.0.90 Build#1] 1:1 Ranked Match (Beta) Season 0 & Stage Graphics Renewal - June 14, 2026
+
+### ✨ New Features
+- **1:1 Ranked Match (Beta) Season 0**: Placement matches (5 rounds), rating point system, ranked tier progression, and permanent account stat buffs based on rank tier.
+- **Ranked Match AI Matchmaking**: Rated AI matching, matchup confirmation popup showing opponent builds (traits/perks/contracts) with countdown, displaying "None" for empty slots.
+- **Stage Visual Overhaul**: Upgraded floor/pillar material reflectivity and texture tones for a classic Colosseum aesthetic.
+- **Crowd Performance Toggle**: Added a graphics settings option to disable spectators for improved FPS in performance-critical situations.
+- **League & Leaderboard Simulation**: Added permanent local leaderboards registering encountered AIs, background simulation of other AI matches, and separate rank tracking per difficulty.
+- **Difficulty-specific Ranks**: Leaderboard scores track independently across different game difficulty modes.
+- **Ranked Hub Transition**: Skipped standard stage settlement sequences for faster pacing, redirecting players back to the hub with an immediate rank update notification popup.
+
+### ⚖️ Balance & Bug Fixes
+- **AI Decision Rework**: Refined guard/parry/dodge timings and cognitive learning for more engaging 1v1 engagements.
+
+---
+
+## [Ver.0.0.82] Demo Build Registration, Guard/Stamina Rework & Class Combos - June 10, 2026
+
+### ✨ New Features
+- **Steam Demo Registration**: Successfully registered the official Steam Demo build, set for release on June 16.
+- **Weapon Guard Attribute (GuardMult)**: Reworked the guard formula to highlight weapon identity and reduce over-reliance on parrying.
+- **Shield Guard**: Raised base damage reduction from 30% to 80% (max 90%), reducing guard stamina costs to 30% of blocked damage.
+- **Sword Guard**: Raised base damage reduction to 40% (max 50-60%), reducing guard stamina costs to 20% of blocked damage.
+- **Class Weapon & Combo Slot Rework**: Reworked classes (Warrior: 2 weapons swap, 1 slot each, HUD feedback; Swordsman: 1 weapon, instant 2 combo transitions; Fighter: barehanded, 3 combo slots).
+- **7 New Perks Added**: Added Adrenaline, Shield Bash, Berserker, Lucky Strike, Giant Slayer, Combo Master, and Armor Breaker. Rebalanced Inferno and Bloodsucker.
+- **Chance-based Guard Break**: Striking guarded enemies has a fixed 10% chance to force a Guard Break regardless of their stamina (exclusive to player attacks).
+- **Guard Break Presentation**: Successfully guard-breaking an enemy triggers a slow-motion effect and stuns the target for 2.5 seconds.
+- **Parry Slow Motion**: Landing a perfect guard (parry) applies a brief time dilation to all combatants, giving players time to react.
+- **Knockback Physics**: Added force and angle-based physical knockback reactions on clean melee hits.
+- **UI/UX Refinement**: Consolidated character info and combos into the Weapon/Combo Editor, added a real-time stat checker popup, improved hover tooltips, and optimized Training Room navigation.
+
+### ⚖️ Balance & Bug Fixes
+- **Special Enemy Spawn Delays**: Delayed spawn thresholds to smooth out the early game curve: Elite (St. 20), Epic (St. 30), Boss (St. 40), and Special (St. 50).
+- **Boss Ambush Protection**: Disabled random enemy ambush events during boss and named enemy stages.
+- **Dynamic Trait Scaling**: Reworked enemy trait/perk generation rules based on stage levels and player DDA indices across specific stage ranges.
+- **Removed Trait (Thorn Mail)**: Removed the frustrating enemy perk 'Thorn Mail' to accommodate low-HP player perk builds.
+- **Core Bug Fixes**: Resolved the brief freeze following execution sequences for Warrior/Swordsman and fixed the interrupted hit-reaction montages for Fighters.
 
 ---
 

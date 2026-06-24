@@ -2,32 +2,98 @@
 
 ---
 <details>
-<summary><b>[📝Patch_Ver_0.0.90 (Planned)] New Class System Expansion & Major UX Overhaul (Early July 2026) (Click)</b></summary>
+<summary><b>[📝Patch_Ver_0.0.90 Build#2 (Planned)] Large-scale Content Additions & System/UX Overhaul (Targeted for July 2026) (Click)</b></summary>
 
 ### 🚀 Update Highlights
 
-To prepare for future expansion, we are adding a large number of new DLC-exclusive characters and an enemy-specific class system (Swordsman, Fighter). In addition, a major overhaul focused on control and convenience, such as real-time weapon swapping, unique special abilities, and official gamepad support, is planned.
+To maximize control feel and visual quality, we are implementing full Xbox controller integration, a comprehensive UI/UX overhaul, and revamped visual effects. Furthermore, a massive content update is planned, introducing character-specific active/passive abilities, new characters, new weapons, and dedicated enemy class systems.
 
-- #### 👤 New Character & Class System Expansion
-  - **DLC Character Addition**: New DLC-exclusive characters with completely different mechanisms from existing Warriors, Fighters, and Swordsmen will be added.
-  - **Enemy Class Diversification**: The 'Swordsman' and 'Fighter' classes will be fully introduced to enemy characters, showcasing more diverse and colorful combat patterns.
-  - **Strategic Weapon Swap**: A real-time weapon swap function will be added, allowing players to immediately change weapons during combat according to their class and real-time battle situations.
+- #### 🎮 System & Convenience Rework (UI/UX & Controller)
+  - **Xbox Controller (Gamepad) Support**: Perfect integration of Xbox gamepad with custom vibration and layout optimization to enhance impact feel.
+  - **Full UI/UX Overhaul**: Redesigning all user interfaces, including menus and in-game HUDs, to maximize readability and accessibility.
+  - **Visual Effects Revamp**: Complete remaster of all in-game particles and visual assets to amplify combat immersion.
 
-- #### 🔮 Unique Traits & Abilities for Characters & Enemies
-  - **Class Identity**: Unique special abilities will be newly assigned to both players and enemy characters for each class, greatly strengthening the variables and strategy of each battle.
+- #### ⚔️ Content Expansion & Balancing
+  - **Special Abilities for Players & Enemies**: Addition of character-specific active and passive abilities (e.g., sword slashes, magic spells) to enrich tactical variance.
+  - **New Characters (Classes) & Weapons**: Massive drop of new classes with distinct playstyles and new weapons with custom action sets.
+  - **New Enemy Units & Dedicated Classes**: Introduction of new enemy types utilizing dedicated class systems to spice up battlefields.
+  - **AI Rework & Bug Fixes**: Enhancing enemy behavior trees to deliver smart, unpredictable fights, alongside thorough resolution of core bugs.
 
-- #### 🏆 Major Overhaul of Steam Leaderboard System
-  - **Profile Integration**: A function to immediately check a Steam profile by right-clicking on another user in the leaderboard will be added.
-  - **Expansion of Competitive Categories**: In addition to simple competition based on account level and number of stages, various competitive indicators that maximize Steam's leaderboard functions, such as 'Fastest Clear Time', will be introduced.
+- #### 🌍 Out-of-Game Rework & Promotion
+  - **New Cinematic Gameplay Video**: Production of a high-adrenaline gameplay trailer showcasing the new combat mechanics.
+  - **Steam Store Page Renewal**: Overhauling screenshots, descriptions, and feature lists to align with the visual and gameplay upgrades.
 
-- #### 🎨 User Convenience & UI/UX Improvements
-  - **Owned Information Popup**: When selecting contracts and perks, a dedicated popup window will be created to immediately check the list of items you currently own in real-time.
-  - **Official Gamepad Support**: To support more comfortable and crunchy hitting controls, we plan to officially support **Xbox Controllers**.
-  - **ESC UI Logic Fix**: We will perfectly fix the bug where the in-game sub-UI did not close even when pressing the ESC key intermittently, maximizing control stability.
+</details>
 
-- #### ⚔️ Advanced Combat Animation & AI
-  - **AI Intelligence Improvement**: The enemy's Behavior Tree and AI response logic will be completely improved to react organically and intelligently to the player's behavior.
-  - **Motion & Corpse Presentation Optimization**: Some unnatural animation sequences of enemy characters will be fixed, and the phenomenon where the corpse remains abnormally stiff after defeating an enemy will be completely resolved.
+<details>
+<summary><b>[📝Patch_Ver_0.0.90 Build#1] 1:1 Ranked Match (Beta) Season 0 & Stage Graphics Renewal (Released June 14, 2026) (Click)</b></summary>
+
+### 🚀 Update Highlights
+
+To heighten arena immersion, we prioritized stage visuals and environmental graphics updates. Alongside this, the core 1:1 competitive mode 'Ranked Match (Beta) Season 0' was launched, and enemy AI decision-making has been enhanced.
+
+- #### 🏟️ Stage Visuals & Environmental Graphics Renewal
+  - **Material & Texture Upgrades**: Fine-tuned reflectivity and texture tones for floors, pillars, and structural elements, capturing a heavy, ancient Colosseum aesthetic.
+  - **Crowd Toggle Option**: Added a graphics settings option to disable spectators, ensuring optimal frame rates during intense combat on lower-spec hardware.
+
+- #### 🏆 New System: Ranked Match (Beta) Season 0 Launch
+  - **Rank Rating & Tier System**: Initial placement is determined after 5 placement rounds. Wins and losses scale rating points. Tier progression starts at Class 10 and moves up to Class 1 (Challenger), where players can accumulate points infinitely.
+  - **Permanent Account Bonuses**: Ranking tiers grant permanent account-wide bonus points and stat buffs.
+  - **Ranked Match AI Matchmaking**: Rated matchmaking pairs you with a suitable rival AI based on your rank tier.
+  - **Matchup Confirmation (Confirm) Popup**: Matchups show a countdown overlay displaying the opponent's name, tier, and currently equipped build (traits, perks, contracts, stats). Empty slots are cleanly marked as "None."
+  - **Ranked Hub Transition**: Skipped standard stage settlement sequences for faster pacing, redirecting players back to the hub with an immediate rank update notification popup.
+  - **Local Leaderboard Progression**: AI rivals defeated during ranked play are permanently logged on local leaderboards. Matches between other background AIs are simulated, making the league feel alive.
+  - **Difficulty-specific Ranks**: Leaderboard scores track independently across different game difficulty modes.
+
+- #### 🧠 Enhanced AI Behavior & Learning
+  - **Cognitive Learning & Combat AI**: Enemy AI now analyzes player habits more closely, executing guards, parries, and dodges with more human-like timing and tactical logic.
+
+</details>
+
+<details>
+<summary><b>[📝Patch_Ver_0.0.82] Demo Build Registration, Guard/Stamina Rework & Class Combos (Released June 10, 2026) (Click)</b></summary>
+
+### 🚀 Update Highlights
+
+To deliver a deeper combat experience, we overhauled guard calculation logic and refined class-specific weapons and combo systems. 7 powerful new perks, dynamic enemy behavior trees, and structured stage difficulty progressions have also been added.
+
+- #### 🛡️ Guard & Stamina System Overhaul
+  - **Weapon Guard Attribute (GuardMult)**: Reworked the guard formula to highlight weapon identity and reduce over-reliance on parrying.
+  - **Shield Guard**: Raised base damage reduction from 30% to 80% (max 90%), reducing guard stamina costs to 30% of blocked damage.
+  - **Sword Guard**: Raised base damage reduction to 40% (max 50-60%), reducing guard stamina costs to 20% of blocked damage.
+
+- #### ⚔️ Class Identity & Combo System Segmentation
+  - **Warrior**: Can equip and swap 2 weapons in real-time, utilizing 1 light/heavy combo slot per weapon. Switching weapons provides immediate HUD visual feedback.
+  - **Swordsman**: Limited to 1 weapon, but features instant combo swaps between 2 slots (light/heavy combo sets) with zero animation delay.
+  - **Fighter**: Unarmed combat style, but gains 3 custom combo slots to string together devastating punches and kicks.
+  - **Combo Damage Scaling**: Precision formulas apply custom multipliers to individual combo animations, adjusting final damage output.
+
+- #### 🔮 7 New Perks & Balance Adjustments
+  - **7 New Perks**: Adrenaline, Shield Bash, Berserker, Lucky Strike, Giant Slayer, Combo Master, and Armor Breaker are now available.
+  - **Existing Perks Rebalanced**: Inferno explosion damage buffed. Bloodsucker lifesteal rates and Blood Pact lifesteal stats adjusted downward to match combat pacing.
+
+- #### 🥊 Combat & Enemy AI Upgrades
+  - **Chance-based Guard Break**: Striking guarded enemies has a fixed 10% chance to force a Guard Break regardless of their stamina (exclusive to player attacks).
+  - **Guard Break Presentation**: Successfully guard-breaking an enemy triggers a slow-motion effect and stuns the target for 2.5 seconds.
+  - **Parry Slow Motion**: Landing a perfect guard (parry) applies a brief time dilation to all combatants, giving players time to react.
+  - **Knockback Physics**: Added force and angle-based physical knockback reactions on clean melee hits.
+  - **Dynamic AI Behaviors**: Overhauled the low-HP loop where enemies repeatedly backpedaled. AI now intelligently mixes dodges, guards, and high-threat special attacks at low health.
+  - **Removed Trait (Thorn Mail)**: Removed the frustrating enemy perk 'Thorn Mail' to accommodate low-HP player perk builds.
+
+- #### ⚖️ Difficulty Progression & DDA Adjustments
+  - **Special Enemy Spawn Delays**: Delayed spawn thresholds to smooth out the early game curve: Elite (St. 20), Epic (St. 30), Boss (St. 40), and Special (St. 50).
+  - **Boss Ambush Protection**: Disabled random enemy ambush events during boss and named enemy stages.
+  - **Dynamic Trait Scaling**: Reworked enemy trait/perk generation rules based on stage levels and player DDA indices across specific stage ranges (50+, 45-49, 38-44, 30-37, 20-29, 11-19, 1-10).
+
+- #### 🎨 UI/UX Convenience Rework
+  - **Lobby Menu Rework**: Unified the Character Info and Combo menus into a single 'Weapon Select & Equip Combo' interface.
+  - **Real-time Stat Viewer**: Added a popup button in selection screens to check current stats, perks, and active traits in real-time.
+  - **Tutorial Tooltips**: Added hover descriptions for icons and menus in the tutorial screen.
+  - **Shortened Training Flow**: Closing the training popup now teleports players directly into the training room.
+
+- #### 🔧 Core Bug Fixes
+  - **Execution Animations**: Resolved the brief freeze following execution sequences for Warrior/Swordsman and fixed the interrupted hit-reaction montages for Fighters.
+  - **Stun Animation Logic**: Corrected the stun animation trigger loop following a guard break.
 
 </details>
 
