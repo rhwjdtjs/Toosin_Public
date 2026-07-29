@@ -2,21 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+[Official Website](https://teamniriz.com/) · [Discord](https://discord.gg/EHMwJSjWpA) · [Support](mailto:support@teamniriz.com)
+
 ---
-## [Ver.0.0.90 Build#2 (Planned)] Large-scale Content Additions & System/UX Overhaul - July 2026
+## [Version 1.0 — In Development / Release Candidate Preparation] Leaving Early Access - Late August 2026
 
-### ✨ New Features
-- **Xbox Controller (Gamepad) Support**: Perfect integration of Xbox gamepad with custom vibration and layout optimization.
-- **Full UI/UX Overhaul**: Redesigning all user interfaces, including menus and in-game HUDs, to maximize readability.
-- **Visual Effects Revamp**: Complete remaster of all in-game particles and visual assets to amplify combat immersion.
-- **Special Abilities for Players & Enemies**: Addition of character-specific active and passive abilities (e.g., sword slashes, magic spells) to enrich tactical variance.
-- **New Characters (Classes) & Weapons**: Massive drop of new classes with distinct playstyles and new weapons with custom action sets.
-- **New Enemy Units & Dedicated Classes**: Introduction of new enemy types utilizing dedicated class systems.
-- **Out-of-Game Rework & Promotion**: Production of a new cinematic gameplay trailer and renewal of the Steam Store page.
+### 🗓️ Release Window
+- **Version 1.0 Beta**: planned for early to mid-August 2026.
+- **Version 1.0 Full Release**: planned for late August 2026 after beta verification.
+- The items below describe the current 1.0 development and integration-test scope. Final details may change in response to beta results.
 
-### ⚖️ Balance & Bug Fixes
-- **AI Rework**: Enhancing enemy behavior trees to deliver smart, unpredictable fights.
-- **Core Bug Fixes**: Thorough resolution of core bugs alongside system-wide stability improvements.
+### ✨ Progression & Content Rework
+- **Stage Rewards**: rewards are planned for stages ending in 3, 7, and 0. Weapons, combos, character appearances, and special abilities are being structured as permanent unlocks.
+- **Play Points & Traits**: earned Play Points are intended to persist across runs. Traits reset on death, while invested Play Points are refunded; this flow is under verification.
+- **Expanded Combat Progression**: seven special abilities, default-weapon enhancement up to +30, class advancement, and the Combat Power display are included in the 1.0 scope.
+- **Save Transition**: the save structure will change with the 1.0 beta. Early Access save files are not planned to be compatible with 1.0.
+
+### ⚔️ Combat, AI & Controls
+- **Enemy AI & Locomotion**: player-pattern analysis, action selection, preferred-range movement, turning, and directional animation are being refined together.
+- **Combat Balance**: the attack-speed cap is being adjusted to 1.5, alongside verification of hit reactions, knockback, guard, parry, dodge, and camera feedback.
+- **UI/UX & Controllers**: Xbox controller support, input rebinding, menu focus, the in-game HUD, and key screens are being polished for release.
+- **Ranked Play & Tutorial**: Ranked Season 1 is planned to begin with the full release, accompanied by a rebuilt onboarding and tutorial flow.
+
+### 🛠️ Stability & Release Verification
+- Stage-entry crashes, memory/GPU stability, option application and saving, input conflicts, rewards, and progression saves are undergoing focused verification.
+- Localization and long-text layout issues are being reviewed across the release candidate's supported languages.
 
 ---
 
@@ -76,7 +86,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [Ver.0.0.80] New Character Classes & Major System Overhaul - May 06, 2026
+## [Ver.0.0.80] Steam Early Access Launch, New Character Classes & Major System Overhaul - May 6, 2026
 
 ### ✨ New Features
 - **New Classes**: Added 'Fighter' and 'Swordsman' classes with unique weapons and combo skills.

@@ -1,145 +1,130 @@
 <div align="right">
-  <strong><a href="README_KR.md">🇰🇷 한국어</a></strong> | <strong><a href="README_EN.md">🇺🇸 English</a></strong>
+  <strong>🇰🇷 한국어</strong> · <a href="README_EN.md">🇺🇸 English</a>
 </div>
 
 <div align="center">
 
 # TOOSIN : 투신
 
-### 1v1 검투사 로그라이크 액션 게임
+### 나를 학습한 AI를 넘어라
 
-**🗡️ 적은 당신의 패턴을 학습합니다. 끊임없이 적응하고 강해지십시오.**
+[![Steam](https://img.shields.io/badge/Steam-앞서_해보기-1b2838?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/4635530/TOOSIN/)
+[![1.0](https://img.shields.io/badge/Version_1.0-2026년_8월_말-c69b57?style=for-the-badge)](ROADMAP.md)
+[![UE 5.5](https://img.shields.io/badge/Unreal_Engine-5.5-0e1128?style=for-the-badge&logo=unrealengine)](https://www.unrealengine.com/)
+
+**TOOSIN : 투신**은 플레이어의 공격·가드·회피 습관을 분석해 다음 전투의 대응 가중치를 바꾸는  
+적응형 AI와 맞서는 **1대1 아레나 로그라이크 액션 게임**입니다.
+
+[Steam](https://store.steampowered.com/app/4635530/TOOSIN/) ·
+[STOVE](https://store.onstove.com/ko/games/104376) ·
+[공식 사이트](https://teamniriz.com/) ·
+[Discord](https://discord.gg/EHMwJSjWpA) ·
+[지원 메일](mailto:support@teamniriz.com)
 
 </div>
 
-<br/>
-<div align="center">
-  <a href="https://youtu.be/hxRHCSewN8A?si=8ZwLhGKpA7nD_lWA">
-    <img src="https://github.com/user-attachments/assets/a64041f1-75fa-4496-8f03-d41b7e126852" width="100%" alt="게임 플레이 영상 보러가기" />
-    <b>시네마틱 보러가기</b>
+<p align="center">
+  <a href="https://youtu.be/nkfCGh1Q-rE">
+    <img src="https://github.com/user-attachments/assets/a64041f1-75fa-4496-8f03-d41b7e126852" width="100%" alt="TOOSIN 공식 트레일러" />
   </a>
+  <br/>
+  <sub>이미지를 클릭하면 공식 트레일러로 이동합니다.</sub>
+</p>
+
+---
+
+## 출시 현황
+
+| 구분 | 일정 | 상태 |
+|---|---:|---|
+| STOVE 앞서 해보기 | 2026.04.17 | 출시 완료 |
+| Steam 앞서 해보기 | 2026.05.06 | 출시 완료 |
+| Version 1.0 Beta | 2026년 8월 초~중순 | 준비 중 |
+| Version 1.0 정식 출시 | **2026년 8월 말** | 베타 검증 후 출시 |
+
+다음 주요 배포는 Version 1.0 정식 출시 빌드입니다. 최신 일정과 세부 범위는 [개발 로드맵](ROADMAP.md)에서 확인할 수 있습니다.
+
+---
+
+## 핵심 전투
+
+### 적응형 전투 AI
+
+적은 단순히 정해진 패턴을 반복하지 않습니다. 플레이어가 자주 사용하는 콤보, 가드 시점, 회피 방향과 이동 경로를 기록하고 Behavior Tree와 DDA 가중치에 반영해 공격·방어·거리 조절 방식을 변화시킵니다.
+
+### 반응형 근접 액션
+
+- 경공격·강공격·차지 공격과 클래스별 콤보
+- 가드, 패링, 저스트 회피, 가드 브레이크
+- 거리와 타격 방향을 반영한 넉백 및 Hit Reaction
+- 무기·맨손 공격에 맞춘 타격 VFX, 카메라 피드백, 게임패드 진동
+
+### 로그라이크 빌드와 영구 성장
+
+- 100개 이상의 특성과 20종 이상의 특전
+- 액티브·패시브 특수능력과 무기·콤보 조합
+- 계정 경험치와 Play Point 기반의 영구 성장
+- 3·7·0으로 끝나는 스테이지에서 획득하는 영구 보상
+- 사망 후 특성은 초기화되지만 투자한 Play Point는 환급되어 자유롭게 다시 설계 가능
+
+---
+
+## Version 1.0 주요 변화
+
+- **영구 스테이지 보상**: 콤보, 특수능력, 클래스, 외형, 무기를 획득하고 환생 후에도 유지
+- **Play Point 시스템**: 사망해도 보존되는 성장 재화와 특성 재설계
+- **무기 강화**: 기본 무기를 최대 +30까지 강화
+- **클래스 전직**: 캐릭터 외형과 전투 클래스·무기·콤보의 선택 폭 확대
+- **AI 및 이동 개편**: 전 방향 이동, 거리 판단, 공격 예고, 대응 패턴과 반복 행동 개선
+- **전투력 시스템**: 전투 전 상대의 예상 전투력을 확인
+- **UI·게임패드 개편**: Xbox 계열 패드 조작, 키 아이콘, 포커스와 메뉴 가독성 개선
+- **등급전 Season 1**: Version 1.0과 함께 새로운 시즌 시작
+- **튜토리얼 개편**: 실제 아레나에서 무한 체력·스태미나로 패턴 분석 과정을 직접 체험
+- **안정화**: 장시간 플레이, 맵 전환, 저장, GPU 사용량과 전투 물리 오류 개선
+
+> Version 1.0 Beta부터 저장 구조가 변경되어 이전 앞서 해보기 세이브와 호환되지 않습니다. 관련 정책은 출시 전 공지에서 다시 안내합니다.
+
+---
+
+## 게임 정보
+
+| 항목 | 내용 |
+|---|---|
+| 개발·배급 | TEAM NIRIZ |
+| 엔진 | Unreal Engine 5.5 |
+| 플랫폼 | Windows PC · Steam · STOVE |
+| 장르 | 액션 로그라이크 · 액션 RPG · 1인용 |
+| 지원 언어 | 한국어 · 영어 · 일본어 · 중국어 간체 · 중국어 번체 |
+| Steam 기능 | 도전 과제 30개 · Cloud · 통계 · 리더보드 · 가족 공유 |
+
+## 시스템 요구 사항
+
+| | 최소 | 권장 |
+|---|---|---|
+| 운영 체제 | Windows 10/11 64-bit | Windows 10/11 64-bit |
+| 프로세서 | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-9700K / AMD Ryzen 7 3700X |
+| 메모리 | 8 GB RAM | 16 GB RAM |
+| 그래픽 | NVIDIA GeForce RTX 2060 | NVIDIA GeForce RTX 3060 |
+| DirectX | Version 12 | Version 12 |
+| 저장 공간 | 8 GB | 10 GB |
+
+---
+
+## 문서
+
+- [개발 로드맵](ROADMAP.md)
+- [변경 기록](CHANGELOG.md)
+- [상세 패치 노트](PATCHNOTE.md)
+- [지원 및 버그 제보](SUPPORT.md)
+
+## 문의
+
+- 공식 사이트: [teamniriz.com](https://teamniriz.com/)
+- 커뮤니티: [Discord 서버](https://discord.gg/EHMwJSjWpA)
+- 기술 지원: [support@teamniriz.com](mailto:support@teamniriz.com)
+
+<div align="center">
+
+© 2026 TEAM NIRIZ. All rights reserved.
+
 </div>
-
-<!-- 스팀 상점 상단 레이아웃 -->
-<table width="100%">
-  <tr>
-    <td width="75%" valign="top">
-      <!-- 메인 미디어 존 -->
-      <a href="#">
-        <img src="https://github.com/user-attachments/assets/95fa3fbc-d286-4f2b-b29c-e8554e04354c" width="100%" alt="메인 게임플레이 화면"/>
-      </a>
-      <p align="center" style="margin-top: 8px;">
-        <!-- 갤러리 썸네일 -->
-        <img src="https://github.com/user-attachments/assets/0c6d7edd-4f51-43ad-ad7a-c6641ea9c90d" width="24%" />
-        <img src="https://github.com/user-attachments/assets/15aa2b25-f430-4b43-a305-5bf511a1dc8c" width="24%" />
-        <img src="https://github.com/user-attachments/assets/e0e42716-5e60-4d82-979c-8f323956187e" width="24%" />
-        <img src="https://github.com/user-attachments/assets/dd2697eb-566d-430c-b736-3f10211c8385" width="24%" />
-      </p>
-    </td>
-    <td width="25%" valign="top">
-      <!-- 우측 정보 패널 -->
-      <img src="https://github.com/user-attachments/assets/d6ef36e1-c34a-4608-b73a-3dacde37fc6e" width="100%" />
-      <br/><br/>
-      <p style="font-size: 14px;">
-        <b>TOOSIN : 투신</b>은 언리얼 엔진 5.5.4로 개발되는 <b>1대1 아레나 로그라이크 액션 게임</b>입니다.<br/><br/>
-        플레이어는 검투사가 되어 강력한 AI와 목숨을 건 결투를 벌이며, 매 승리마다 무작위 특성을 획득하여 자신만의 전투 스타일을 구축합니다.
-      </p>
-      <hr/>
-      <p style="font-size: 13px;"><b>엔진:</b> Unreal Engine 5.5.4</p>
-      <p style="font-size: 13px;"><b>플랫폼:</b> PC (Stove Indie / Steam)</p>
-      <p style="font-size: 13px;"><b>출시일:</b> 스토브 인디 EA (2026.04.17) / 스팀 글로벌 EA (2026.05.06)</p>
-      <p style="font-size: 13px;"><b>개발팀:</b> TEAM NIRIZ</p>
-      <hr/>
-      <p style="font-size: 13px;">인기 태그:<br/>
-        <code>액션 로그라이크</code> <code>소울라이크</code> <code>하드코어</code>
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-## 📊 개발 현황 (Milestones)
-
-| 마일스톤 | 상태 | 기간 | 설명 |
-|----------|------|------|------|
-| MVP-1 | ✅ 완료 | 02.05 ~ 02.08 | 캐릭터 기본 이동 및 콤보 액션 |
-| MVP-2 | ✅ 완료 | 02.09 ~ 02.10 | 방어, 패링, 피격 리액션 (타격감) |
-| MVP-3 | ✅ 완료 | 02.10 ~ 02.14 | 자가 학습 AI & 기본 전투 완성 |
-| MVP-4 | ✅ 완료 | 02.14 ~ 02.20 | HUD, 스태미나, 난이도 스케일링, AI 밸런스 |
-| MVP-5 | ✅ 완료 | 02.15 ~ 02.18 | 게임 흐름 & 허브 구조 (메뉴/저장/로드) |
-| MVP-6 | ✅ 완료 | 02.20 ~ 02.23 | 로그라이크 시스템 & 허브 기능 & 모든 UI |
-| MVP-7 | ✅ 완료 | 02.23 ~ 03.11 | 상점 추가, 에픽 전투 시스템, 시네마틱 폴리싱 |
-| MVP-8 | ✅ 완료 | 03.11 ~ 03.24 | 랜덤 이벤트 시스템, UI 전면 개편, 시스템 안정화 |
-| MVP-9 | ✅ 완료 | 03.25 ~ 04.07 | 스토브 업적, 리더보드 SDK 연동 및 심사 제출 완료 |
-| Ver.0.0.70-71 | ✅ 완료 | 04.08 ~ 04.20 | STOVE EA 출시, 모의 전투 도입, 스태미나 상향 |
-| Ver.0.0.80 | ✅ 완료 | 04.21 ~ 05.06 | Steam Global EA 출시, 신규 클래스 추가, 시스템 리뉴얼 |
-| Ver.0.0.81 | ✅ 완료 | 05.07 ~ 05.10 | 버그 패치, 상점 밸런스 조정, TEAM NIRIZ 전환 |
-| Ver.0.0.82 | ✅ 완료 | 05.11 ~ 06.10 | 데모 공개, 가드 및 스태미나 공식 전면 개편, 신규 특전 7종 추가 |
-| Ver.0.0.90 Build#1 | ✅ 완료 | 06.11 ~ 06.14 | 1v1 등급전 베타 시즌 0 도입, 스테이지 그래픽 리뉴얼, AI 인지능력 향상 |
-| Ver.0.0.90 Build#2 | 📅 예정 | 07월 | Xbox 패드 지원, UI/UX 리뉴얼, 캐릭터 고유 특수 능력 및 클래스 추가 |
-| Ver.1.0 | 📅 예정 | 10월 ~ 11월 | 정식 출시, 연옥 모드, 다국어 확장, AI 행동 리워크 |
-
-[🎮 스토브 인디 상점](https://store.onstove.com/ko/games/104376) | [🎮 스팀 상점](https://store.steampowered.com/app/4635530/TOOSIN/) | [💬 공식 디스코드](https://discord.gg/3R9kHMtEg6)
-
----
-
-## 🌟 주요 기능 (Key Features)
-
-### ⚔️ 1대1 아레나 토너먼트
-- **Just Guard (패링)**: 정확한 타이밍의 방어 시 시간 왜곡 효과와 함께 데미지를 무효화합니다.
-- **Directional Hit Reaction**: 피격 방향에 따른 리얼한 몽타주 재생으로 타격감을 극대화했습니다.
-- **Guard Aim Offset**: 방어 자세 중에도 적을 바라보는 시선 처리(Aim Offset)를 적용했습니다.
-
-### 🧠 자가 학습 AI
-- **적응형 난이도**: 플레이어의 패턴을 분석하여 대응 패턴을 진화시킵니다.
-
-### 🎲 로그라이크 성장 & 허브
-- **무한한 성장 가능성**: 매 라운드 종료 후 무작위 특성을 선택하고, 허브에서 무기를 교체할 수 있습니다.
-
----
-
-## 🖥️ 시스템 요구 사항
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <b>최소 사양 (Minimum)</b><br/><br/>
-      <ul>
-        <li>64비트 프로세서와 운영 체제가 필요합니다.</li>
-        <li><b>운영 체제:</b> Windows 10/11 (64-bit)</li>
-        <li><b>프로세서:</b> Intel Core i5-8400 / AMD Ryzen 5 2600</li>
-        <li><b>메모리:</b> 8 GB RAM</li>
-        <li><b>그래픽:</b> NVIDIA GeForce RTX 2060</li>
-        <li><b>DirectX:</b> 버전 12</li>
-        <li><b>저장 공간:</b> 7 GB 사용 가능 공간</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <b>권장 사양 (Recommended)</b><br/><br/>
-      <ul>
-        <li>64비트 프로세서와 운영 체제가 필요합니다.</li>
-        <li><b>운영 체제:</b> Windows 10/11 (64-bit)</li>
-        <li><b>프로세서:</b> Intel Core i7-9700K / AMD Ryzen 7 3700X</li>
-        <li><b>메모리:</b> 16 GB RAM</li>
-        <li><b>그래픽:</b> NVIDIA GeForce RTX 3060</li>
-        <li><b>DirectX:</b> 버전 12</li>
-        <li><b>저장 공간:</b> 12 GB 사용 가능 공간</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
----
-
-## 📬 연락처 & 링크
-
-- **개발팀**: TEAM NIRIZ
-- **공식 디스코드**: [디스코드 서버](https://discord.gg/3R9kHMtEg6)
-- **이슈/피드백**: [GitHub Issues 탭](../../issues)에서 버그 리포트를 남겨주세요
-- **문서 안내**: [ROADMAP.md](ROADMAP.md) | [PATCHNOTE.md](PATCHNOTE.md) | [DEVELOPMENT_GUIDE.md](PRIVATE/DEVELOPMENT_GUIDE.md)
-
----
-
-> 💡 **이 프로젝트에 관심을 가져주셔서 감사합니다!**  
-> 실제 소스 코드는 비공개(Private) 레포지토리에서 관리됩니다.

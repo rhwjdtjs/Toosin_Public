@@ -1,121 +1,137 @@
-# 📝 Issue (Feedback) Writing Guide
-> Thank you for your interest in the development of Toosin!
-> This document is an Issue (Feedback) writing guide for **those who are new to GitHub**.
+# TOOSIN Support and Troubleshooting
 
----
+If you encounter a problem, please contact us through one of the channels below. Email is recommended for crashes, save issues, or reports that require private file attachments.
 
-## 1️⃣ Creating a GitHub Account
+| Channel | Best for |
+|---|---|
+| [GitHub Issues](https://github.com/rhwjdtjs/Toosin_Public/issues) | Reproducible bugs, suggestions, and public progress tracking |
+| [Support Email](mailto:support@teamniriz.com) | Logs, save files, videos, or other private attachments |
+| [Discord](https://discord.gg/EHMwJSjWpA) | Quick questions, community reports, and announcements |
+| [Steam Store](https://store.steampowered.com/app/4635530/TOOSIN/) | Current Steam build and official announcements |
+| [Steam Discussions](https://steamcommunity.com/app/4635530/discussions/) | Steam-build questions and player-to-player help |
 
-### 1. Visit the GitHub Website
+Official website: [teamniriz.com](https://teamniriz.com/)
 
-- Address: Visit [https://github.com](https://github.com).
-- Click the **Sign up** button in the top right corner.
+## Before You Report a Problem
 
-### 2. Proceed with Sign-up
+1. Fully close the game and the Steam or STOVE client, then start them again.
+2. Verify or repair the game files through your platform client.
+3. Update Windows and your graphics driver to a current stable version.
+4. If you use mods, replaced files, or custom launch options, check whether the issue also occurs with the original files.
+5. Record the build number and the approximate time of the problem.
 
-1. **Enter Email Address**: Enter the email address you wish to use.
-2. **Set Password**: 15 characters or more, or 8 characters or more + including numbers/lowercase letters.
-3. **Enter Username**: This is your nickname visible to others. Feel free to set it with English letters + numbers.
-4. **Email Verification**: A verification code will be sent to the email you entered. Please check and enter it.
-5. **Done!** 🎉
+## Bug Report Template
 
-> GitHub is free, and no payment information is required to write an issue.
+Copy this template into a GitHub Issue or email. You do not need to know every field; include whatever you can confirm.
 
----
+```text
+Title: [Bug] Describe the problem in one sentence
 
-## 2️⃣ Writing an Issue (Feedback)
+Platform: Steam / STOVE
+Game version or build:
+Date, time, and time zone:
+Game mode and stage:
+Input device: Keyboard and mouse / Gamepad model
 
-### 1. Move to the Issues Tab
+Steps to reproduce:
+1.
+2.
+3.
 
-- Click the **Issues** tab at the top of this repository.
-- Or click the link below directly:
-  - 👉 [Go to Issues](https://github.com/rhwjdtjs/Toosin_Public/issues)
+Expected result:
+Actual result:
+Frequency: Always / Often / Sometimes / Once
 
-### 2. Create a New Issue
+PC information:
+- Windows version:
+- CPU:
+- GPU and driver version:
+- Memory:
 
-1. Click the green **New issue** button in the top right corner.
-2. **Select Issue Template**: Please choose one of the three templates.
-
-| Template | When to use it? |
-|------|----------------|
-| 🐛 **Bug Report** | When you discover an error, crash, or strange behavior in the game |
-| 💡 **Feature Request** | When you want to say, "I wish there was a feature like this!" |
-| ⚖️ **Balance Feedback** | When you want to say, "This is too hard/easy" or "This skill is too strong/weak" |
-
-### 3. Write Content
-
-- Please fill in the content according to the template.
-- **It's okay if it's not written perfectly!** Just writing the core points briefly is enough.
-- If you have a screenshot, you can attach the image by dragging & dropping it.
-- If submitting a GIF, it must be 10MB or less. For video submissions, please contact us via email.
-
-### 4. Submit
-
-- Click the **Submit new issue** button at the bottom and you're done!
-
----
-
-## 3️⃣ Writing Examples
-
-### 🐛 Bug Report Example
-
-```
-Title: [Bug] Enemy stuck in a wall in Round 3
-
-How to reproduce:
-1. Push an enemy into the corner of the arena in Round 3
-2. Knock them back with a Heavy Attack
-3. The enemy gets stuck in the wall and doesn't move
-
-Expected behavior: The enemy should come out of the wall.
-Actual behavior: The enemy only attacks while being stuck in the wall.
+Attachments: Screenshot / Video / Log / Crash folder / Save file
 ```
 
-### ⚖️ Balance Feedback Example
+Send files that may contain personal information to [support@teamniriz.com](mailto:support@teamniriz.com) instead of posting them in a public Issue.
 
-```
-Title: [Balance] Heavy Attack is too slow to use
+## Logs and Save Files
 
-What part is imbalanced?
-The Heavy Attack wind-up is too slow, making it almost impossible to use in actual combat.
-Enemies always hit first.
+The default locations for a packaged Windows build are usually:
 
-Suggested improvement:
-Please reduce the pre-delay of the Heavy Attack slightly.
+| Data | Default path |
+|---|---|
+| Runtime logs | `%LOCALAPPDATA%\Toosin\Saved\Logs\` |
+| Save files | `%LOCALAPPDATA%\Toosin\Saved\SaveGames\` |
+| Crash reports | `%LOCALAPPDATA%\Toosin\Saved\Crashes\` |
+| User settings | `%LOCALAPPDATA%\Toosin\Saved\Config\Windows\` |
 
-Reached Stage: Stage 4
-```
+Some builds may use `WindowsNoEditor` instead of `Windows` for the settings folder.
+
+To open a path:
+
+1. Press `Win + R`.
+2. Paste the path and press Enter.
+3. Zip the files created around the time of the problem and attach the archive.
+
+Before changing any file, copy the entire `Saved` folder to another location as a backup. If the folder does not exist, run the game once and check again.
+
+## Common Problems
+
+### Crash While Entering a Stage or During a Long Session
+
+- Verify the game files.
+- Update to a current stable graphics driver.
+- Temporarily disable recording tools, overlays, and GPU tuning utilities, then test again.
+- Lower crowd visibility, shadows, and effects quality before retrying the same stage.
+- Do not run the game in Windows 7 or Windows 8 compatibility mode.
+- If the crash is reproducible, send the latest log, the `Crashes` folder, and the mode or stage you were entering.
+
+### Save, Reward, or Permanent Unlock Is Missing
+
+- Do not force-close the game while a reward or results screen is finishing or while returning to the hub or main screen.
+- Confirm that platform cloud synchronization has completed.
+- Before choosing the reward again, check the currently owned weapons, combos, appearances, and special abilities.
+- Immediately after reproducing the issue, close the game normally and back up both `SaveGames` and `Logs`.
+- Do not edit save files or manually merge saves from different devices.
+
+### Gamepad, Key Binding, or Menu Focus Problem
+
+- Connect the gamepad before launching the game and temporarily disconnect other input devices.
+- On Steam, test both enabled and disabled Steam Input for TOOSIN.
+- Restore input settings to their defaults, then assign the controls again.
+- If `Esc` or gamepad `B` does not close an open popup or results screen, report the exact screen and attach a short video.
+- If an old assignment remains after rebinding a duplicate key, include the bindings before and after the change.
+
+### Options Do Not Apply or the Unsaved-Changes Prompt Repeats
+
+1. Change the option, then select **Apply** followed by **Save**.
+2. Exit the game normally and launch it again to confirm the value persists.
+3. If the problem continues, close the game and back up the settings folder.
+4. Rename `GameUserSettings.ini` to `GameUserSettings.backup.ini`, then launch the game. A default settings file will be generated.
+
+Resetting the settings file can restore graphics, resolution, and some input settings to their defaults.
+
+### Visual Artifacts, Low Performance, or Resolution Problems
+
+- Switch between fullscreen and windowed mode.
+- Change resolution scale, upscaling, frame limit, and vertical sync one setting at a time.
+- On a laptop, confirm in Windows Graphics settings that the game uses the dedicated GPU.
+- Restore forced driver-control-panel settings to their defaults and compare the result.
+
+## Version 1.0 Save Compatibility
+
+Version 1.0 introduces a new save structure and **will not be compatible with earlier Early Access saves.** Back up the `Saved` folder before updating and read the save policy in the beta announcement.
+
+Whether beta saves will carry into the full release will be confirmed separately with the beta build. See the [Roadmap](./ROADMAP_EN.md) for the current release schedule.
+
+## Privacy and Attachments
+
+- Never send passwords, platform credentials, verification codes, or API keys.
+- Redact Windows user names, email addresses, Steam IDs, and other identifying information visible in logs or screenshots.
+- Do not upload personal save files to a public Issue; use support email instead.
+- Do not attach suspicious executables or unofficial patches.
+
+Reports are used to reproduce issues and improve the game. We cannot guarantee an individual reply or a specific fix date for every report, but complete reproduction details are extremely valuable when setting priorities.
 
 ---
 
-## ❓ Frequently Asked Questions
-
-### Q. Do I absolutely need a GitHub account?
-
-**Yes, a GitHub account is required to write an issue.** But signing up is free and only takes 1 minute!
-
-### Q. I wrote an issue incorrectly. Can I edit it?
-
-**Yes!** You can edit it at any time via the **⋯** → **Edit** button in the top right corner of the issue you wrote.
-
-### Q. Can I add opinions to someone else's issue?
-
-**Of course!** You can leave a comment (reply) at the bottom of someone else's issue. If you are experiencing the same problem, an empathetic comment is a huge help.
-
-### Q. Can I attach images or videos?
-
-**Yes!** You can **drag & drop** images into the issue writing box or paste them from the clipboard with **Ctrl+V**.
-
----
-
-## 🔔 Get Notifications (Optional)
-
-If you **Watch** this repository, you can receive notifications for new news:
-
-1. Click the **👁 Watch** button in the top right corner of the page
-2. Check **All Activity** or **Custom** → desired items
-3. Receive email notifications for every new update!
-
----
-
-> 💬 Feedback is always welcome! Each and every one of your opinions is a great force in making the game better 🙏
+[한국어 지원](./SUPPORT.md) · [Development Roadmap](./ROADMAP_EN.md) · [Changelog](./CHANGELOG_EN.md)

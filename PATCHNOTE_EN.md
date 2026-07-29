@@ -1,27 +1,42 @@
 # TOOSIN 📝 Patch Notes
 
+[Official Website](https://teamniriz.com/) · [Discord](https://discord.gg/EHMwJSjWpA) · [Support](mailto:support@teamniriz.com)
+
 ---
-<details>
-<summary><b>[📝Patch_Ver_0.0.90 Build#2 (Planned)] Large-scale Content Additions & System/UX Overhaul (Targeted for July 2026) (Click)</b></summary>
+<details open>
+<summary><b>[📝Patch_Version_1.0 (In Development / Release Candidate Preparation)] Leaving Early Access (Late August 2026) (Click)</b></summary>
 
 ### 🚀 Update Highlights
 
-To maximize control feel and visual quality, we are implementing full Xbox controller integration, a comprehensive UI/UX overhaul, and revamped visual effects. Furthermore, a massive content update is planned, introducing character-specific active/passive abilities, new characters, new weapons, and dedicated enemy class systems.
+Version 1.0 is the major transition that will bring TOOSIN out of Early Access. The **1.0 beta is planned for early to mid-August 2026**, followed by the **full release in late August 2026** after beta verification. The items below describe the current development and integration-test scope; final details may change in response to beta results.
 
-- #### 🎮 System & Convenience Rework (UI/UX & Controller)
-  - **Xbox Controller (Gamepad) Support**: Perfect integration of Xbox gamepad with custom vibration and layout optimization to enhance impact feel.
-  - **Full UI/UX Overhaul**: Redesigning all user interfaces, including menus and in-game HUDs, to maximize readability and accessibility.
-  - **Visual Effects Revamp**: Complete remaster of all in-game particles and visual assets to amplify combat immersion.
+- #### 🎁 Permanent Progression & Stage Rewards
+  - **Stage Reward Structure**: rewards are being reorganized around stages ending in 3, 7, and 0.
+  - **Permanent Unlocks**: weapons, combos, character appearances, and special abilities are being verified as permanent unlocks that remain after death and reincarnation.
+  - **Play Points & Traits**: earned Play Points are intended to persist across runs. Traits reset on death, while invested Play Points are refunded; this flow is under verification.
+  - **Save Compatibility Notice**: the save structure will change with the 1.0 beta. Early Access save files are not planned to be compatible with 1.0, so creating a backup before updating is recommended.
 
-- #### ⚔️ Content Expansion & Balancing
-  - **Special Abilities for Players & Enemies**: Addition of character-specific active and passive abilities (e.g., sword slashes, magic spells) to enrich tactical variance.
-  - **New Characters (Classes) & Weapons**: Massive drop of new classes with distinct playstyles and new weapons with custom action sets.
-  - **New Enemy Units & Dedicated Classes**: Introduction of new enemy types utilizing dedicated class systems to spice up battlefields.
-  - **AI Rework & Bug Fixes**: Enhancing enemy behavior trees to deliver smart, unpredictable fights, alongside thorough resolution of core bugs.
+- #### ⚔️ Combat Progression & Class Expansion
+  - **Seven Special Abilities**: seven special abilities that broaden class and build choices are included in the 1.0 scope.
+  - **Weapon Enhancement & Advancement**: default weapons are planned to support enhancement up to +30, alongside class advancement.
+  - **Combat Power**: a consolidated Combat Power display is being introduced, with its calculation and comparison flow under verification.
+  - **Attack-Speed Balance**: the attack-speed cap is being adjusted to 1.5 to preserve combat readability and animation stability.
 
-- #### 🌍 Out-of-Game Rework & Promotion
-  - **New Cinematic Gameplay Video**: Production of a high-adrenaline gameplay trailer showcasing the new combat mechanics.
-  - **Steam Store Page Renewal**: Overhauling screenshots, descriptions, and feature lists to align with the visual and gameplay upgrades.
+- #### 🧠 AI, Locomotion & Combat Feedback
+  - **Enemy Combat AI**: player-pattern analysis, guard/parry/dodge choices, preferred-range movement, and action priorities are being tuned together. This is a rule-based adaptive combat system, not online-learning generative AI.
+  - **Movement & Animation**: turning, eight-direction locomotion presentation, and synchronization between movement speed and animation are being refined for players and enemies.
+  - **Combat-Reaction Verification**: hit montages, knockback, unintended airborne reactions, stamina checks, guard/parry/dodge feedback, and camera presentation are undergoing focused review.
+
+- #### 🎮 UI/UX, Controllers & Ranked Play
+  - **Input Support**: Xbox controller behavior, input rebinding, duplicate-binding removal, menu focus, and ESC/B closing behavior are being polished.
+  - **Interface Rework**: the in-game HUD, trait selection, stage rewards, options, and ranked matchup screens are being revised for readability and consistent navigation.
+  - **Ranked Season 1**: Season 1 is being prepared for the full release, with Combat Power and matchup information under renewed verification.
+  - **Tutorial Rework**: onboarding is being rebuilt to introduce combat, progression, and rewards in a clearer sequence.
+
+- #### 🛠️ Stability & Release Candidate Verification
+  - **Crashes & Performance**: stage-entry crashes after long sessions, memory use, GPU compatibility, and loading stability are priority test areas.
+  - **Options & Saves**: graphics-option application, change detection, apply/cancel behavior, and progression saving after ranked play, shops, rewards, and trait changes are being verified.
+  - **Localization**: missing translations and layout problems caused by long text are being reviewed across supported languages.
 
 </details>
 
@@ -102,7 +117,7 @@ To deliver a deeper combat experience, we overhauled guard calculation logic and
 
 ### 🚀 Update Highlights
 
-This update fixes urgent bugs reported since the official launch and improves the overall stability of the system. In addition, for the continuous growth of the project, we have transitioned to the **TEAM NIRIZ development team** system and are accelerating development.
+This update addresses urgent issues reported after the Steam Early Access launch and improves overall system stability. In addition, the project transitioned to the **TEAM NIRIZ development team** structure to accelerate development.
 
 - #### 🔧 System Stabilization & Bug Fixes
   - **Normalization of Steam Achievement Integration**: To solve the problem where achievements were not immediately reflected in the UI even after being unlocked, we introduced a **Popup Queue System**.
@@ -122,11 +137,11 @@ This update fixes urgent bugs reported since the official launch and improves th
 
 
 <details>
-<summary><b>[📝Patch_Ver_0.0.80] TOOSIN: Detailed Update Information & Steam Launch Announcement (Released May 06, 2026) (Click)</b></summary>
+<summary><b>[📝Patch_Ver_0.0.80] TOOSIN: Detailed Update Information & Steam Early Access Launch (May 6, 2026) (Click)</b></summary>
 
 ### 🚀 Update Highlights
 
-This is the official launch update featuring a major renewal of the combat system, addition of new classes, and system optimization. The new class 'Fighter' and the hidden class 'Swordsman' have newly joined the battle, and the class unlock system in the shop, the function to change owned characters upon revival, official Japanese support, and detailed combat analysis have been supplemented.
+This Steam Early Access launch update introduced a major combat-system renewal, new classes, and system optimization. The new Fighter class and hidden Swordsman class joined the roster, alongside class unlocks in the shop, character switching upon revival, official Japanese support, and expanded combat analysis.
 
 - #### 👤 Introduction of New Characters & Class System
   - **Integration of Class System**: For continuous update expansion in the future, the class system has been fully integrated into all characters in the game. (Default character: Warrior)
@@ -221,7 +236,7 @@ In this update, we have urgently introduced the 'Mock Combat' mode where players
   
 ### 🚀 Update Highlights 
 
-### This version is the most important update performed ahead of the official Stove launch. Along with the perfect integration of the Stove SDK, final polishing work to raise overall game quality has been completed, and even the submission for review has been finalized.
+### This was a major update ahead of the STOVE Early Access launch. It completed STOVE SDK integration, final quality polishing, and the required review submission work.
 
 - #### 🔧 Stove Service & System Integration
 - **STOVE SDK Integration Completed**: Finished integrating the Stove Achievement and Leaderboard SDKs. Now your glorious records will be recorded in real-time on your Stove profile.
@@ -256,7 +271,7 @@ In this version, along with the **Beta 0.0.51** update, convenience improvements
 - **Ambush**: A class that changes the flow of the battlefield with unpredictable attack methods.
 - **Special**: A special talented person with powerful firepower and a unique skill set.
 ### 🌍 Global Response
-- Toward a wider world! Completed the basic work to support Korean and English simultaneously. Please look forward to smoother translation in the future official launch version.
+- The groundwork for simultaneous Korean and English support was completed, and translation quality continued to improve in later public builds.
 
 </details>
 <details>
@@ -288,7 +303,7 @@ This **Ver.0.0.50** update includes the introduction of a **Random Event System*
 
 ---
 
-🚀 **Next Step (Roadmap)**: With the official Stove launch (4/17 ~ 5/10), we enter the final polishing milestone with the goal of launching on Steam within August.
+🚀 **Roadmap at the time**: after this update, development moved into final polishing for the STOVE and Steam Early Access launches.
 
 </details>
 <details>
@@ -735,7 +750,7 @@ Update notes for 0002 that significantly improved UI and convenience based on us
   
 ## 📋 Task List
 
-### 🏆 1. PlayFab Ranking & Achievement System (In Progress)
+### 🏆 1. PlayFab Ranking & Achievement System (Completed Record)
 - [x] **Global Ranking**: Completed implementation of leaderboards for stage clear count and account level.
 - [x] **Achievement System**: Established a system for popups and data recording upon achieving specific conditions.
 
@@ -745,11 +760,9 @@ Update notes for 0002 that significantly improved UI and convenience based on us
 - [x] **2.2 Addition of New Enemy Characters & Traits**: 
   - Enemy-only perk system and information display at the bottom of the health bar.
 
-### 📢 3. Marketing & Funding (In Progress)
-- [x] **Tumblbug Funding**: 2026.03.13 ~ 2026.04.13 (Currently in progress).
-- [ ] **Official Video Production (Scheduled for 04.05)**:
-  - Official play guide video including direct commentary by the developer.
-  - High-quality official cinematic trailer.
+### 📢 3. Marketing & Funding (Completed Record)
+- [x] **Tumblbug Funding**: Completed from March 13 to April 13, 2026.
+- [x] **Official Video Production**: Official gameplay and cinematic videos were produced and published.
 
 </details>
 
