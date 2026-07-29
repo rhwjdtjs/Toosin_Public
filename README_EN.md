@@ -16,6 +16,7 @@
 your attack, guard, dodge, and movement habits, then adjust their responses in later battles.
 
 [Steam](https://store.steampowered.com/app/4635530/TOOSIN/) ·
+[Latest Developer Notes](https://store.steampowered.com/news/app/4635530/view/1839041357025737) ·
 [STOVE](https://store.onstove.com/ko/games/104376) ·
 [Website](https://teamniriz.com/) ·
 [Discord](https://discord.gg/EHMwJSjWpA) ·
@@ -40,7 +41,7 @@ your attack, guard, dodge, and movement habits, then adjust their responses in l
 | STOVE Early Access | April 17, 2026 | Released |
 | Steam Early Access | May 6, 2026 | Released |
 | Version 1.0 Beta | Early–mid August 2026 | In development |
-| Official Version 1.0 | **Late August 2026** | After beta verification |
+| Official Version 1.0 · leaves Early Access | **Late August 2026** | After beta verification |
 
 Version 1.0 is the next major release build. See the [development roadmap](ROADMAP_EN.md) for the current scope.
 
@@ -64,12 +65,12 @@ Enemies do more than repeat a fixed script. The game records frequently used com
 - More than 100 Traits and 20+ Perks
 - Active and passive Special Abilities, weapons, and combo loadouts
 - Permanent account experience and Play Point progression
-- Permanent rewards at stages ending in 3, 7, or 0
+- One reward at stages ending in 3 or 7, and two rewards at milestone stages ending in 0
 - Traits reset on death, while invested Play Points are refunded for free rebuilding
 
 ---
 
-## What changes in Version 1.0
+## Planned for Version 1.0
 
 - **Permanent stage rewards**: retain earned combos, Special Abilities, classes, appearances, and weapons after reincarnation
 - **Play Point progression**: permanent progression currency and flexible Trait rebuilding
@@ -77,12 +78,13 @@ Enemies do more than repeat a fixed script. The game records frequently used com
 - **Class advancement**: broader combinations of character appearance, combat class, weapons, and combos
 - **AI and locomotion rework**: better omnidirectional movement, spacing, attack telegraphs, reactions, and behavior variety
 - **Combat Power preview**: estimate an opponent's strength before entering battle
-- **UI and gamepad overhaul**: Xbox-family controller support, dynamic key icons, focus handling, and clearer menus
+- **Hit visual feedback**: red or green Blood VFX by enemy type, unarmed-impact effects, and clearer damage/low-Health screen feedback
+- **Combat UI and gamepad overhaul**: parry and just-dodge success cues, a Ranked VS intro, refined Health/EXP gauges and overall UI, plus clearer Xbox-family key icons, focus, and input guidance
 - **Ranked Season 1**: a fresh competitive season launching with Version 1.0
 - **New tutorial flow**: practice inside the arena with unlimited Health and Stamina while pattern analysis is explained in real time
 - **Stability pass**: long-session transitions, saves, GPU usage, combat physics, and crash fixes
 
-> The save format changes with the Version 1.0 Beta. Early Access saves from older versions will not be compatible; the final migration policy will be reiterated before release.
+> The save format changes with the Version 1.0 Beta. Saves from earlier Early Access builds will not be compatible; preserved data and backup guidance will be reiterated in the beta announcement.
 
 ---
 

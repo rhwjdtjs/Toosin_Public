@@ -5,7 +5,7 @@
 
 ## Current Status
 
-**TOOSIN** is currently available in Early Access and is preparing to leave Early Access in August 2026.
+**TOOSIN** is currently available in Early Access and is preparing to launch Version 1.0 and leave Early Access in late August 2026.
 
 | Milestone | Target | Status |
 |---|---:|:---:|
@@ -43,7 +43,7 @@ The following areas are being developed and validated for the Version 1.0 beta a
 
 ### Permanent Progression and Stage Rewards
 
-- Rework rewards for stages ending in 3, 7, and 0
+- Grant one reward at stages ending in 3 or 7 and two rewards at milestone stages ending in 0
 - Keep unlocked weapons, combos, class appearances, and special abilities after reincarnation
 - Prevent duplicate grants of permanent rewards already owned
 - Store Play Points as a permanent account-level resource
@@ -56,6 +56,7 @@ The following areas are being developed and validated for the Version 1.0 beta a
 - Class advancement and a Combat Power display
 - Rebalance the attack-speed cap, weapons, traits, and stage scaling
 - Improve hit, guard, parry, dodge, camera, and combat feedback
+- Tune red or green Blood VFX by enemy type, unarmed-impact effects, location-aware blood hits, and damage/low-Health screen feedback
 
 ### AI and Locomotion
 
@@ -68,7 +69,8 @@ The following areas are being developed and validated for the Version 1.0 beta a
 
 ### UI, Input, and Accessibility
 
-- Rework the combat HUD, stage progress, traits, rewards, and Ranked screens
+- Rework the combat HUD—including Health, Stamina, and EXP progress bars—alongside stage progress, traits, rewards, and the overall interface
+- Add clear parry and just-dodge success UI plus a Ranked VS intro presentation
 - Unify mouse and keyboard flows with Xbox-style gamepad controls
 - Improve duplicate key assignment, widget focus, cancel input, and option apply/save behavior
 - Make Combat Power, rewards, and save results easier to understand
@@ -83,10 +85,10 @@ The following areas are being developed and validated for the Version 1.0 beta a
 
 ## Version 1.0 Save Compatibility
 
-Version 1.0 introduces a major save-structure change and **will not be compatible with earlier Early Access saves.** Before joining the beta or installing the full release, capture any records you want to keep and back up the existing save folder.
+The Version 1.0 Beta introduces a major save-structure change and **will not be compatible with earlier Early Access saves.** Before installing the beta or full release, capture any records you want to keep and back up the existing save folder.
 
 - Ranked Beta Season 0 records may be preserved under separate rules.
-- Beta-to-release save compatibility will be confirmed in the beta announcement.
+- The exact preservation and reset scope will be confirmed in the Version 1.0 Beta announcement.
 - Modified or unofficially replaced save files may not be eligible for support.
 
 See the [Support Guide](./SUPPORT_EN.md) for backup locations and troubleshooting.
@@ -106,7 +108,8 @@ Features and dates that have not been officially announced are not guaranteed.
 ## Official Channels
 
 - [Steam Store](https://store.steampowered.com/app/4635530/TOOSIN/)
-- [Steam News](https://store.steampowered.com/news/app/4635530)
+- [July 23 Developer Notes](https://store.steampowered.com/news/app/4635530/view/1839041357025737)
+- [All Steam News](https://store.steampowered.com/news/app/4635530)
 - [Official Website](https://teamniriz.com/)
 - [Discord](https://discord.gg/EHMwJSjWpA)
 - [GitHub Issues](https://github.com/rhwjdtjs/Toosin_Public/issues)

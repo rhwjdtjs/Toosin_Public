@@ -13,15 +13,16 @@ All notable changes to this project will be documented in this file.
 - The items below describe the current 1.0 development and integration-test scope. Final details may change in response to beta results.
 
 ### ✨ Progression & Content Rework
-- **Stage Rewards**: rewards are planned for stages ending in 3, 7, and 0. Weapons, combos, character appearances, and special abilities are being structured as permanent unlocks.
+- **Stage Rewards**: stages ending in 3 or 7 grant one reward, while milestone stages ending in 0 grant two. Weapons, combos, character appearances, and special abilities are being structured as permanent unlocks.
 - **Play Points & Traits**: earned Play Points are intended to persist across runs. Traits reset on death, while invested Play Points are refunded; this flow is under verification.
 - **Expanded Combat Progression**: seven special abilities, default-weapon enhancement up to +30, class advancement, and the Combat Power display are included in the 1.0 scope.
-- **Save Transition**: the save structure will change with the 1.0 beta. Early Access save files are not planned to be compatible with 1.0.
+- **Save Transition**: the save structure will change with the Version 1.0 Beta. Saves from earlier Early Access builds are not planned to be compatible.
 
 ### ⚔️ Combat, AI & Controls
 - **Enemy AI & Locomotion**: player-pattern analysis, action selection, preferred-range movement, turning, and directional animation are being refined together.
 - **Combat Balance**: the attack-speed cap is being adjusted to 1.5, alongside verification of hit reactions, knockback, guard, parry, dodge, and camera feedback.
-- **UI/UX & Controllers**: Xbox controller support, input rebinding, menu focus, the in-game HUD, and key screens are being polished for release.
+- **Blood VFX & Screen Feedback**: red or green blood hits by enemy type, unarmed-impact effects, hit-location reactions, and damage/low-Health screen feedback are being integrated and tuned.
+- **UI/UX & Controllers**: parry and just-dodge success UI, a Ranked VS intro, Health/EXP progress bars, and the overall interface are being refined alongside Xbox controller support, input rebinding, and menu focus.
 - **Ranked Play & Tutorial**: Ranked Season 1 is planned to begin with the full release, accompanied by a rebuilt onboarding and tutorial flow.
 
 ### 🛠️ Stability & Release Verification

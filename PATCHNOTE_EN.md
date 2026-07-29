@@ -11,10 +11,10 @@
 Version 1.0 is the major transition that will bring TOOSIN out of Early Access. The **1.0 beta is planned for early to mid-August 2026**, followed by the **full release in late August 2026** after beta verification. The items below describe the current development and integration-test scope; final details may change in response to beta results.
 
 - #### 🎁 Permanent Progression & Stage Rewards
-  - **Stage Reward Structure**: rewards are being reorganized around stages ending in 3, 7, and 0.
+  - **Stage Reward Structure**: stages ending in 3 or 7 grant one reward, while milestone stages ending in 0 grant two.
   - **Permanent Unlocks**: weapons, combos, character appearances, and special abilities are being verified as permanent unlocks that remain after death and reincarnation.
   - **Play Points & Traits**: earned Play Points are intended to persist across runs. Traits reset on death, while invested Play Points are refunded; this flow is under verification.
-  - **Save Compatibility Notice**: the save structure will change with the 1.0 beta. Early Access save files are not planned to be compatible with 1.0, so creating a backup before updating is recommended.
+  - **Save Compatibility Notice**: the save structure will change with the Version 1.0 Beta. Saves from earlier Early Access builds are not planned to be compatible, so creating a backup before updating is recommended.
 
 - #### ⚔️ Combat Progression & Class Expansion
   - **Seven Special Abilities**: seven special abilities that broaden class and build choices are included in the 1.0 scope.
@@ -26,10 +26,13 @@ Version 1.0 is the major transition that will bring TOOSIN out of Early Access. 
   - **Enemy Combat AI**: player-pattern analysis, guard/parry/dodge choices, preferred-range movement, and action priorities are being tuned together. This is a rule-based adaptive combat system, not online-learning generative AI.
   - **Movement & Animation**: turning, eight-direction locomotion presentation, and synchronization between movement speed and animation are being refined for players and enemies.
   - **Combat-Reaction Verification**: hit montages, knockback, unintended airborne reactions, stamina checks, guard/parry/dodge feedback, and camera presentation are undergoing focused review.
+  - **Blood VFX & Screen Feedback**: red or green blood hits by enemy type, unarmed-impact effects, and hit-location reactions are being connected, while the intensity and duration of damage and low-Health screen feedback are being tuned.
 
 - #### 🎮 UI/UX, Controllers & Ranked Play
   - **Input Support**: Xbox controller behavior, input rebinding, duplicate-binding removal, menu focus, and ESC/B closing behavior are being polished.
-  - **Interface Rework**: the in-game HUD, trait selection, stage rewards, options, and ranked matchup screens are being revised for readability and consistent navigation.
+  - **Interface Rework**: the in-game HUD, trait selection, stage rewards, options, and the broader interface are being revised for clearer layouts, readability, and consistent navigation.
+  - **Combat UI & Gauges**: parry and just-dodge success cues plus Health and EXP progress bars are being refined to communicate combat state more clearly.
+  - **Ranked VS Presentation**: a matchup intro is planned in which both portraits converge on the center before the VS mark, sound cue, and spark effects appear.
   - **Ranked Season 1**: Season 1 is being prepared for the full release, with Combat Power and matchup information under renewed verification.
   - **Tutorial Rework**: onboarding is being rebuilt to introduce combat, progression, and rewards in a clearer sequence.
 

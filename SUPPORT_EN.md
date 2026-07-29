@@ -119,9 +119,9 @@ Resetting the settings file can restore graphics, resolution, and some input set
 
 ## Version 1.0 Save Compatibility
 
-Version 1.0 introduces a new save structure and **will not be compatible with earlier Early Access saves.** Back up the `Saved` folder before updating and read the save policy in the beta announcement.
+The Version 1.0 Beta introduces a new save structure and **will not be compatible with earlier Early Access saves.** Back up the `Saved` folder before updating and read the save policy in the beta announcement.
 
-Whether beta saves will carry into the full release will be confirmed separately with the beta build. See the [Roadmap](./ROADMAP_EN.md) for the current release schedule.
+The exact preservation and reset scope will be confirmed separately in the Version 1.0 Beta announcement. See the [Roadmap](./ROADMAP_EN.md) for the current release schedule.
 
 ## Privacy and Attachments
 
