@@ -5,29 +5,33 @@ All notable changes to this project will be documented in this file.
 [Official Website](https://teamniriz.com/) · [Discord](https://discord.gg/EHMwJSjWpA) · [Support](mailto:support@teamniriz.com)
 
 ---
-## [Version 1.0 — In Development / Release Candidate Preparation] Leaving Early Access - Late August 2026
+## [Version 1.0] Full Release · Leaving Early Access - August 13, 2026
 
-### 🗓️ Release Window
-- **Version 1.0 Beta**: planned for early to mid-August 2026.
-- **Version 1.0 Full Release**: planned for late August 2026 after beta verification.
-- The items below describe the current 1.0 development and integration-test scope. Final details may change in response to beta results.
+### 🚀 Full release
+- Following the public 1.0 Beta on August 4 and final stabilization, Version 1.0 launched on Steam and STOVE on August 13, 2026.
+- Added support for six languages: English, Korean, Japanese, Simplified Chinese, Traditional Chinese, and Russian.
 
-### ✨ Progression & Content Rework
-- **Stage Rewards**: stages ending in 3 or 7 grant one reward, while milestone stages ending in 0 grant two. Weapons, combos, character appearances, and special abilities are being structured as permanent unlocks.
-- **Play Points & Traits**: earned Play Points are intended to persist across runs. Traits reset on death, while invested Play Points are refunded; this flow is under verification.
-- **Expanded Combat Progression**: seven special abilities, default-weapon enhancement up to +30, class advancement, and the Combat Power display are included in the 1.0 scope.
-- **Save Transition**: the save structure will change with the Version 1.0 Beta. Saves from earlier Early Access builds are not planned to be compatible.
+### ✨ Progression and content
+- **Three classes and expanded builds**: combine weapons, combos, appearances, 100+ Traits, 20+ Perks, Mastery, and Special Abilities including Time Stop.
+- **Permanent rewards**: unlocked weapons, combos, appearances, and Special Abilities persist after reincarnation and leave the reward pool.
+- **Play Point refunds**: run-based Traits reset on death, while Play Points spent on enhancements, Trait exchanges, the Mysterious Merchant, and other systems are refunded.
+- **Weapon enhancement and Combat Power**: standard weapons can reach +30, while equipment, progression, and stats contribute to a Combat Power value up to 1,000,000.
 
-### ⚔️ Combat, AI & Controls
-- **Enemy AI & Locomotion**: player-pattern analysis, action selection, preferred-range movement, turning, and directional animation are being refined together.
-- **Combat Balance**: the attack-speed cap is being adjusted to 1.5, alongside verification of hit reactions, knockback, guard, parry, dodge, and camera feedback.
-- **Blood VFX & Screen Feedback**: red or green blood hits by enemy type, unarmed-impact effects, hit-location reactions, and damage/low-Health screen feedback are being integrated and tuned.
-- **UI/UX & Controllers**: parry and just-dodge success UI, a Ranked VS intro, Health/EXP progress bars, and the overall interface are being refined alongside Xbox controller support, input rebinding, and menu focus.
-- **Ranked Play & Tutorial**: Ranked Season 1 is planned to begin with the full release, accompanied by a rebuilt onboarding and tutorial flow.
+### ⚔️ Combat and AI
+- **Blood and impact**: improved enemy- and hit-location-aware blood, unarmed impacts, knockback, damage/low-Health screens, cameras, and controller vibration.
+- **Adaptive AI**: rule-based analysis of attack, guard, parry, dodge, and spacing habits, communicated through enemy personalities and learning logs.
+- **DDA**: player progression and combat patterns influence enemy decisions and battle flow.
+- **Multi-enemy combat**: Infinite Mode attacks can hit multiple enemies in range, while player focus follows the nearest threat.
 
-### 🛠️ Stability & Release Verification
-- Stage-entry crashes, memory/GPU stability, option application and saving, input conflicts, rewards, and progression saves are undergoing focused verification.
-- Localization and long-text layout issues are being reviewed across the release candidate's supported languages.
+### 🏆 Modes and platforms
+- **Infinite Mode**: added unlimited rounds that preserve Health and Stamina, scale up to 1 vs. 5 encounters, and post to a dedicated leaderboard.
+- **Ranked Season 1**: added placement matches, platform leaderboards, profile images, tier rewards, and matched AI rivals.
+- **Steam and STOVE**: integrated ownership checks, achievements, stats, leaderboards, and platform profile information.
+
+### 🛠️ Stability
+- Stabilized saving/loading for permanent unlocks, contracts, buffs, shops, rewards, Perks, Traits, class progress, and achievements.
+- Improved long sessions, stage transitions, camera overlap, spawn collision and height, clipped UI, option persistence, and input flows.
+- Separated light- and heavy-attack reuse cooldowns so switching attack types remains immediately responsive.
 
 ---
 

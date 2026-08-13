@@ -8,85 +8,80 @@
 
 ### Surpass the AI that learns from you
 
-[![Steam](https://img.shields.io/badge/Steam-Early_Access-1b2838?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/4635530/TOOSIN/)
-[![1.0](https://img.shields.io/badge/Version_1.0-Late_August_2026-c69b57?style=for-the-badge)](ROADMAP_EN.md)
+[![Steam](https://img.shields.io/badge/Steam-Full_Release-1b2838?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/4635530/TOOSIN/)
+[![1.0](https://img.shields.io/badge/Version_1.0-2026--08--13-c69b57?style=for-the-badge)](CHANGELOG_EN.md)
 [![UE 5.5](https://img.shields.io/badge/Unreal_Engine-5.5-0e1128?style=for-the-badge&logo=unrealengine)](https://www.unrealengine.com/)
 
-**TOOSIN** is a **1v1 arena roguelike action game** built around adaptive enemies that record  
-your attack, guard, dodge, and movement habits, then adjust their responses in later battles.
+**TOOSIN** is an **arena roguelike action game** about overcoming adaptive enemies that read your attack, guard, dodge, movement, and spacing habits. Combine three classes with weapons, combos, Traits, Perks, Mastery, and Special Abilities to build your own fighting style.
+
+**Version 1.0 launched on August 13, 2026, concluding Early Access.**
 
 [Steam](https://store.steampowered.com/app/4635530/TOOSIN/) ·
-[Latest Developer Notes](https://store.steampowered.com/news/app/4635530/view/1839041357025737) ·
 [STOVE](https://store.onstove.com/ko/games/104376) ·
 [Website](https://teamniriz.com/) ·
 [Discord](https://discord.gg/EHMwJSjWpA) ·
 [Support](mailto:support@teamniriz.com)
 
+[![Official TOOSIN 1.0 trailer](assets/toosin-1.0/hero.png)](https://youtu.be/TrSGI-_k3KQ?si=Ldi4LljXUcPoyivW)
+
+<sub>Click the image to watch the official Version 1.0 trailer.</sub>
+
 </div>
 
-<p align="center">
-  <a href="https://youtu.be/nkfCGh1Q-rE">
-    <img src="https://github.com/user-attachments/assets/a64041f1-75fa-4496-8f03-d41b7e126852" width="100%" alt="Official TOOSIN trailer" />
-  </a>
-  <br/>
-  <sub>Click the image to watch the official trailer.</sub>
-</p>
-
----
-
-## Release status
+## Release history
 
 | Milestone | Date | Status |
-|---|---:|---|
-| STOVE Early Access | April 17, 2026 | Released |
-| Steam Early Access | May 6, 2026 | Released |
-| Version 1.0 Beta | Early–mid August 2026 | In development |
-| Official Version 1.0 · leaves Early Access | **Late August 2026** | After beta verification |
+|---|---:|:---:|
+| STOVE Early Access | April 17, 2026 | Complete |
+| Steam Early Access | May 6, 2026 | Complete |
+| Version 1.0 Beta | August 4, 2026 | Complete |
+| Version 1.0 full release · Early Access graduation | **August 13, 2026** | **Released** |
 
-Version 1.0 is the next major release build. See the [development roadmap](ROADMAP_EN.md) for the current scope.
+## Version 1.0 highlights
 
----
+### Adaptive AI and combat memory
 
-## Combat pillars
+Enemies do more than repeat fixed scripts. Attack choices, defensive timing, dodge direction, spacing, and movement feed a session's combat memory and influence later decisions. Distinct enemy personalities and readable learning logs show what the AI has recognized.
 
-### Adaptive combat AI
+> TOOSIN does not use generative AI or a continuously trained online model. Its adaptive combat system uses in-game player-pattern statistics and rule-based decisions.
 
-Enemies do more than repeat a fixed script. The game records frequently used combos, guard timing, dodge direction, and movement routes, then feeds those observations into Behavior Tree and DDA weights that shape attack, defense, and spacing decisions.
+### Reactive melee combat
 
-### Reactive melee action
+- Light, heavy, and charged attacks with weapon- and class-specific combos
+- Guarding, parrying, just dodges, guard breaks, and directional hit reactions
+- Distance- and direction-aware knockback with camera, vibration, and screen feedback
+- Improved blood and impact VFX based on enemy type and hit location
 
-- Light, heavy, and charged attacks with class-specific combos
-- Guarding, parrying, just dodges, and guard breaks
-- Direction- and distance-aware knockback and hit reactions
-- Weapon-appropriate hit VFX, camera feedback, and controller vibration
+<p align="center">
+  <img src="assets/toosin-1.0/combat-parry.png" width="49%" alt="Parry combat in TOOSIN" />
+  <img src="assets/toosin-1.0/combat-close.png" width="49%" alt="Close combat in TOOSIN" />
+</p>
 
-### Roguelike builds with permanent progression
+### Progression and builds
 
-- More than 100 Traits and 20+ Perks
-- Active and passive Special Abilities, weapons, and combo loadouts
-- Permanent account experience and Play Point progression
-- One reward at stages ending in 3 or 7, and two rewards at milestone stages ending in 0
-- Traits reset on death, while invested Play Points are refunded for free rebuilding
+- Three classes with interchangeable weapons, combos, and appearances
+- 100+ Traits, 20+ Perks, Mastery, and Special Abilities including Time Stop
+- Default-weapon enhancement up to +30 plus permanent account XP and Play Point growth
+- Run-based Traits reset on death, while spent Play Points are refunded
+- Unlocked weapons, combos, appearances, and Special Abilities remain permanently owned and leave the reward pool
 
----
+### Modes and competitive records
 
-## Planned for Version 1.0
+- **Stage Mode**: the core run structure, combining rewards and random events into evolving builds
+- **Infinite Mode**: unlimited rounds that preserve current Health and Stamina, feature encounters up to 1 vs. 5, and post to a dedicated leaderboard
+- **Ranked Season 1**: placement matches, tier rewards, platform leaderboards, and matched AI rivals
+- **Training and Mock Combat**: safe environments for testing combat systems and builds
 
-- **Permanent stage rewards**: retain earned combos, Special Abilities, classes, appearances, and weapons after reincarnation
-- **Play Point progression**: permanent progression currency and flexible Trait rebuilding
-- **Weapon enhancement**: improve default weapons up to +30
-- **Class advancement**: broader combinations of character appearance, combat class, weapons, and combos
-- **AI and locomotion rework**: better omnidirectional movement, spacing, attack telegraphs, reactions, and behavior variety
-- **Combat Power preview**: estimate an opponent's strength before entering battle
-- **Hit visual feedback**: red or green Blood VFX by enemy type, unarmed-impact effects, and clearer damage/low-Health screen feedback
-- **Combat UI and gamepad overhaul**: parry and just-dodge success cues, a Ranked VS intro, refined Health/EXP gauges and overall UI, plus clearer Xbox-family key icons, focus, and input guidance
-- **Ranked Season 1**: a fresh competitive season launching with Version 1.0
-- **New tutorial flow**: practice inside the arena with unlimited Health and Stamina while pattern analysis is explained in real time
-- **Stability pass**: long-session transitions, saves, GPU usage, combat physics, and crash fixes
+### DDA and Combat Power
 
-> The save format changes with the Version 1.0 Beta. Saves from earlier Early Access builds will not be compatible; preserved data and backup guidance will be reiterated in the beta announcement.
+DDA uses play patterns and progression state to tune combat flow and enemy choices. Combat Power summarizes equipment, growth, and attributes on a scale recorded and compared up to **1,000,000**.
 
----
+### Release quality
+
+- Steam and STOVE achievements, stats, and leaderboards
+- English, Korean, Japanese, Simplified Chinese, Traditional Chinese, and Russian
+- Stabilized saving/loading, permanent unlocks, rewards, contracts, buffs, and option persistence
+- Improvements to long sessions, map transitions, cameras, collision, clipped UI, and input flows
 
 ## Game information
 
@@ -96,8 +91,8 @@ Enemies do more than repeat a fixed script. The game records frequently used com
 | Engine | Unreal Engine 5.5 |
 | Platform | Windows PC · Steam · STOVE |
 | Genre | Action Roguelike · Action RPG · Single-player |
-| Languages | English · Korean · Japanese · Simplified Chinese · Traditional Chinese |
-| Steam features | 30 Achievements · Cloud · Stats · Leaderboards · Family Sharing |
+| Languages | English · Korean · Japanese · Simplified Chinese · Traditional Chinese · Russian |
+| Steam features | Achievements · Cloud · Stats · Leaderboards · Family Sharing |
 
 ## System requirements
 
@@ -110,20 +105,10 @@ Enemies do more than repeat a fixed script. The game records frequently used com
 | DirectX | Version 12 | Version 12 |
 | Storage | 8 GB | 10 GB |
 
----
+## Documentation and contact
 
-## Documentation
-
-- [Development roadmap](ROADMAP_EN.md)
-- [Changelog](CHANGELOG_EN.md)
-- [Detailed patch notes](PATCHNOTE_EN.md)
-- [Support and bug reports](SUPPORT_EN.md)
-
-## Contact
-
-- Official website: [teamniriz.com](https://teamniriz.com/)
-- Community: [Discord server](https://discord.gg/EHMwJSjWpA)
-- Technical support: [support@teamniriz.com](mailto:support@teamniriz.com)
+- [Release roadmap](ROADMAP_EN.md) · [Changelog](CHANGELOG_EN.md) · [Detailed patch notes](PATCHNOTE_EN.md) · [Support and bug reports](SUPPORT_EN.md)
+- [Version 1.0 trailer](https://youtu.be/TrSGI-_k3KQ?si=Ldi4LljXUcPoyivW) · [Website](https://teamniriz.com/) · [Discord](https://discord.gg/EHMwJSjWpA) · [Support](mailto:support@teamniriz.com)
 
 <div align="center">
 

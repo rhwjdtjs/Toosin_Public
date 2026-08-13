@@ -12,6 +12,8 @@ If you encounter a problem, please contact us through one of the channels below.
 
 Official website: [teamniriz.com](https://teamniriz.com/)
 
+Current release build: **Version 1.0 (August 13, 2026)**
+
 ## Before You Report a Problem
 
 1. Fully close the game and the Steam or STOVE client, then start them again.
@@ -117,11 +119,11 @@ Resetting the settings file can restore graphics, resolution, and some input set
 - On a laptop, confirm in Windows Graphics settings that the game uses the dedicated GPU.
 - Restore forced driver-control-panel settings to their defaults and compare the result.
 
-## Version 1.0 Save Compatibility
+## Version 1.0 saves
 
-The Version 1.0 Beta introduces a new save structure and **will not be compatible with earlier Early Access saves.** Back up the `Saved` folder before updating and read the save policy in the beta announcement.
+Version 1.0 uses the finalized save structure. Permanent unlocks such as weapons, combos, appearances, and Special Abilities remain alongside account progression and Ranked/Infinite records. Run-based Traits reset on death, while spent Play Points are refunded.
 
-The exact preservation and reset scope will be confirmed separately in the Version 1.0 Beta announcement. See the [Roadmap](./ROADMAP_EN.md) for the current release schedule.
+Earlier Early Access saves are not compatible with the 1.0 structure. If you have already started Version 1.0, keep using the current save for the same platform and copy the `Saved` folder to a separate location before troubleshooting or moving PCs. See the [Roadmap](./ROADMAP_EN.md) for the release history.
 
 ## Privacy and Attachments
 
@@ -135,3 +137,5 @@ Reports are used to reproduce issues and improve the game. We cannot guarantee a
 ---
 
 [한국어 지원](./SUPPORT.md) · [Development Roadmap](./ROADMAP_EN.md) · [Changelog](./CHANGELOG_EN.md)
+
+[Version 1.0 trailer](https://youtu.be/TrSGI-_k3KQ?si=Ldi4LljXUcPoyivW)

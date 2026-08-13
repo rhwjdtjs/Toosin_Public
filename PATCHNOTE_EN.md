@@ -4,42 +4,40 @@
 
 ---
 <details open>
-<summary><b>[📝Patch_Version_1.0 (In Development / Release Candidate Preparation)] Leaving Early Access (Late August 2026) (Click)</b></summary>
+<summary><b>[📝Patch_Version_1.0] Full Release · Leaving Early Access (August 13, 2026) (Click)</b></summary>
 
 ### 🚀 Update Highlights
 
-Version 1.0 is the major transition that will bring TOOSIN out of Early Access. The **1.0 beta is planned for early to mid-August 2026**, followed by the **full release in late August 2026** after beta verification. The items below describe the current development and integration-test scope; final details may change in response to beta results.
+Version 1.0 is the full release that concludes TOOSIN's Early Access period. Following the public 1.0 Beta on August 4 and final stabilization, it **launched on Steam and STOVE on August 13, 2026**.
 
 - #### 🎁 Permanent Progression & Stage Rewards
   - **Stage Reward Structure**: stages ending in 3 or 7 grant one reward, while milestone stages ending in 0 grant two.
-  - **Permanent Unlocks**: weapons, combos, character appearances, and special abilities are being verified as permanent unlocks that remain after death and reincarnation.
-  - **Play Points & Traits**: earned Play Points are intended to persist across runs. Traits reset on death, while invested Play Points are refunded; this flow is under verification.
-  - **Save Compatibility Notice**: the save structure will change with the Version 1.0 Beta. Saves from earlier Early Access builds are not planned to be compatible, so creating a backup before updating is recommended.
+  - **Permanent Unlocks**: weapons, combos, character appearances, and Special Abilities remain after death and reincarnation and leave the reward pool.
+  - **Play Points & Traits**: run-based Traits reset on death, while Play Points spent on enhancements, exchanges, merchants, and other systems are refunded.
+  - **Save Stability**: permanent unlocks, contracts, buffs, shops, rewards, Perks, Traits, achievements, and class progress now use the finalized save structure.
 
 - #### ⚔️ Combat Progression & Class Expansion
-  - **Seven Special Abilities**: seven special abilities that broaden class and build choices are included in the 1.0 scope.
-  - **Weapon Enhancement & Advancement**: default weapons are planned to support enhancement up to +30, alongside class advancement.
-  - **Combat Power**: a consolidated Combat Power display is being introduced, with its calculation and comparison flow under verification.
-  - **Attack-Speed Balance**: the attack-speed cap is being adjusted to 1.5 to preserve combat readability and animation stability.
+  - **Three Classes & Builds**: combine three classes with 100+ Traits, 20+ Perks, Mastery, and Special Abilities including Time Stop.
+  - **Weapon Enhancement & Advancement**: default weapons support enhancement up to +30 alongside class advancement.
+  - **Combat Power**: equipment, progression, and stats contribute to a Combat Power value recorded and compared up to 1,000,000.
+  - **Attack Chaining**: light and heavy attacks use separate reuse cooldowns, allowing immediate chains between different attack types.
 
 - #### 🧠 AI, Locomotion & Combat Feedback
-  - **Enemy Combat AI**: player-pattern analysis, guard/parry/dodge choices, preferred-range movement, and action priorities are being tuned together. This is a rule-based adaptive combat system, not online-learning generative AI.
-  - **Movement & Animation**: turning, eight-direction locomotion presentation, and synchronization between movement speed and animation are being refined for players and enemies.
-  - **Combat-Reaction Verification**: hit montages, knockback, unintended airborne reactions, stamina checks, guard/parry/dodge feedback, and camera presentation are undergoing focused review.
-  - **Blood VFX & Screen Feedback**: red or green blood hits by enemy type, unarmed-impact effects, and hit-location reactions are being connected, while the intensity and duration of damage and low-Health screen feedback are being tuned.
+  - **Adaptive Combat AI**: rule-based analysis of attack, guard, parry, dodge, and spacing habits is expressed through enemy personalities and learning logs.
+  - **DDA**: player progression and combat patterns influence enemy decisions and battle flow.
+  - **Movement & Reactions**: improved turning, eight-direction movement, knockback, stamina checks, guard/parry/dodge feedback, and camera presentation.
+  - **Blood VFX & Screen Feedback**: improved enemy- and hit-location-aware blood, unarmed impacts, and damage/low-Health screens.
 
 - #### 🎮 UI/UX, Controllers & Ranked Play
-  - **Input Support**: Xbox controller behavior, input rebinding, duplicate-binding removal, menu focus, and ESC/B closing behavior are being polished.
-  - **Interface Rework**: the in-game HUD, trait selection, stage rewards, options, and the broader interface are being revised for clearer layouts, readability, and consistent navigation.
-  - **Combat UI & Gauges**: parry and just-dodge success cues plus Health and EXP progress bars are being refined to communicate combat state more clearly.
-  - **Ranked VS Presentation**: a matchup intro is planned in which both portraits converge on the center before the VS mark, sound cue, and spark effects appear.
-  - **Ranked Season 1**: Season 1 is being prepared for the full release, with Combat Power and matchup information under renewed verification.
-  - **Tutorial Rework**: onboarding is being rebuilt to introduce combat, progression, and rewards in a clearer sequence.
+  - **Input & Interface**: improved Xbox controllers, input rebinding, menu focus, the HUD, rewards, Traits, options, and general navigation.
+  - **Ranked Season 1**: added placement matches, profile images, platform leaderboards, tier rewards, and matched AI rivals.
+  - **Infinite Mode**: added unlimited rounds that preserve current Health and Stamina, scale to 1 vs. 5, and post to a dedicated leaderboard.
+  - **Tutorial & Practice**: refined Training and Mock Combat for testing combat systems and builds.
 
 - #### 🛠️ Stability & Release Candidate Verification
-  - **Crashes & Performance**: stage-entry crashes after long sessions, memory use, GPU compatibility, and loading stability are priority test areas.
-  - **Options & Saves**: graphics-option application, change detection, apply/cancel behavior, and progression saving after ranked play, shops, rewards, and trait changes are being verified.
-  - **Localization**: missing translations and layout problems caused by long text are being reviewed across supported languages.
+  - **Crashes & Performance**: improved long sessions, stage transitions, memory/GPU behavior, and loading stability.
+  - **Camera, Spawns & UI**: fixed multi-enemy camera overlap, spawn collision and height, long-text clipping, and settlement-screen layout issues.
+  - **Platforms & Localization**: integrated Steam/STOVE ownership, achievements, stats, and leaderboards, with six supported languages.
 
 </details>
 
@@ -332,7 +330,7 @@ This **Ver.0.0.40** update focused on introducing a **Ranking System** for globa
 
 ---
 
-🚀 **Next Step (Roadmap)**: The final phase of MVP-8, featuring random stage events, AI battle observation mode, weapon purchase system, and Steam SDK integration, will be prepared.
+🚀 **Next step at the time**: development continued with random stage events, AI battle observation, weapon purchasing, and Steam SDK integration.
 
 </details>
 <details>

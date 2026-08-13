@@ -4,22 +4,31 @@
 
 ### Surpass the AI that learns from you.
 
-[![Steam](https://img.shields.io/badge/Steam-Early_Access-1b2838?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/4635530/TOOSIN/)
-[![Version 1.0](https://img.shields.io/badge/Version_1.0-Late_August_2026-c69b57?style=for-the-badge)](ROADMAP_EN.md)
+[![Steam](https://img.shields.io/badge/Steam-Full_Release-1b2838?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/4635530/TOOSIN/)
+[![Version 1.0](https://img.shields.io/badge/Version_1.0-Released_2026--08--13-c69b57?style=for-the-badge)](CHANGELOG_EN.md)
 [![Official Website](https://img.shields.io/badge/TEAM_NIRIZ-Official_Website-111827?style=for-the-badge)](https://teamniriz.com/)
 [![Discord](https://img.shields.io/badge/Discord-Community-5865f2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/EHMwJSjWpA)
 
-**A 1v1 arena roguelike action game built with Unreal Engine 5.5.**  
-Analyze, adapt, and create a combat build from traits, perks, weapons, combos, and special abilities.
+**An arena roguelike action game built with Unreal Engine 5.5.**
+Read your opponent, build your fighter, and surpass adaptive enemies that learn from the way you fight.
 
-**Version 1.0 Beta:** early–mid August 2026  
-**Official Version 1.0:** late August 2026, concluding Early Access after beta verification
+**Version 1.0 launched on August 13, 2026, concluding Early Access.**
 
 [한국어](README_KR.md) · [English](README_EN.md)
 
+[![Watch the TOOSIN 1.0 trailer](assets/toosin-1.0/hero.png)](https://youtu.be/TrSGI-_k3KQ?si=Ldi4LljXUcPoyivW)
+
 </div>
 
----
+## Version 1.0 at a glance
+
+- Reactive melee combat with clearer blood, impact, knockback, guard, parry, and dodge feedback
+- Rule-based adaptive AI with distinct personalities and readable combat-learning logs
+- DDA and Combat Power scaling up to **1,000,000**
+- Infinite Mode with encounters up to **1 vs. 5** and a dedicated leaderboard
+- Ranked Season 1, three classes, Perks, Mastery, and the Time Stop ability
+- Six languages and Steam/STOVE platform integration
+- Save, progression, reward, contract, buff, and long-session stability improvements
 
 ## Public documentation
 
@@ -33,8 +42,8 @@ Analyze, adapt, and create a combat build from traits, perks, weapons, combos, a
 
 ## Official links
 
+[Trailer](https://youtu.be/TrSGI-_k3KQ?si=Ldi4LljXUcPoyivW) ·
 [Steam](https://store.steampowered.com/app/4635530/TOOSIN/) ·
-[Latest Developer Note](https://store.steampowered.com/news/app/4635530/view/1839041357025737) ·
 [Steam Demo](https://store.steampowered.com/app/4786560/TOOSIN___Demo/) ·
 [STOVE](https://store.onstove.com/ko/games/104376) ·
 [Website](https://teamniriz.com/) ·

@@ -1,115 +1,72 @@
-# TOOSIN Development Roadmap
+# TOOSIN Release Roadmap
 
-> Last updated: July 30, 2026  
-> This is a public development roadmap. Scope and ordering may change as stability testing progresses.
+> Last updated: August 13, 2026
+> This document records the path to Version 1.0 and the principles guiding post-release support.
 
-## Current Status
+## Current status
 
-**TOOSIN** is currently available in Early Access and is preparing to launch Version 1.0 and leave Early Access in late August 2026.
+**TOOSIN Version 1.0 launched on August 13, 2026, concluding Early Access.** The game is available on Steam and STOVE, while the demo includes the core combat experience and Infinite Mode.
 
-| Milestone | Target | Status |
+| Milestone | Date | Status |
 |---|---:|:---:|
+| Development begins | February 2026 | Complete |
 | STOVE Early Access | April 17, 2026 | Complete |
 | Steam Early Access | May 6, 2026 | Complete |
-| Ver.0.0.90 Build #1 · Ranked Beta Season 0 | June 14, 2026 | Complete |
-| Version 1.0 Beta | Early to mid-August 2026 | In preparation |
-| Version 1.0 Full Release · Early Access graduation | Late August 2026 | Planned |
+| Ranked Beta Season 0 | June 14, 2026 | Complete |
+| Version 1.0 Beta | August 4, 2026 | Complete |
+| Version 1.0 full release · Early Access graduation | **August 13, 2026** | **Complete** |
 
-## Milestones So Far
+## Completed Version 1.0 scope
 
-### April 2026 — STOVE Early Access
+### Combat and impact
 
-- Released the core roguelite combat loop and stage progression
-- Established the weapon, combo, trait, shop, and random-event foundations
-- Prepared achievements, leaderboards, saves, and platform-specific distribution
+- Light, heavy, and charged attacks with class- and weapon-specific combos
+- Guarding, parrying, just dodges, guard breaks, and directional hit reactions
+- Distance- and direction-aware knockback plus multi-target attacks
+- Enemy- and hit-location-aware blood and unarmed-impact VFX, camera feedback, and vibration
 
-### May 2026 — Steam Early Access
+### Adaptive AI and DDA
 
-- Prepared the global Steam build and demo distribution
-- Expanded classes and weapon play styles
-- Improved guard, stamina, hit reaction, knockback, and other core combat systems
-- Refined localization and UI flows, including Korean, English, and Japanese
+- Rule-based adaptive AI that uses attack choices, defensive timing, dodge direction, movement, and spacing habits
+- Distinct enemy personalities plus learning logs for Stage and Infinite modes
+- DDA informed by player progression and combat patterns
+- Combat Power combining equipment, progression, and stats on a scale up to **1,000,000**
 
-### June 2026 — Ranked Beta Season 0
+### Progression and saves
 
-- Added 1v1 Ranked, placement matches, rating points, and tiers
-- Added opponent-build information, match presentation, and leaderboard flows
-- Improved arena visuals and graphics options
-- Tuned enemy guard, parry, dodge, spacing, and combat pacing
+- Three classes, weapons, combos, appearances, Traits, Perks, Mastery, and Special Abilities including Time Stop
+- Default-weapon enhancement up to +30 and permanent Play Point progression
+- Run-based Traits reset on death while spent Play Points are refunded
+- Weapons, combos, appearances, and Special Abilities remain permanently unlocked and leave the reward pool
+- Stabilized saving for rewards, contracts, buffs, shops, achievements, classes, and platform records
 
-## Version 1.0 Scope
+### Modes and online records
 
-The following areas are being developed and validated for the Version 1.0 beta and full release. The final package may change based on beta results.
+- Stage Mode, Training, Mock Combat, and Ranked Season 1
+- Infinite Mode with persistent current Health and Stamina and encounters up to 1 vs. 5
+- A dedicated Infinite leaderboard plus Steam/STOVE stats, achievements, and leaderboards
 
-### Permanent Progression and Stage Rewards
+### Localization and release quality
 
-- Grant one reward at stages ending in 3 or 7 and two rewards at milestone stages ending in 0
-- Keep unlocked weapons, combos, class appearances, and special abilities after reincarnation
-- Prevent duplicate grants of permanent rewards already owned
-- Store Play Points as a permanent account-level resource
-- Reset traits on death while refunding the Play Points invested in them
-
-### Builds and Combat
-
-- Seven special abilities and additional build combinations
-- Extend standard weapon enhancement up to +30
-- Class advancement and a Combat Power display
-- Rebalance the attack-speed cap, weapons, traits, and stage scaling
-- Improve hit, guard, parry, dodge, camera, and combat feedback
-- Tune red or green Blood VFX by enemy type, unarmed-impact effects, location-aware blood hits, and damage/low-Health screen feedback
-
-### AI and Locomotion
-
-- Improve combat decisions by combining Behavior Trees, player-pattern statistics, and adaptive difficulty adjustment
-- Tune spacing, attack selection, guard, dodge, parry reactions, and pattern variety
-- Improve facing, strafing, and orientation-warping locomotion for players and enemies
-- Audit unfair reactions and combat degradation during long play sessions
-
-> TOOSIN does not use generative AI or a continuously trained online model. Its adaptive combat system uses in-game player-pattern data and rule-based decisions.
-
-### UI, Input, and Accessibility
-
-- Rework the combat HUD—including Health, Stamina, and EXP progress bars—alongside stage progress, traits, rewards, and the overall interface
-- Add clear parry and just-dodge success UI plus a Ranked VS intro presentation
-- Unify mouse and keyboard flows with Xbox-style gamepad controls
-- Improve duplicate key assignment, widget focus, cancel input, and option apply/save behavior
-- Make Combat Power, rewards, and save results easier to understand
-
-### Content and Release Readiness
-
-- Prepare Ranked Season 1 and the season transition
-- Overhaul the tutorial and early-game guidance
-- Focus testing on crashes, memory use, GPU compatibility, and long-session stability
-- Validate save timing and permanent unlock data
-- Synchronize the demo after the full release
-
-## Version 1.0 Save Compatibility
-
-The Version 1.0 Beta introduces a major save-structure change and **will not be compatible with earlier Early Access saves.** Before installing the beta or full release, capture any records you want to keep and back up the existing save folder.
-
-- Ranked Beta Season 0 records may be preserved under separate rules.
-- The exact preservation and reset scope will be confirmed in the Version 1.0 Beta announcement.
-- Modified or unofficially replaced save files may not be eligible for support.
-
-See the [Support Guide](./SUPPORT_EN.md) for backup locations and troubleshooting.
+- English, Korean, Japanese, Simplified Chinese, Traditional Chinese, and Russian
+- Keyboard and mouse, Xbox-family gamepads, and input rebinding
+- Improvements to long sessions, map transitions, cameras, collision, clipped UI, option saving, and platform initialization
 
 ## After Version 1.0
 
-Post-release priorities will follow real play data and community feedback instead of unannounced fixed dates.
+Post-release priorities are driven by real play data and community reports. Features and dates that have not been officially announced are not guaranteed.
 
-- Urgent fixes for crashes, saves, input, and performance
-- Balance updates for classes, weapons, traits, and enemy AI
-- Ranked season operation and competitive-integrity improvements
-- Accessibility, localization, and UI/UX improvements
+- Urgent fixes for crashes, saves, input, and platform integration
+- Balance updates for classes, weapons, Traits, Perks, enemy AI, and DDA
+- Ranked-season operations and competitive-record integrity
+- Accessibility, localization, UI/UX, and performance improvements
 - Evaluation of new combat content and modes
 
-Features and dates that have not been officially announced are not guaranteed.
+## Official channels
 
-## Official Channels
-
+- [Version 1.0 trailer](https://youtu.be/TrSGI-_k3KQ?si=Ldi4LljXUcPoyivW)
 - [Steam Store](https://store.steampowered.com/app/4635530/TOOSIN/)
-- [July 23 Developer Notes](https://store.steampowered.com/news/app/4635530/view/1839041357025737)
-- [All Steam News](https://store.steampowered.com/news/app/4635530)
+- [STOVE Store](https://store.onstove.com/ko/games/104376)
 - [Official Website](https://teamniriz.com/)
 - [Discord](https://discord.gg/EHMwJSjWpA)
 - [GitHub Issues](https://github.com/rhwjdtjs/Toosin_Public/issues)
