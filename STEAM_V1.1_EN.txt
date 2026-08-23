@@ -1,0 +1,175 @@
+[h1]TOOSIN : 투신 V1.1 Update[/h1]
+[p][b]Release date: August 23, 2026[/b]
+
+Hello, this is the developer of TOOSIN : 투신.
+
+V1.1 focuses on feedback from our players. This update especially addresses Blood Contracts with weak value or excessive penalties, defensive Special Abilities that made offensive builds too safe, and AI learning that was difficult to notice during shorter fights.[/p]
+
+[h1]Blood Contract Balance Changes[/h1]
+[p]Some contracts had penalties that were too severe compared with their benefits, while others were not worth choosing even at Legendary rarity. We have rebalanced them so each choice creates a meaningful decision depending on your build.
+
+[b]Values without a % symbol are flat values.[/b][/p]
+
+[table]
+[tr][td][b]Blood Contract[/b][/td][td][b]Before V1.1[/b][/td][td][b]After V1.1[/b][/td][/tr]
+[tr][td]Glass Cannon[/td][td]Rare, Attack Power +50% / Max Health -50%[/td][td]Legendary, Attack Power +30% / Max Health -40%[/td][/tr]
+[tr][td]Giant's Armor[/td][td]Max Health +50% / Attack Power -30%[/td][td]Max Health +50% / Attack Power -20%[/td][/tr]
+[tr][td]Assassin's Instinct[/td][td]Critical Chance +20% / Defense -10[/td][td]Critical Damage +30% / Defense -30%[/td][/tr]
+[tr][td]Vampire's Thirst[/td][td]Life Steal +5% / Max Health -30%[/td][td]Life Steal +5% / Max Health -20%[/td][/tr]
+[tr][td]Berserker's Rage[/td][td]Attack Speed +30% / Max Stamina -40%[/td][td]Attack Speed +30% / Life Steal -5%[/td][/tr]
+[tr][td]Will of Steel[/td][td]Defense +15 / Attack Speed -10%[/td][td]Defense +10% / Attack Speed -15%[/td][/tr]
+[tr][td]Boiling Blood[/td][td]Life Steal +5% / Damage Taken +20%[/td][td]Life Steal +5% / Damage Taken +25%[/td][/tr]
+[tr][td]Broken Sword[/td][td]Attack Power +70% / Max Health -70%[/td][td]Attack Power +70% / Max Stamina -70%[/td][/tr]
+[tr][td]Cursed Armor[/td][td]Defense +40 / Max Stamina -50%[/td][td]Defense +40 / Max Stamina -30%[/td][/tr]
+[tr][td]Hawk Eye[/td][td]Critical Chance +5% / Max Health -30[/td][td]Critical Damage +15% / Max Health -10%[/td][/tr]
+[tr][td]Mark of Death[/td][td]Armor Penetration +50% / Damage Taken +50%[/td][td]Armor Penetration +45% / Damage Taken +25%[/td][/tr]
+[tr][td]Frenzied Feast[/td][td]Critical Chance +30% / Damage Taken +40%[/td][td]Critical Damage +50% / Damage Taken +30%[/td][/tr]
+[/table]
+
+[p]Sniper's Breath, Heavy Strike, Ghost's Gait, Turtle's Endurance, Tireless Vitality, Reckless Charge, Light as a Feather, and Resilient Resolve retain their previous effects.
+
+Once every available Blood Contract has been acquired, Blood Contract events and additional selection prompts no longer appear.[/p]
+
+[h1]Defensive Special Ability Balance Changes[/h1]
+[p]We have adjusted defensive Special Abilities that allowed players to invest entirely in offense without taking enough risk.[/p]
+
+[table]
+[tr][td][b]Special Ability[/b][/td][td][b]Actual duration before V1.1[/b][/td][td][b]After V1.1[/b][/td][/tr]
+[tr][td]Auto Parry[/td][td]7 seconds[/td][td]3 seconds[/td][/tr]
+[tr][td]Aegis Shield[/td][td]5 seconds[/td][td]3 seconds[/td][/tr]
+[tr][td]Time Stop[/td][td]5 seconds[/td][td]3 seconds[/td][/tr]
+[/table]
+
+[p]Their core functions remain intact, but choosing the right moment and reading the opponent are now more important.[/p]
+
+[h1]AI Pattern Learning Improvements[/h1]
+[p]Many players told us that it was difficult to tell whether the AI was actually learning during shorter sessions, as only minor changes in its patterns were noticeable.
+
+AI learning is one of the core strengths and defining features of TOOSIN : 투신, so we reviewed both how player behavior is measured and how enemies use those observations.[/p]
+
+[img src="{STEAM\_CLAN\_IMAGE}/46093990/c2fdee46815b2c9797bc671437700f608c17a2c3.png"][/img]
+
+[h2]What the AI Measures: Before → After[/h2]
+[table]
+[tr][td][b]Learning Category[/b][/td][td][b]Before[/b][/td][td][b]After V1.1[/b][/td][/tr]
+[tr][td]Learning updates[/td][td]Long-term data was primarily calculated once when an enemy spawned[/td][td]Long-term memory and current-combat observations are separated, and enough current evidence continues to affect the same enemy's next decisions[/td][/tr]
+[tr][td]Light and heavy attacks[/td][td]Attack choices and combo hit counts could be mixed together[/td][td]Actual light/heavy attack starts and average combo length are measured separately[/td][/tr]
+[tr][td]Approach, retreat, lateral movement[/td][td]Movement frames could be mixed with other action counts and distort longer fights[/td][td]Approach, retreat, lateral movement, and average distance are measured separately[/td][/tr]
+[tr][td]Dodges and forward dodges[/td][td]Input attempts were not clearly separated from successful dodges[/td][td]Only successfully started dodges are counted, with forward dodges tracked separately[/td][/tr]
+[tr][td]Guard, parry, and hit outcomes[/td][td]Defensive choices and their actual results were not clearly separated[/td][td]Guard/dodge choices and guard success, parry success, and hit outcomes are analyzed independently[/td][/tr]
+[tr][td]Attack timing and rhythm[/td][td]Difficulty and random values had more influence than the player's real rhythm[/td][td]Actual attack intervals and repeated rhythms are recorded separately[/td][/tr]
+[tr][td]Special Abilities[/td][td]Instant abilities could be missed when only the active state was checked[/td][td]Successful activations are counted directly[/td][/tr]
+[tr][td]Dodge-to-heavy attacks[/td][td]No dedicated pattern existed[/td][td]A real heavy attack started within 0.8 seconds after a dodge ends is learned as a separate pattern[/td][/tr]
+[/table]
+
+[h2]How Learning Changes Enemy Behavior: Before → After[/h2]
+[table]
+[tr][td][b]Behavior[/b][/td][td][b]Before[/b][/td][td][b]After V1.1[/b][/td][/tr]
+[tr][td]Real-time adaptation[/td][td]Spawn-time long-term data dominated, so adaptation was difficult to notice in short fights[/td][td]Enough current-combat evidence is reviewed about every 0.65 seconds and probabilistically affects the same enemy's next decision[/td][/tr]
+[tr][td]Guard, dodge, and attack choices[/td][td]Enemy responses were only loosely connected to the player's actual attacks and defense results[/td][td]Light/heavy ratios, combo length, and defense outcomes adjust guard/dodge choices and the balance of quick pokes and longer chains[/td][/tr]
+[tr][td]Range and movement response[/td][td]Enemies often attacked as soon as the player entered range, while circling, dodging, and attacking felt disconnected[/td][td]Approach, retreat, and lateral habits influence circling, backsteps, pursuit, and preferred range[/td][/tr]
+[tr][td]Connected pressure[/td][td]Circling, dodging, and attacking were selected independently[/td][td]With enough evidence, enemies can use `circle the player → enter with a forward dodge → briefly settle → attack` as one connected tactic[/td][/tr]
+[tr][td]Recovery punishment[/td][td]Responses depended heavily on difficulty and random values, making them slow or inconsistent[/td][td]Repeated attack rhythms can lead the enemy to selectively counter near the end of the player's attack[/td][/tr]
+[tr][td]Dodge-to-heavy imitation[/td][td]Enemies did not learn or imitate this sequence[/td][td]After enough repeated observations, skilled enemies may selectively use the same dodge-to-heavy tactic[/td][/tr]
+[tr][td]Enemy Special Abilities[/td][td]There was no formal progression unlock rule[/td][td]Enemies can use Special Abilities from Stage 100 in Campaign Mode and Round 10 in Infinite Mode[/td][/tr]
+[/table]
+
+[p][b]One or two actions never guarantee a counter.[/b] Learning changes the probability of future decisions only after enough evidence has been collected. It does not cancel an attack or defense already in progress to replace it with a perfect answer.[/p]
+
+[h2]AI Learning Notifications: Before → After[/h2]
+[table]
+[tr][td][b]Display[/b][/td][td][b]Before[/b][/td][td][b]After V1.1[/b][/td][/tr]
+[tr][td]Learning notification[/td][td]Broad messages such as `learning detected` or `the next enemy has become stronger`[/td][td]A two-line message directly explains the player's observed habit and the response the enemy is preparing[/td][/tr]
+[tr][td]Evidence and reason[/td][td]It was difficult to tell what was observed or where it was applied[/td][td]Observation ratios/counts and the actual guard, dodge, pursuit, or combo decision affected by them are displayed[/td][/tr]
+[tr][td]Executed response[/td][td]The learning message was not clearly connected to the action the enemy actually performed[/td][td]The game identifies the actual guard, dodge, counter-strafe, forward dodge, counterattack, recovery punish, dodge-to-heavy imitation, or Special Ability and explains why it was used[/td][/tr]
+[/table]
+
+[p]For example, after enough valid attack choices have been observed and heavy attacks make up a high share, the game can display:
+
+[b]We remember the breath you take before putting your weight into a strike.
+The enemy will set their blade and wait to counter your heavy blow.[/b]
+
+This means the enemy may adjust its guard, dodge, and counterattack weights against heavy attacks. It does not guarantee an automatic parry or counter against the next heavy attack.[/p]
+
+[h2]TAB/Y Real-Time Learning Status: Before → After[/h2]
+[table]
+[tr][td][b]Category[/b][/td][td][b]Before[/b][/td][td][b]After V1.1[/b][/td][/tr]
+[tr][td]Visibility[/td][td]Learning information occupied the screen continuously or had to be checked in a later log[/td][td]Displayed only while holding TAB on keyboard or Y on gamepad, and hidden immediately on release[/td][/tr]
+[tr][td]Observed enemy[/td][td]It was difficult to tell which enemy's decisions were being shown[/td][td]Uses the locked-on enemy, or the nearest living enemy when no target is locked[/td][/tr]
+[tr][td]Observation process[/td][td]Only a broad indication that the AI was learning was available[/td][td]Shows confidence, sample counts, and ratios for attacks, movement, defense choices, and guard/parry/hit outcomes[/td][/tr]
+[tr][td]Applied result[/td][td]It was difficult to connect collected data to enemy behavior[/td][td]Shows current dodge, circling, and long-combo values, the planned response, and the last action actually executed[/td][/tr]
+[tr][td]Insufficient evidence[/td][td]A state with too little evidence was not clearly distinguished from completed learning[/td][td]Clearly shows `Collecting samples` or `Awaiting decision` when appropriate[/td][/tr]
+[tr][td]Refresh and menus[/td][td]Current-combat changes were difficult to verify immediately[/td][td]Opens immediately, refreshes about every 0.25 seconds while held, and hides automatically in menus and pause screens[/td][/tr]
+[/table]
+
+[h2]How It Works From the Player's Perspective[/h2]
+[olist]
+[*]Fight normally. Successfully started attacks, dodges, guards, and their outcomes are recorded as separate types of evidence.[/*]
+[*]When the same behavior is repeated enough, confidence for that category rises and begins to influence the current enemy's next action choices.[/*]
+[*]Hold TAB or Y to see what has been observed, which response the enemy is considering, and which learned action it most recently executed.[/*]
+[*]The two-line combat notification explains `what was learned → how the enemy intends to respond`. It is not a guaranteed-counter warning.[/*]
+[*]A planned response can be cancelled or replaced when range, health, stamina, or the combat situation changes.[/*]
+[/olist]
+
+[h1]First-Launch Control Tutorial[/h1]
+[p]When starting the game with new save data, a basic control tutorial now begins before pattern learning.[/p]
+
+[img src="{STEAM\_CLAN\_IMAGE}/46093990/eb3b9e7a793de11c98ff91074b584afa684952e8.png"][/img]
+
+[list]
+[*]Movement[/*]
+[*]Camera control[/*]
+[*]Guarding and parrying[/*]
+[*]Dodging[/*]
+[*]Special Abilities[/*]
+[*]Weapon switching[/*]
+[*]Viewing AI learning status[/*]
+[/list]
+
+[p]Input icons matching the keyboard and mouse or gamepad currently in use are displayed. Completing each action advances the tutorial to the next step.
+
+The Options screen can also be opened from the pause menu during the tutorial, allowing players to change language and control settings. Closing Options no longer resets the current tutorial step.[/p]
+
+[h1]Health Regeneration and Trait Display Improvements[/h1]
+[p]Automatic Health regeneration is applied only while out of combat. A player is considered out of combat after spending at least two seconds without dealing or receiving damage.
+
+Descriptions for Traits, Perks, the Stats screen, and detailed tooltips now match the actual calculation:
+
+[b]Regenerates N% of Max Health per second — activates 2 seconds after dealing or receiving damage[/b][/p]
+
+[h1]UI and Localization Improvements[/h1]
+[img src="{STEAM\_CLAN\_IMAGE}/46093990/56adcdba2b55a20b17305c9608dd14e5937876c4.png"][/img]
+
+[list]
+[*]Applied a shared multilingual font supporting Korean, English, Japanese, Simplified and Traditional Chinese, and Russian.[/*]
+[*]Fixed long descriptions and buttons being clipped in Blood Contract, Dangerous Challenge, and Mysterious Merchant events.[/*]
+[*]Fixed long translations overlapping or extending outside their panels in Options, Training Settings, Weapons and Combos, Stats, and AI Learning Logs.[/*]
+[*]Trait nodes are now cyan when unlocked, gold when currently unlockable, and dark gray when requirements are not met.[/*]
+[*]Improved the Normal, Hovered, Pressed, and Disabled states of shared buttons, including gamepad focus feedback.[/*]
+[*]Improved transition animations when opening and closing windows.[/*]
+[/list]
+
+[h1]Steam and Stability Improvements[/h1]
+[list]
+[*]Fixed regular Steam statistics being submitted as leaderboard scores.[/*]
+[*]Scores of 0 are no longer submitted for modes the player has not participated in.[/*]
+[*]Fixed rejected identical scores being submitted repeatedly whenever the game was saved.[/*]
+[*]Improved stability by processing leaderboard lookup and upload requests sequentially.[/*]
+[*]Pending Steam requests are now cleaned up safely when exiting the game or changing maps.[/*]
+[/list]
+
+[h1]Planned for the V1.2 Update[/h1]
+[p]New actions and an expanded range of learnable behavior are planned for V1.2 rather than this V1.1 update.
+
+One of the actions currently being planned is a shield bash performed by pressing the left mouse button while guarding. An enemy struck by the shield bash will be briefly stunned, with a chance to be pushed backward or knocked down.
+
+We also plan to expand the AI's behavioral range so these new actions are not limited to the player. Enemy AI will be able to observe, respond to, and learn from them.[/p]
+
+[h1]Developer Note[/h1]
+[p]Through your feedback, we found several cases where translations were broken or text extended outside its intended area depending on the selected language. We found these issues particularly often in Chinese, Russian, and Japanese.
+
+We have fixed the clipping and translation issues identified for this update, but we are also planning a broader overhaul of the entire UI. We would appreciate your patience while we work on it. We will address newly discovered issues as quickly as possible and continue applying improvements in future updates.
+
+We believe AI learning is one of the defining strengths and core identities of our game. Our goal is not simply to make minor adjustments to enemy attack probabilities. We want players to clearly feel how the enemy learned from their fighting style and why it selected a particular response, and we will continue improving this system.
+
+Thank you to everyone who shared their feedback.[/p]

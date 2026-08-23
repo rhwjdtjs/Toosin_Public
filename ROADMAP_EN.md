@@ -1,11 +1,11 @@
 # TOOSIN Release Roadmap
 
-> Last updated: August 13, 2026
-> This document records the path to Version 1.0 and the principles guiding post-release support.
+> Last updated: August 23, 2026
+> This document records the post-release update history and support plans following Version 1.0.
 
 ## Current status
 
-**TOOSIN Version 1.0 launched on August 13, 2026, concluding Early Access.** The game is available on Steam and STOVE, while the demo includes the core combat experience and Infinite Mode.
+**TOOSIN Version 1.0 launched on August 13, 2026, and Version 1.1 followed on August 23.** The game is available on Steam and STOVE, while the demo includes the core combat experience and Infinite Mode.
 
 | Milestone | Date | Status |
 |---|---:|:---:|
@@ -15,6 +15,17 @@
 | Ranked Beta Season 0 | June 14, 2026 | Complete |
 | Version 1.0 Beta | August 4, 2026 | Complete |
 | Version 1.0 full release · Early Access graduation | **August 13, 2026** | **Complete** |
+| Version 1.1 AI learning, balance, and tutorial update | **August 23, 2026** | **Complete** |
+
+## Completed Version 1.1 scope
+
+- Rebalanced Blood Contracts and defensive Special Abilities around clearer risk and reward
+- Applied current-combat observations to the same enemy's next decisions, added connected tactics, and made learning notifications explanatory
+- Added the hold-to-view TAB/Y learning panel and first-launch controls tutorial
+- Improved out-of-combat recovery wording, multilingual UI, the shared font, and Trait-state colors
+- Stabilized Steam stats, leaderboards, map transitions, and shutdown handling
+
+[Full Version 1.1 update](V1.1_UPDATE_EN.md)
 
 ## Completed Version 1.0 scope
 
@@ -61,6 +72,10 @@ Post-release priorities are driven by real play data and community reports. Feat
 - Ranked-season operations and competitive-record integrity
 - Accessibility, localization, UI/UX, and performance improvements
 - Evaluation of new combat content and modes
+
+### Under consideration for Version 1.2
+
+We are exploring new actions such as a shield bash while guarding, alongside a broader observation and response range so both players and enemy AI can use and learn from these options. Exact values and timing may change during implementation and verification.
 
 ## Official channels
 

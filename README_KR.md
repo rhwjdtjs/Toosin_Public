@@ -9,12 +9,12 @@
 ### 나를 학습한 AI를 넘어라
 
 [![Steam](https://img.shields.io/badge/Steam-정식_출시-1b2838?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/4635530/TOOSIN/)
-[![1.0](https://img.shields.io/badge/Version_1.0-2026--08--13-c69b57?style=for-the-badge)](CHANGELOG.md)
+[![1.1](https://img.shields.io/badge/Version_1.1-2026--08--23-c0c0c0?style=for-the-badge)](V1.1_UPDATE_KR.md)
 [![UE 5.5](https://img.shields.io/badge/Unreal_Engine-5.5-0e1128?style=for-the-badge&logo=unrealengine)](https://www.unrealengine.com/)
 
 **TOOSIN : 투신**은 플레이어의 공격·가드·회피·거리 조절 습관을 읽고 대응을 바꾸는 적응형 AI와 맞서는 **아레나 로그라이크 액션 게임**입니다. 세 가지 클래스와 무기, 콤보, 특성, 특전, 숙련과 특수능력을 조합해 자신만의 전투 방식을 완성하세요.
 
-**2026년 8월 13일, Version 1.0 정식 출시와 함께 앞서 해보기를 종료했습니다.**
+**2026년 8월 13일 Version 1.0 정식 출시와 함께 앞서 해보기를 종료했으며, 8월 23일 Version 1.1 업데이트를 적용했습니다.**
 
 [Steam](https://store.steampowered.com/app/4635530/TOOSIN/) ·
 [STOVE](https://store.onstove.com/ko/games/104376) ·
@@ -36,8 +36,18 @@
 | Steam 앞서 해보기 | 2026.05.06 | 완료 |
 | Version 1.0 Beta | 2026.08.04 | 완료 |
 | Version 1.0 정식 출시 · 앞서 해보기 종료 | **2026.08.13** | **출시** |
+| Version 1.1 AI 학습·밸런스·튜토리얼 개선 | **2026.08.23** | **업데이트** |
 
-## Version 1.0 핵심 기능
+## Version 1.1 업데이트
+
+- 피의 계약 12종과 자동 패링·이지스 실드·시간 정지의 지속시간을 재조정했습니다.
+- 현재 전투의 경·강공격, 이동, 방어 결과, 공격 리듬, 특수능력, 회피 후 강공격을 적 AI의 다음 판단에 반영합니다.
+- TAB 또는 게임패드 Y를 누르는 동안 관찰 표본, 신뢰도, 적용 가중치, 예정 대응과 실제 실행 행동을 확인할 수 있습니다.
+- 첫 실행 조작 튜토리얼, 다국어 UI, 공통 폰트, 특성 해금 상태 색상과 Steam 안정성을 개선했습니다.
+
+[Version 1.1 전체 변경 내용과 전·후 비교표 보기](V1.1_UPDATE_KR.md)
+
+## 핵심 기능
 
 ### 적응형 AI와 전투 기억
 
@@ -107,7 +117,7 @@
 
 ## 문서와 문의
 
-- [출시 로드맵](ROADMAP.md) · [변경 기록](CHANGELOG.md) · [상세 패치 노트](PATCHNOTE.md) · [지원 및 버그 제보](SUPPORT.md)
+- [Version 1.1 업데이트](V1.1_UPDATE_KR.md) · [출시 로드맵](ROADMAP.md) · [변경 기록](CHANGELOG.md) · [상세 패치 노트](PATCHNOTE.md) · [지원 및 버그 제보](SUPPORT.md)
 - [Version 1.0 트레일러](https://youtu.be/TrSGI-_k3KQ?si=Ldi4LljXUcPoyivW) · [공식 사이트](https://teamniriz.com/) · [Discord](https://discord.gg/EHMwJSjWpA) · [지원 메일](mailto:support@teamniriz.com)
 
 <div align="center">

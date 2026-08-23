@@ -9,12 +9,12 @@
 ### Surpass the AI that learns from you
 
 [![Steam](https://img.shields.io/badge/Steam-Full_Release-1b2838?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/4635530/TOOSIN/)
-[![1.0](https://img.shields.io/badge/Version_1.0-2026--08--13-c69b57?style=for-the-badge)](CHANGELOG_EN.md)
+[![1.1](https://img.shields.io/badge/Version_1.1-2026--08--23-c0c0c0?style=for-the-badge)](V1.1_UPDATE_EN.md)
 [![UE 5.5](https://img.shields.io/badge/Unreal_Engine-5.5-0e1128?style=for-the-badge&logo=unrealengine)](https://www.unrealengine.com/)
 
 **TOOSIN** is an **arena roguelike action game** about overcoming adaptive enemies that read your attack, guard, dodge, movement, and spacing habits. Combine three classes with weapons, combos, Traits, Perks, Mastery, and Special Abilities to build your own fighting style.
 
-**Version 1.0 launched on August 13, 2026, concluding Early Access.**
+**Version 1.0 launched on August 13, 2026, concluding Early Access. Version 1.1 followed on August 23.**
 
 [Steam](https://store.steampowered.com/app/4635530/TOOSIN/) ·
 [STOVE](https://store.onstove.com/ko/games/104376) ·
@@ -36,8 +36,18 @@
 | Steam Early Access | May 6, 2026 | Complete |
 | Version 1.0 Beta | August 4, 2026 | Complete |
 | Version 1.0 full release · Early Access graduation | **August 13, 2026** | **Released** |
+| Version 1.1 AI learning, balance, and tutorial update | **August 23, 2026** | **Updated** |
 
-## Version 1.0 highlights
+## Version 1.1 update
+
+- Rebalanced 12 Blood Contracts and shortened Auto Parry, Aegis Shield, and Time Stop.
+- Current-combat light/heavy attacks, movement, defense outcomes, attack rhythm, abilities, and dodge-to-heavy habits now affect the enemy's next decisions.
+- Hold TAB or gamepad Y to inspect samples, confidence, applied weights, planned responses, and executed actions.
+- Added a first-launch controls tutorial and improved multilingual UI, the shared font, Trait-state colors, and Steam stability.
+
+[Read the full Version 1.1 update and before/after tables](V1.1_UPDATE_EN.md)
+
+## Core features
 
 ### Adaptive AI and combat memory
 
@@ -107,7 +117,7 @@ DDA uses play patterns and progression state to tune combat flow and enemy choic
 
 ## Documentation and contact
 
-- [Release roadmap](ROADMAP_EN.md) · [Changelog](CHANGELOG_EN.md) · [Detailed patch notes](PATCHNOTE_EN.md) · [Support and bug reports](SUPPORT_EN.md)
+- [Version 1.1 update](V1.1_UPDATE_EN.md) · [Release roadmap](ROADMAP_EN.md) · [Changelog](CHANGELOG_EN.md) · [Detailed patch notes](PATCHNOTE_EN.md) · [Support and bug reports](SUPPORT_EN.md)
 - [Version 1.0 trailer](https://youtu.be/TrSGI-_k3KQ?si=Ldi4LljXUcPoyivW) · [Website](https://teamniriz.com/) · [Discord](https://discord.gg/EHMwJSjWpA) · [Support](mailto:support@teamniriz.com)
 
 <div align="center">

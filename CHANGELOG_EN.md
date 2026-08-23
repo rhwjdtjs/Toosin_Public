@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 [Official Website](https://teamniriz.com/) · [Discord](https://discord.gg/EHMwJSjWpA) · [Support](mailto:support@teamniriz.com)
 
 ---
+## [Version 1.1] AI Learning, Blood Contract, Tutorial & UI Update - August 23, 2026
+
+### Highlights
+- Rebalanced the benefits and penalties of 12 Blood Contracts and stopped the event once every available contract is owned.
+- Reduced Auto Parry from 7s to 3s and Aegis Shield and Time Stop from 5s to 3s.
+- Enemy AI now collects current-combat attack, movement, defense, timing, ability, and dodge-to-heavy habits and applies them to the same enemy's next decisions.
+- Added a hold-to-view TAB/Y panel for samples, confidence, applied weights, planned responses, and the last executed action.
+- Added the first-launch controls tutorial and improved out-of-combat recovery wording, multilingual UI, the shared font, Trait-state colors, and Steam stability.
+- Enemies can use Special Abilities from Campaign Stage 100 and Infinite Round 10.
+
+[Full Version 1.1 notes and before/after tables](V1.1_UPDATE_EN.md)
+
+---
 ## [Version 1.0] Full Release · Leaving Early Access - August 13, 2026
 
 ### 🚀 Full release
