@@ -5,14 +5,14 @@
 ### Surpass the AI that learns from you.
 
 [![Steam](https://img.shields.io/badge/Steam-Full_Release-1b2838?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/4635530/TOOSIN/)
-[![Version 1.0](https://img.shields.io/badge/Version_1.0-Released_2026--08--13-c69b57?style=for-the-badge)](CHANGELOG_EN.md)
+[![Version 1.1](https://img.shields.io/badge/Version_1.1-Updated_2026--08--23-c0c0c0?style=for-the-badge)](V1.1_UPDATE_EN.md)
 [![Official Website](https://img.shields.io/badge/TEAM_NIRIZ-Official_Website-111827?style=for-the-badge)](https://teamniriz.com/)
 [![Discord](https://img.shields.io/badge/Discord-Community-5865f2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/EHMwJSjWpA)
 
 **An arena roguelike action game built with Unreal Engine 5.5.**
 Read your opponent, build your fighter, and surpass adaptive enemies that learn from the way you fight.
 
-**Version 1.0 launched on August 13, 2026, concluding Early Access.**
+**Version 1.0 launched on August 13, 2026, concluding Early Access. Version 1.1 was released on August 23, 2026.**
 
 [한국어](README_KR.md) · [English](README_EN.md)
 
@@ -20,15 +20,14 @@ Read your opponent, build your fighter, and surpass adaptive enemies that learn 
 
 </div>
 
-## Version 1.0 at a glance
+## Version 1.1 at a glance
 
-- Reactive melee combat with clearer blood, impact, knockback, guard, parry, and dodge feedback
-- Rule-based adaptive AI with distinct personalities and readable combat-learning logs
-- DDA and Combat Power scaling up to **1,000,000**
-- Infinite Mode with encounters up to **1 vs. 5** and a dedicated leaderboard
-- Ranked Season 1, three classes, Perks, Mastery, and the Time Stop ability
-- Six languages and Steam/STOVE platform integration
-- Save, progression, reward, contract, buff, and long-session stability improvements
+- Rebalanced 12 Blood Contracts and reduced Auto Parry, Aegis Shield, and Time Stop durations
+- Expanded adaptive combat learning across attack, movement, defense, timing, ability, and dodge-to-heavy habits
+- Added a hold-to-view TAB/Y learning panel that explains observations, confidence, planned responses, and executed actions
+- Added a first-launch controls tutorial before pattern training
+- Improved multilingual layouts, shared fonts, Trait-state colors, window transitions, and Steam stability
+- Enemy Special Abilities unlock from Campaign Stage 100 and Infinite Round 10
 
 ## Public documentation
 
@@ -38,6 +37,7 @@ Read your opponent, build your fighter, and surpass adaptive enemies that learn 
 | [개발 로드맵](ROADMAP.md) | [Development roadmap](ROADMAP_EN.md) |
 | [변경 기록](CHANGELOG.md) | [Changelog](CHANGELOG_EN.md) |
 | [패치 노트](PATCHNOTE.md) | [Patch notes](PATCHNOTE_EN.md) |
+| [V1.1 업데이트](V1.1_UPDATE_KR.md) | [V1.1 update](V1.1_UPDATE_EN.md) |
 | [지원 안내](SUPPORT.md) | [Support](SUPPORT_EN.md) |
 
 ## Official links

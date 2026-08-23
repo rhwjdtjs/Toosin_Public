@@ -4,6 +4,21 @@
 
 ---
 <details open>
+<summary><b>[📝Patch_Version_1.1] AI Learning, Blood Contracts, Tutorial & UI Update (August 23, 2026) (Click)</b></summary>
+
+### 🚀 Update Highlights
+
+- Rebalanced 12 Blood Contracts and three defensive Special Abilities.
+- Expanded current-combat learning and connected tactics so observations can affect the same enemy's next decisions.
+- Hold TAB/Y to inspect what the AI is observing and which response it is preparing.
+- Added the first-launch controls tutorial and improved multilingual UI, the shared font, Trait-state colors, and window transitions.
+- Improved Steam leaderboard request handling and map-transition/shutdown stability.
+
+See the [full Version 1.1 update](V1.1_UPDATE_EN.md) for exact values and behavior tables.
+
+</details>
+
+<details>
 <summary><b>[📝Patch_Version_1.0] Full Release · Leaving Early Access (August 13, 2026) (Click)</b></summary>
 
 ### 🚀 Update Highlights
