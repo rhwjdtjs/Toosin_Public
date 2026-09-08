@@ -12,7 +12,7 @@ If you encounter a problem, please contact us through one of the channels below.
 
 Official website: [teamniriz.com](https://teamniriz.com/)
 
-Current release build: **Version 1.0 (August 13, 2026)**
+When reporting an issue, include **the version shown in your installed game** and your platform. Check Steam or STOVE announcements for the latest distributed build. The [September 8 development update · 1.3](DEVELOPMENT_UPDATE_2026-09-08_EN.md) describes the current development build.
 
 ## Before You Report a Problem
 

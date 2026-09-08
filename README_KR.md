@@ -9,6 +9,7 @@
 ### 나를 학습한 AI를 넘어라
 
 [![Steam](https://img.shields.io/badge/Steam-정식_출시-1b2838?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/4635530/TOOSIN/)
+[![개발 현황 1.3](https://img.shields.io/badge/Development_1.3-2026--09--08-c0c0c0?style=for-the-badge)](DEVELOPMENT_UPDATE_2026-09-08_KR.md)
 [![1.1](https://img.shields.io/badge/Version_1.1-2026--08--23-c0c0c0?style=for-the-badge)](V1.1_UPDATE_KR.md)
 [![UE 5.5](https://img.shields.io/badge/Unreal_Engine-5.5-0e1128?style=for-the-badge&logo=unrealengine)](https://www.unrealengine.com/)
 
@@ -27,6 +28,18 @@
 <sub>이미지를 클릭하면 Version 1.0 공식 트레일러로 이동합니다.</sub>
 
 </div>
+
+## 최신 개발 업데이트 — Version 1.3 · 2026.09.08
+
+현재 개발본에 구현한 변경 사항을 정리했습니다. 이 날짜는 개발 문서 갱신일이며, Steam·STOVE 배포 일정은 각 플랫폼 공지에서 확인할 수 있습니다.
+
+- **특전 20종 추가**: 1·2·3스택 성장과 3스택 추가 효과, 투명 배경 흰색 아이콘을 적용했습니다.
+- **특성·계약과 연계**: 가드 브레이크 후속 공격, 패링, 충전, 흡혈, 상태 효과와 계약 보유 조건을 활용하며 중복 발동과 SP 환급을 제한합니다.
+- **검기 개선**: 더 두껍고 선명하게 표시하고 속도를 20% 낮췄습니다. 플레이어와 적 모두 패링·반사할 수 있도록 판정을 수정했습니다.
+- **1.2 이후 전투·성장 확장**: 가드 밀치기, 시즌 2의 플레이어 1명·아군 AI 4명 대 적 AI 5명 전투, 진영·영토전, Stage 1000까지의 보상 구성을 반영했습니다.
+- **1.3 개발 현황**: T6~T10 고급 특성 100종, 순위 보너스, 영토 위험도, 다수전 표적 표시, 타격 효과·투기장·실습형 튜토리얼 개선을 정리했습니다.
+
+[전체 개발 업데이트와 특전 20종 효과표](DEVELOPMENT_UPDATE_2026-09-08_KR.md)
 
 ## 출시 기록
 

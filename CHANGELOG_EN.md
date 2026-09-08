@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 [Official Website](https://teamniriz.com/) · [Discord](https://discord.gg/EHMwJSjWpA) · [Support](mailto:support@teamniriz.com)
 
 ---
+## [Development 1.3] Combat, Progression, 20 Perks, and Sword Wave — September 8, 2026
+
+This update covers changes implemented in the current development build. The date marks this documentation update; check each platform's announcements for Steam and STOVE availability.
+
+- **20 additional Perks** with 1/2/3-stack progression, a three-stack bonus effect, and white icons on transparent backgrounds.
+- **Trait and Contract interactions** covering guard-break follow-ups, parries, charged attacks, lifesteal, status effects, and owned Contracts, with limits on repeat triggers and Stamina refunds.
+- **Sword Wave improvements**: a thicker, clearer effect and 20% slower travel, with corrected parry and reflection handling for both players and enemies.
+- **Combat and progression since 1.2**: Guard Shove, Season 2 battles with one player and four allied AI against five enemy AI, factions and territories, and reward progression through Stage 1000.
+- **Current 1.3 development**: 100 advanced T6–T10 Traits, rank bonuses, territory danger, multi-enemy target indicators, combat effects, arena presentation, and practical training improvements.
+
+[Read the full development update and all 20 Perk effect tables](DEVELOPMENT_UPDATE_2026-09-08_EN.md)
+
+---
 ## [Version 1.1] AI Learning, Blood Contract, Tutorial & UI Update - August 23, 2026
 
 ### Highlights

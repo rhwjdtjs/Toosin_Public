@@ -1,6 +1,6 @@
 # TOOSIN Release Roadmap
 
-> Last updated: August 23, 2026
+> Last updated: September 8, 2026
 > This document records the post-release update history and support plans following Version 1.0.
 
 ## Current status
@@ -16,6 +16,18 @@
 | Version 1.0 Beta | August 4, 2026 | Complete |
 | Version 1.0 full release · Early Access graduation | **August 13, 2026** | **Complete** |
 | Version 1.1 AI learning, balance, and tutorial update | **August 23, 2026** | **Complete** |
+
+## Latest development update — Version 1.3 · September 8, 2026
+
+This update covers changes implemented in the current development build. The date marks this documentation update; check each platform's announcements for Steam and STOVE availability.
+
+- **20 additional Perks** with 1/2/3-stack progression, a three-stack bonus effect, and white icons on transparent backgrounds.
+- **Trait and Contract interactions** covering guard-break follow-ups, parries, charged attacks, lifesteal, status effects, and owned Contracts, with limits on repeat triggers and Stamina refunds.
+- **Sword Wave improvements**: a thicker, clearer effect and 20% slower travel, with corrected parry and reflection handling for both players and enemies.
+- **Combat and progression since 1.2**: Guard Shove, Season 2 battles with one player and four allied AI against five enemy AI, factions and territories, and reward progression through Stage 1000.
+- **Current 1.3 development**: 100 advanced T6–T10 Traits, rank bonuses, territory danger, multi-enemy target indicators, combat effects, arena presentation, and practical training improvements.
+
+[Read the full development update and all 20 Perk effect tables](DEVELOPMENT_UPDATE_2026-09-08_EN.md)
 
 ## Completed Version 1.1 scope
 
@@ -73,9 +85,9 @@ Post-release priorities are driven by real play data and community reports. Feat
 - Accessibility, localization, UI/UX, and performance improvements
 - Evaluation of new combat content and modes
 
-### Under consideration for Version 1.2
+### Next validation and tuning
 
-We are exploring new actions such as a shield bash while guarding, alongside a broader observation and response range so both players and enemy AI can use and learn from these options. Exact values and timing may change during implementation and verification.
+Guard Shove and Season 2 combat are implemented in the current development build and covered in the [1.3 development update](DEVELOPMENT_UPDATE_2026-09-08_EN.md) alongside the new Perks and Sword Wave changes. Further checks focus on long-session Perk combinations, balance, and distribution packages. Availability will follow confirmed platform announcements.
 
 ## Official channels
 
