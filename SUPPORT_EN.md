@@ -12,7 +12,7 @@ If you encounter a problem, please contact us through one of the channels below.
 
 Official website: [teamniriz.com](https://teamniriz.com/)
 
-When reporting an issue, include **the version shown in your installed game** and your platform. Check Steam or STOVE announcements for the latest distributed build. The [September 8 development update · 1.3](DEVELOPMENT_UPDATE_2026-09-08_EN.md) describes the current development build.
+For version-specific changes, see [Version 1.2](V1.2_UPDATE_EN.md) · [Version 1.3](V1.3_UPDATE_EN.md) · [Version 1.3.1](V1.3.1_UPDATE_EN.md). Include the installed game version and platform when reporting an issue.
 
 ## Before You Report a Problem
 

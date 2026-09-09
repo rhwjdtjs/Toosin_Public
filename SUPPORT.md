@@ -12,7 +12,7 @@
 
 공식 웹사이트: [teamniriz.com](https://teamniriz.com/)
 
-제보 시 **설치된 게임에 표시되는 버전**과 이용 플랫폼을 함께 적어 주세요. 최신 배포 버전은 Steam·STOVE 공지를 기준으로 확인합니다. [2026.09.08 개발 업데이트 · 1.3](DEVELOPMENT_UPDATE_2026-09-08_KR.md)는 현재 개발본의 변경 기록입니다.
+버전별 변경 내용은 [Version 1.2](V1.2_UPDATE_KR.md) · [Version 1.3](V1.3_UPDATE_KR.md) · [Version 1.3.1](V1.3.1_UPDATE_KR.md). 제보 시 설치된 게임의 버전과 플랫폼을 함께 적어 주세요.
 
 ## 문의 전 확인 사항
 

@@ -5,7 +5,9 @@
 ### Surpass the AI that learns from you.
 
 [![Steam](https://img.shields.io/badge/Steam-Full_Release-1b2838?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/4635530/TOOSIN/)
-[![Development 1.3](https://img.shields.io/badge/Development_1.3-2026--09--08-c0c0c0?style=for-the-badge)](DEVELOPMENT_UPDATE_2026-09-08_EN.md)
+[![Version 1.2](https://img.shields.io/badge/Version-1.2-c0c0c0?style=for-the-badge)](V1.2_UPDATE_EN.md)
+[![Version 1.3](https://img.shields.io/badge/Version-1.3-c0c0c0?style=for-the-badge)](V1.3_UPDATE_EN.md)
+[![Version 1.3.1](https://img.shields.io/badge/Version-1.3.1-c0c0c0?style=for-the-badge)](V1.3.1_UPDATE_EN.md)
 [![Version 1.1](https://img.shields.io/badge/Version_1.1-Updated_2026--08--23-c0c0c0?style=for-the-badge)](V1.1_UPDATE_EN.md)
 [![Official Website](https://img.shields.io/badge/TEAM_NIRIZ-Official_Website-111827?style=for-the-badge)](https://teamniriz.com/)
 [![Discord](https://img.shields.io/badge/Discord-Community-5865f2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/EHMwJSjWpA)
@@ -21,17 +23,39 @@ Read your opponent, build your fighter, and surpass adaptive enemies that learn 
 
 </div>
 
-## Latest development update — Version 1.3 · September 8, 2026
+## [Version 1.3.1] 20 New Perks, Existing Perk Fixes and Sword Wave Improvements
 
-This update covers changes implemented in the current development build. The date marks this documentation update; check each platform's announcements for Steam and STOVE availability.
+- **20 new Perks**: up to three stacks with an additional effect at three stacks. Stack values are final totals, not additive. The detailed notes include all 20 effect rows.
+- **Existing Perk fixes**: Combo Master now gains combo stacks only from light attacks dealing actual HP damage; Giant’s Grip defense was adjusted to 3% / 6% / 6%.
+- **Description corrections**: clarified Lifesteal, Thunderbolt and Sturdy Guard. These corrections are distinguished from gameplay balance changes.
+- **Application and save stability**: fixed leftover bonuses after resets or removal, duplicate Trait records, repeated application on load, and duplicate triggers and SP refunds.
+- **Icons and Sword Wave**: dedicated white icons and six-language descriptions; improved wave visibility, travel speed while preserving range, and player/enemy parrying and reflection.
 
-- **20 additional Perks** with 1/2/3-stack progression, a three-stack bonus effect, and white icons on transparent backgrounds.
-- **Trait and Contract interactions** covering guard-break follow-ups, parries, charged attacks, lifesteal, status effects, and owned Contracts, with limits on repeat triggers and Stamina refunds.
-- **Sword Wave improvements**: a thicker, clearer effect and 20% slower travel, with corrected parry and reflection handling for both players and enemies.
-- **Combat and progression since 1.2**: Guard Shove, Season 2 battles with one player and four allied AI against five enemy AI, factions and territories, and reward progression through Stage 1000.
-- **Current 1.3 development**: 100 advanced T6–T10 Traits, rank bonuses, territory danger, multi-enemy target indicators, combat effects, arena presentation, and practical training improvements.
+[Full update notes](V1.3.1_UPDATE_EN.md)
 
-[Read the full development update and all 20 Perk effect tables](DEVELOPMENT_UPDATE_2026-09-08_EN.md)
+---
+
+## [Version 1.3] 100 Advanced Traits, Rank Bonuses, Combat and Arena Improvements
+
+- **100 advanced T6–T10 Traits**: 20 per branch across five branches, costing 3,000 TP in total. Unlocked Traits apply when their individual activation conditions are met.
+- **Trait states and effects**: 42 status indicators, pose afterimages, barriers and shockwaves, plus progression-based advanced Trait assignments for enemies.
+- **Infinite Mode rank bonuses**: apply one bonus set from the best currently confirmed rank among Stage, Season 2 and Infinite Mode, for ranks 1–9. Results distinguish the stage reached from the last stage cleared.
+- **Season 2 risk and rewards**: territory influence affects enemy stats, AI difficulty and victory points; added local Ranked faction buffs and confirmed personal contributions over the last 14 days.
+- **Combat, graphics and training**: white multi-enemy target outlines, weapon trails, blood and camera feedback, Roman arena materials and rendering optimization, and hands-on training based on successful actions.
+
+[Full update notes](V1.3_UPDATE_EN.md)
+
+---
+
+## [Version 1.2] Season 2: Shattered Throne, 5v5 Territories, Combat and Progression — 2026.09.01
+
+- **Ranked Season 2 — Shattered Throne**: one player and four allied AI fight five enemy AI in a new arena, with free spectator controls after death and team HUDs.
+- **Factions and territories**: Blood Crown and Ashen Oath, seven territories, three weekly active fronts and rolling 14-day influence. Personal season score and territory influence are separate records.
+- **Guard Shove and AI**: use a light attack while guarding to shove; improved AI learning for shoves, dodges and counters, alongside combat information.
+- **Progression, rewards and achievements**: revised enemy growth using Stage/Round, difficulty, grade and Combat Power; extended rewards through Stage 1000 and reworked 11 achievements around stage rewards.
+- **UI and convenience**: unified Combat Power and stat displays; improved Season 2 screens, six languages, Steam announcements, Overlay pause, borderless mode and ragdolls.
+
+[Full update notes](V1.2_UPDATE_EN.md)
 
 ## Version 1.1 at a glance
 
@@ -46,7 +70,9 @@ This update covers changes implemented in the current development build. The dat
 
 | 한국어 | English |
 |---|---|
-| [최신 개발 업데이트 · 1.3](DEVELOPMENT_UPDATE_2026-09-08_KR.md) | [Latest development update · 1.3](DEVELOPMENT_UPDATE_2026-09-08_EN.md) |
+| [V1.2 업데이트](V1.2_UPDATE_KR.md) | [V1.2 update](V1.2_UPDATE_EN.md) |
+| [V1.3 업데이트](V1.3_UPDATE_KR.md) | [V1.3 update](V1.3_UPDATE_EN.md) |
+| [V1.3.1 업데이트](V1.3.1_UPDATE_KR.md) | [V1.3.1 update](V1.3.1_UPDATE_EN.md) |
 | [게임 소개](README_KR.md) | [Game overview](README_EN.md) |
 | [개발 로드맵](ROADMAP.md) | [Development roadmap](ROADMAP_EN.md) |
 | [변경 기록](CHANGELOG.md) | [Changelog](CHANGELOG_EN.md) |
