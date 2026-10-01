@@ -1,4 +1,10 @@
 # TOOSIN 📝 패치노트
+## 1.4 준비 현황 — 2026.10.01
+
+1.4는 Codex와 Claude를 활용해 수정하고 검수 중입니다. [현재 개발 현황](DEVELOPMENT_UPDATE_2026-10-01_KR.md)에서 준비 범위를 확인할 수 있습니다. 최종 배포 내용은 확인 후 별도 패치 노트로 기록하겠습니다.
+
+아래는 각 버전 당시의 공개 기록입니다.
+
 
 [공식 사이트](https://teamniriz.com/) · [Discord](https://discord.gg/EHMwJSjWpA) · [지원 문의](mailto:support@teamniriz.com)
 

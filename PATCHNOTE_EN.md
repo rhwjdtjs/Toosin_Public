@@ -1,5 +1,11 @@
 # TOOSIN 📝 Patch Notes
 
+## Preparing 1.4 — October 1, 2026
+
+Work on 1.4 continues with Codex and Claude assisting implementation and verification. See the [current development note](DEVELOPMENT_UPDATE_2026-10-01_EN.md) for the scope. A separate patch note will record the final release contents once confirmed.
+
+The records below describe their respective versions.
+
 [Official Website](https://teamniriz.com/) · [Discord](https://discord.gg/EHMwJSjWpA) · [Support](mailto:support@teamniriz.com)
 
 ---

@@ -1,5 +1,7 @@
 # TOOSIN Support and Troubleshooting
 
+As of October 1, 2026, 1.4 is in preparation. The [development note](DEVELOPMENT_UPDATE_2026-10-01_EN.md) describes work in progress. Please report the version and platform of the game you have installed.
+
 If you encounter a problem, please contact us through one of the channels below. Email is recommended for crashes, save issues, or reports that require private file attachments.
 
 | Channel | Best for |

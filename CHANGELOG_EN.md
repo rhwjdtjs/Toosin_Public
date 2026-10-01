@@ -1,5 +1,11 @@
 # 📋 Changelog
 
+## Current development — October 1, 2026
+
+Version 1.4 is in preparation, with Codex and Claude assisting implementation and verification. This entry is a development update. See the [work scope and remaining checks](DEVELOPMENT_UPDATE_2026-10-01_EN.md).
+
+Existing public update records are preserved below.
+
 All notable changes to this project will be documented in this file.
 
 [Official Website](https://teamniriz.com/) · [Discord](https://discord.gg/EHMwJSjWpA) · [Support](mailto:support@teamniriz.com)

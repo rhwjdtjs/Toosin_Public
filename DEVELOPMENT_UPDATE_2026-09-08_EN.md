@@ -1,5 +1,7 @@
 # TOOSIN — Version update index
 
+This file preserves the version-specific public records compiled in September 2026. See the [October 1 development note](DEVELOPMENT_UPDATE_2026-10-01_EN.md) for current preparation work.
+
 The former combined development report has been split into separate version notes. Follow the links below for the complete changes in each update.
 
 ## [Version 1.3.1] 20 New Perks, Existing Perk Fixes and Sword Wave Improvements
