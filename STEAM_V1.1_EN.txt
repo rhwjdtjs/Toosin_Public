@@ -1,3 +1,9 @@
+[p][b]Archive note · 2026-10-01[/b]
+This is the Steam announcement originally written for V1.1. The V1.2 plans below also reflect that period.
+
+The public update record currently runs through V1.3.1. V1.4 is in preparation with assistance from Codex and Claude.
+[url=https://github.com/rhwjdtjs/Toosin_Public/blob/main/DEVELOPMENT_UPDATE_2026-10-01_EN.md]Current development status[/url][/p]
+
 [h1]TOOSIN : 투신 V1.1 Update[/h1]
 [p][b]Release date: August 23, 2026[/b]
 
